@@ -22,6 +22,7 @@ void createBarrelExplosion(CCNode *ccLayer, float x,float y)
 {
     CCParticleSystemQuad *emitter = CCParticleSystemQuad::create("ctm_BarrelExplosion.plist");
     emitter->setPosition(ccp(x*ScreenHelper::getCameraZoom(),y*ScreenHelper::getCameraZoom()));
+    emitter->setScale(ScreenHelper::getTextureScale());
     ccLayer->addChild(emitter);
 }
 

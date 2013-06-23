@@ -135,8 +135,13 @@ MainMenu::MainMenu()
     sprite->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,40.0f));
     addChild(sprite,0);
     
-    if(ScreenHelper::AddOBBSpriteToCache("TikiObjs.png","TikiObjs.plist"))
+    if(1)
     {
+        CCTextureCache::sharedTextureCache()->addImage("TikiObjs.png");
+        CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("TikiObjs.plist");
+        
+        //CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("TikiObjs.png","TikiObjs.plist");
+        
         sprite = CCSprite::createWithSpriteFrameName("ctm_Island_01.png");
         sprite->setScale(scale);
         sprite->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 64.0f, 100.0f));
@@ -181,6 +186,7 @@ MainMenu::MainMenu()
     CCMenuItem *StoreButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ctm_Button_17.png"), CCSprite::createWithSpriteFrameName("ctm_Button_17_Down.png"), this, menu_selector(MainMenu::storeButtonTapped));
     StoreButton->setScale(scale);
     StoreButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_RIGHT,-40.0f,35.0f));
+    StoreButton->addChild(Store::buildCanBuyButton());
 
     CCMenuItem *OptionsButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ctm_Button_22.png"), CCSprite::createWithSpriteFrameName("ctm_Button_22_Down.png"), this, menu_selector(MainMenu::optionsButtonTapped));
     OptionsButton->setScale(scale);

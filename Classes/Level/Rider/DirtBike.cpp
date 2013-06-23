@@ -24,6 +24,7 @@ void createDustVFX(CCNode *ccLayer, float x,float y)
 {
     CCParticleSystemQuad *emitter = CCParticleSystemQuad::create("ctm_Dust_Kick_02.plist");
     emitter->setPosition(ccp(x*ScreenHelper::getCameraZoom(),y*ScreenHelper::getCameraZoom()));
+    emitter->setScale(ScreenHelper::getTextureScale());
     ccLayer->addChild(emitter);
 }
 

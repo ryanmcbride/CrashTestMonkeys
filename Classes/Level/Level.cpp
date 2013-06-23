@@ -17,6 +17,7 @@
 #include "BackGrounds/BackGround.h"
 #include "../AudioManager.h"
 #include "Objects/Pickup.h"
+#include "../FrontEnd/SaveLoad.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -189,7 +190,12 @@ void Level::update(float dt)
     //http://gafferongames.com/game-physics/fix-your-timestep/
     
     if(Rider::g_isCrashed)
-        ((HUD*)m_HUD)->startCrashSequence();
+    {
+        if(LevelSelect::getCurrentLevel() >= BONUS_LEVELSTART && LevelSelect::getCurrentLevel() <= (BONUS_LEVELSTART+3))
+            ((HUD*)m_HUD)->startFinishSequence();
+        else
+            ((HUD*)m_HUD)->startCrashSequence();
+    }
     if(Rider::g_isFinished)
         ((HUD*)m_HUD)->startFinishSequence();
     

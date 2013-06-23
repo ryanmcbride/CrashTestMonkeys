@@ -27,9 +27,10 @@ void NightBackGround::InitBG(cocos2d::CCNode *layer)
         
     CCTextureCache::sharedTextureCache()->addPVRImage("CityScape.pvr.ccz");
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("CityScape.plist");
-    bool balloonObjsLoaded = ScreenHelper::AddOBBSpriteToCache("cityBallon.png","cityBallon.plist");
+    bool balloonObjsLoaded = true;
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("cityBallon.plist","cityBallon.png");
     
-    
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("CityBG02_Blue.plist","CityBG02_Blue.pvr.ccz");
     CCSize s = CCDirector::sharedDirector()->getWinSize();
     
     float scale = ScreenHelper::getTextureScale();
@@ -42,6 +43,11 @@ void NightBackGround::InitBG(cocos2d::CCNode *layer)
     pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,40.0f));
     
     
+    sprite = CCSprite::createWithSpriteFrameName("ctm_Back_CityScape_Blue_01.png");
+    pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,-256.0f,-100.0f));
+    
+    sprite = CCSprite::createWithSpriteFrameName("ctm_Back_CityScape_Blue_02.png");
+    pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,256.0f,-100.0f));
     
     if(balloonObjsLoaded)
     {
@@ -55,7 +61,7 @@ void NightBackGround::InitBG(cocos2d::CCNode *layer)
             sprite = CCSprite::createWithSpriteFrameName(name);
             sprite->setScale(scale);
             m_Parallax2Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 512.0f*i, 123.0f);
-            pNode->addChild(sprite,0,CCPointMake(0.90f,0.0f),m_Parallax2Points[i]);
+            pNode->addChild(sprite,0,CCPointMake(0.91f,0.0f),m_Parallax2Points[i]);
             m_Parallax2->addObject(sprite);
             
             sprintf(name,"ctm_Balloon__%02d.png",(RandomInt(1, 22)));

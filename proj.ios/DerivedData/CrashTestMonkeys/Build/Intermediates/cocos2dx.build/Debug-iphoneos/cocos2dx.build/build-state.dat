@@ -2,20 +2,26 @@ Tcocos2dx
 v5
 r1
 cCheck dependencies
-cProcessPCH++ /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-csvocwapdtvtewfrgefrnctqubur/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH++ /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-ejfrinjjnpngeybtauipkymsvwqq/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-bvepumkjuwdzyeemxjugeasufkvt/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-ejfrinjjnpngeybtauipkymsvwqq/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-csvocwapdtvtewfrgefrnctqubur/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-gpmklnklshmoniaqbuhrlznucoil/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-bwzbfftxsujsayepuawiponhrtsm/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH++ /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-dlaepuwklodwbngrchesdymqftvb/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-bwzbfftxsujsayepuawiponhrtsm/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-akvchyfkkuvopzefcbugiuspylum/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-elxbvkrrialfhvdgvefzxmtkzitl/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/mat4stack.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/GL/mat4stack.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/matrix.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/GL/matrix.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/mat4.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/mat4.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/neon_matrix_impl.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/neon_matrix_impl.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionCamera.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionCamera.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAction.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCAction.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionCatmullRom.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionCatmullRom.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionEase.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionEase.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionGrid.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionGrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionGrid3D.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionGrid3D.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionInstant.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionInstant.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionGrid.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionGrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionInterval.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionInterval.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionInstant.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionInstant.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionManager.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionManager.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionPageTurn3D.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionPageTurn3D.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionProgressTimer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionProgressTimer.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -24,33 +30,29 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAtlasNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../base_nodes/CCAtlasNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../base_nodes/CCNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCCamera.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../CCCamera.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCConfiguration.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../CCConfiguration.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDirector.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../CCDirector.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCConfiguration.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../CCConfiguration.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCScheduler.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../CCScheduler.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAffineTransform.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCAffineTransform.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCArray.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCArray.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAutoreleasePool.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCAutoreleasePool.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDictionary.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCDictionary.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCGeometry.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCGeometry.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDictionary.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCDictionary.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCNS.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCNS.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCObject.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCObject.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSet.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCSet.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCString.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCString.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCZone.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCZone.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/cocos2d.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocos2d.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCZone.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCZone.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCGrabber.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../effects/CCGrabber.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCGrid.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../effects/CCGrid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/aabb.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/aabb.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/mat4stack.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/GL/mat4stack.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/matrix.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/GL/matrix.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/mat3.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/mat3.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/mat4.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/mat4.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/neon_matrix_impl.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/neon_matrix_impl.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/plane.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/plane.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/quaternion.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/quaternion.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ray2.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/ray2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/utility.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/utility.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/vec2.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/vec2.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/utility.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/utility.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/vec3.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/vec3.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/vec4.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/vec4.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCKeypadDelegate.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../keypad_dispatcher/CCKeypadDelegate.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -60,24 +62,24 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCLabelTTF.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../label_nodes/CCLabelTTF.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCLayer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../layers_scenes_transitions_nodes/CCLayer.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCScene.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../layers_scenes_transitions_nodes/CCScene.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTransition.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../layers_scenes_transitions_nodes/CCTransition.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTransitionPageTurn.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../layers_scenes_transitions_nodes/CCTransitionPageTurn.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTransition.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../layers_scenes_transitions_nodes/CCTransition.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTransitionProgress.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../layers_scenes_transitions_nodes/CCTransitionProgress.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCMenu.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../menu_nodes/CCMenu.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCMenuItem.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../menu_nodes/CCMenuItem.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCMotionStreak.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCMotionStreak.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCMenuItem.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../menu_nodes/CCMenuItem.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCProgressTimer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCProgressTimer.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCRenderTexture.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCRenderTexture.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleBatchNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../particle_nodes/CCParticleBatchNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleExamples.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../particle_nodes/CCParticleExamples.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleSystem.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../particle_nodes/CCParticleSystem.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleExamples.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../particle_nodes/CCParticleExamples.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleSystemQuad.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../particle_nodes/CCParticleSystemQuad.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCEGLViewProtocol.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCEGLViewProtocol.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSAXParser.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCSAXParser.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/AccelerometerDelegateWrapper.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/AccelerometerDelegateWrapper.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAccelerometer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCAccelerometer.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCApplication.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCApplication.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCCommon.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCCommon.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCApplication.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCApplication.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDirectorCaller.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCDirectorCaller.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCEGLView.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCEGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCES2Renderer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCES2Renderer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -86,47 +88,47 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCLock.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCLock.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCThread.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCThread.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/EAGLView.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/EAGLView.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/AccelerometerSimulation.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/Simulation/AccelerometerSimulation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/platform.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/platform.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCScriptSupport.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../script_support/CCScriptSupport.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/AccelerometerSimulation.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/Simulation/AccelerometerSimulation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCGLProgram.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/CCGLProgram.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCScriptSupport.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../script_support/CCScriptSupport.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccGLStateCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/ccGLStateCache.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCShaderCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/CCShaderCache.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccShaders.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/ccShaders.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAnimation.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCAnimation.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccShaders.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/ccShaders.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAnimationCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCAnimationCache.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSprite.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSprite.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSpriteBatchNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSpriteBatchNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSpriteFrame.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSpriteFrame.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSpriteBatchNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSpriteBatchNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSpriteFrameCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSpriteFrameCache.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/base64.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/base64.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCPointExtension.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/CCPointExtension.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCProfiling.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/CCProfiling.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCPointExtension.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/CCPointExtension.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccUtils.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/ccUtils.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCVertex.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/CCVertex.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccCArray.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/data_support/ccCArray.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/TGAlib.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/image_support/TGAlib.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccCArray.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/data_support/ccCArray.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/TransformUtils.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/TransformUtils.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ioapi.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/zip_support/ioapi.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/unzip.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/zip_support/unzip.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ZipUtils.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/zip_support/ZipUtils.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCIMEDispatcher.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../text_input_node/CCIMEDispatcher.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTextFieldTTF.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../text_input_node/CCTextFieldTTF.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/unzip.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/zip_support/unzip.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTexture2D.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../textures/CCTexture2D.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTextureAtlas.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../textures/CCTextureAtlas.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTextureCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../textures/CCTextureCache.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTexturePVR.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../textures/CCTexturePVR.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTouchDispatcher.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../touch_dispatcher/CCTouchDispatcher.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTouchHandler.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../touch_dispatcher/CCTouchHandler.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCNotificationCenter.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/CCNotificationCenter.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTouchDispatcher.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../touch_dispatcher/CCTouchDispatcher.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTouch.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../touch_dispatcher/CCTouch.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCClippingNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCClippingNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDrawingPrimitives.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../draw_nodes/CCDrawingPrimitives.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDrawNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../draw_nodes/CCDrawNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCClippingNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCClippingNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCFileUtils.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCFileUtils.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCImageCommonWebp.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCImageCommonWebp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDrawNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../draw_nodes/CCDrawNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/tinyxml2.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/tinyxml2/tinyxml2.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDevice.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCDevice.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCImageCommonWebp.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCImageCommonWebp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccFPSImages.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../ccFPSImages.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccUTF8.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/ccUTF8.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParallaxNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../tilemap_parallax_nodes/CCParallaxNode.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -140,22 +142,21 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCUserDefaultAndroid.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/user_default/CCUserDefaultAndroid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDataVisitor.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCDataVisitor.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTextureETC.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../textures/CCTextureETC.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCComponent.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/component/CCComponent.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCComponentContainer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/component/CCComponentContainer.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCComponent.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/component/CCComponent.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAction.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCAction.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionCamera.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionCamera.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionCatmullRom.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionCatmullRom.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionEase.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionEase.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/libcocos2dx.a normal armv7
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionGrid.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionGrid.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionCatmullRom.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionCatmullRom.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionGrid3D.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionGrid3D.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionInstant.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionInstant.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionInterval.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionInterval.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionManager.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionManager.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionPageTurn3D.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionPageTurn3D.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionProgressTimer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionProgressTimer.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionTiledGrid.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionTiledGrid.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionTween.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionTween.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionProgressTimer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../actions/CCActionProgressTimer.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAtlasNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../base_nodes/CCAtlasNode.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../base_nodes/CCNode.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCCamera.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../CCCamera.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -165,6 +166,7 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAffineTransform.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCAffineTransform.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCArray.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCArray.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAutoreleasePool.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCAutoreleasePool.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/libcocos2dx.a normal armv7
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDictionary.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCDictionary.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCGeometry.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCGeometry.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCNS.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCNS.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -178,8 +180,8 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/aabb.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/aabb.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/mat4stack.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/GL/mat4stack.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/matrix.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/GL/matrix.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/mat3.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/mat3.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/mat4.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/mat4.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/mat3.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/mat3.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/neon_matrix_impl.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/neon_matrix_impl.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/plane.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/plane.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/quaternion.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/quaternion.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
@@ -189,8 +191,8 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/vec3.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/vec3.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/vec4.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../kazmath/src/vec4.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCKeypadDelegate.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../keypad_dispatcher/CCKeypadDelegate.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCKeypadDispatcher.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../keypad_dispatcher/CCKeypadDispatcher.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLabelAtlas.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../label_nodes/CCLabelAtlas.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCKeypadDispatcher.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../keypad_dispatcher/CCKeypadDispatcher.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLabelBMFont.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../label_nodes/CCLabelBMFont.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLabelTTF.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../label_nodes/CCLabelTTF.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLayer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../layers_scenes_transitions_nodes/CCLayer.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -200,8 +202,8 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTransitionProgress.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../layers_scenes_transitions_nodes/CCTransitionProgress.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCMenu.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../menu_nodes/CCMenu.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCMenuItem.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../menu_nodes/CCMenuItem.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCMotionStreak.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCMotionStreak.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCProgressTimer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCProgressTimer.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCMotionStreak.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCMotionStreak.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCRenderTexture.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCRenderTexture.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParticleBatchNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../particle_nodes/CCParticleBatchNode.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParticleExamples.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../particle_nodes/CCParticleExamples.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -209,31 +211,29 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParticleSystemQuad.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../particle_nodes/CCParticleSystemQuad.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCEGLViewProtocol.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCEGLViewProtocol.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSAXParser.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCSAXParser.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH++ /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-elxbvkrrialfhvdgvefzxmtkzitl/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cProcessPCH /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-akvchyfkkuvopzefcbugiuspylum/cocos2dx-Prefix.pch.pth cocos2dx-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCApplication.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCApplication.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/AccelerometerDelegateWrapper.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/AccelerometerDelegateWrapper.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAccelerometer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCAccelerometer.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDirectorCaller.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCDirectorCaller.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCCommon.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCCommon.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCEGLView.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCEGLView.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCES2Renderer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCES2Renderer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCFileUtilsIOS.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCFileUtilsIOS.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLock.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCLock.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCImage.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCImage.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCThread.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCThread.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/AccelerometerSimulation.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/Simulation/AccelerometerSimulation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/EAGLView.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/EAGLView.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/platform.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/platform.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCScriptSupport.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../script_support/CCScriptSupport.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCGLProgram.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/CCGLProgram.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccGLStateCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/ccGLStateCache.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCShaderCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/CCShaderCache.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/AccelerometerDelegateWrapper.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/AccelerometerDelegateWrapper.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAccelerometer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCAccelerometer.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCApplication.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCApplication.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCCommon.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCCommon.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDirectorCaller.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCDirectorCaller.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCEGLView.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCEGLView.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCES2Renderer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCES2Renderer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCFileUtilsIOS.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCFileUtilsIOS.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCImage.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCImage.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCThread.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCThread.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/EAGLView.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/EAGLView.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/AccelerometerSimulation.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/Simulation/AccelerometerSimulation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccShaders.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../shaders/ccShaders.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAnimation.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCAnimation.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAnimationCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCAnimationCache.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSprite.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSprite.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSpriteBatchNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSpriteBatchNode.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAnimation.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCAnimation.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSpriteFrame.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSpriteFrame.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSpriteFrameCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../sprite_nodes/CCSpriteFrameCache.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/base64.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/base64.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -254,8 +254,8 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTextureCache.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../textures/CCTextureCache.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTexturePVR.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../textures/CCTexturePVR.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTouchDispatcher.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../touch_dispatcher/CCTouchDispatcher.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTouchHandler.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../touch_dispatcher/CCTouchHandler.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCNotificationCenter.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/CCNotificationCenter.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTouchHandler.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../touch_dispatcher/CCTouchHandler.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTouch.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../touch_dispatcher/CCTouch.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCClippingNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../misc_nodes/CCClippingNode.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDrawingPrimitives.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../draw_nodes/CCDrawingPrimitives.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -263,20 +263,20 @@ cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedDa
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCFileUtils.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCFileUtils.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCImageCommonWebp.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/CCImageCommonWebp.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/tinyxml2.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/tinyxml2/tinyxml2.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDevice.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCDevice.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccFPSImages.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../ccFPSImages.c normal armv7s c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDevice.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/CCDevice.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccUTF8.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/ccUTF8.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParallaxNode.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../tilemap_parallax_nodes/CCParallaxNode.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTileMapAtlas.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../tilemap_parallax_nodes/CCTileMapAtlas.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXLayer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../tilemap_parallax_nodes/CCTMXLayer.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXObjectGroup.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../tilemap_parallax_nodes/CCTMXObjectGroup.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXTiledMap.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../tilemap_parallax_nodes/CCTMXTiledMap.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXXMLParser.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../tilemap_parallax_nodes/CCTMXXMLParser.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCUserDefault-638E146A6665553E.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/user_default/CCUserDefault.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXTiledMap.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../tilemap_parallax_nodes/CCTMXTiledMap.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCUserDefault-5490D2BEC9557540.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/user_default/CCUserDefault.mm normal armv7s objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCUserDefaultAndroid.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/user_default/CCUserDefaultAndroid.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDataVisitor.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCDataVisitor.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTextureETC.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../textures/CCTextureETC.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDataVisitor.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../cocoa/CCDataVisitor.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCComponent.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/component/CCComponent.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCComponentContainer.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../support/component/CCComponentContainer.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLibtool /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/libcocos2dx.a normal armv7s
@@ -1843,44 +1843,44 @@ t1370922684
 s157
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-akvchyfkkuvopzefcbugiuspylum/cocos2dx-Prefix.pch.pth
-t2
-s0
+t1371881845
+s2773276
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-auqvdbnneqvorzdvnsscqnmqkcdb/cocos2dx-Prefix.pch.pth
 t1371879817
 s2773228
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-bvepumkjuwdzyeemxjugeasufkvt/cocos2dx-Prefix.pch.pth
-t2
-s0
+t1371881830
+s73896
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-bwzbfftxsujsayepuawiponhrtsm/cocos2dx-Prefix.pch.pth
-t2
-s0
+t1371881830
+s73860
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-ceupgxfudvnmajcygfumsogzzvyr/cocos2dx-Prefix.pch.pth
 t1371879817
 s77468
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-csvocwapdtvtewfrgefrnctqubur/cocos2dx-Prefix.pch.pth
-t2
-s0
+t1371881830
+s77468
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-dcdpbjfbxzfnkianfyqossrfnyux/cocos2dx-Prefix.pch.pth
 t1371879832
 s2773276
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-dlaepuwklodwbngrchesdymqftvb/cocos2dx-Prefix.pch.pth
-t2
-s0
+t1371881830
+s77436
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-ejfrinjjnpngeybtauipkymsvwqq/cocos2dx-Prefix.pch.pth
-t2
-s0
+t1371881831
+s3153664
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-elxbvkrrialfhvdgvefzxmtkzitl/cocos2dx-Prefix.pch.pth
-t2
-s0
+t1371881845
+s3153716
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-emymkuowodqukcaroiehhfdrqnod/cocos2dx-Prefix.pch.pth
 t1371879832
@@ -1895,8 +1895,8 @@ t1371879829
 s73860
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-gpmklnklshmoniaqbuhrlznucoil/cocos2dx-Prefix.pch.pth
-t2
-s0
+t1371881831
+s2773228
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/PrecompiledHeaders/cocos2dx-Prefix-gqmajxakfyhjhidjkxbubmikfsbu/cocos2dx-Prefix.pch.pth
 t1371879817
@@ -1907,475 +1907,475 @@ t1371879817
 s77436
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/AccelerometerDelegateWrapper.o
-t1371879823
+t1371881836
 s17696
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/AccelerometerSimulation.o
-t1371879823
+t1371881837
 s2112
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAccelerometer.o
-t1371879823
+t1371881836
 s5660
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAction.o
-t1371879818
+t1371881831
 s66388
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionCamera.o
-t1371879817
+t1371881831
 s45128
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionCatmullRom.o
-t1371879818
+t1371881831
 s120816
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionEase.o
-t1371879818
+t1371881831
 s134544
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionGrid.o
-t1371879818
+t1371881832
 s79276
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionGrid3D.o
-t1371879818
+t1371881832
 s83056
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionInstant.o
-t1371879818
+t1371881832
 s100804
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionInterval.o
-t1371879819
+t1371881832
 s291608
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionManager.o
-t1371879818
+t1371881832
 s84092
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionPageTurn3D.o
-t1371879818
+t1371881832
 s25328
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionProgressTimer.o
-t1371879819
+t1371881832
 s50628
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionTiledGrid.o
-t1371879819
+t1371881832
 s115304
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCActionTween.o
-t1371879819
+t1371881832
 s36584
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAffineTransform.o
-t1371879819
+t1371881833
 s18456
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAnimation.o
-t1371879824
+t1371881837
 s68612
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAnimationCache.o
-t1371879824
+t1371881837
 s64700
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCApplication.o
-t1371879823
+t1371881836
 s26024
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCArray.o
-t1371879820
+t1371881833
 s49956
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAtlasNode.o
-t1371879819
+t1371881832
 s77516
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCAutoreleasePool.o
-t1371879820
+t1371881833
 s22892
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCCamera.o
-t1371879819
+t1371881832
 s32728
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCClippingNode.o
-t1371879825
+t1371881839
 s56524
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCCommon.o
-t1371879823
+t1371881836
 s14576
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCComponent.o
-t1371879827
+t1371881840
 s25380
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCComponentContainer.o
-t1371879827
+t1371881840
 s61192
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCConfiguration.o
-t1371879820
+t1371881833
 s109820
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDataVisitor.o
-t1371879827
+t1371881840
 s75168
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDevice.o
-t1371879826
+t1371881839
 s5900
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDictionary.o
-t1371879820
+t1371881833
 s83964
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDirector.o
-t1371879820
+t1371881833
 s150344
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDirectorCaller.o
-t1371879823
+t1371881836
 s18812
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDrawNode.o
-t1371879826
+t1371881839
 s59692
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCDrawingPrimitives.o
-t1371879826
+t1371881839
 s39028
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCEGLView.o
-t1371879823
+t1371881836
 s23272
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCEGLViewProtocol.o
-t1371879822
+t1371881836
 s81304
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCES2Renderer.o
-t1371879823
+t1371881836
 s33776
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCFileUtils.o
-t1371879826
+t1371881839
 s166004
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCFileUtilsIOS.o
-t1371879823
+t1371881837
 s109080
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCGLProgram.o
-t1371879824
+t1371881837
 s73228
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCGeometry.o
-t1371879820
+t1371881833
 s27904
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCGrabber.o
-t1371879820
+t1371881834
 s37224
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCGrid.o
-t1371879821
+t1371881834
 s101668
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCIMEDispatcher.o
-t1371879825
+t1371881838
 s63008
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCImage.o
-t1371879823
+t1371881837
 s58268
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCImageCommonWebp.o
-t1371879826
+t1371881839
 s17956
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCKeypadDelegate.o
-t1371879821
+t1371881834
 s12288
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCKeypadDispatcher.o
-t1371879821
+t1371881834
 s18384
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCLabelAtlas.o
-t1371879821
+t1371881834
 s98204
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCLabelBMFont.o
-t1371879822
+t1371881835
 s286436
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCLabelTTF.o
-t1371879821
+t1371881834
 s104296
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCLayer.o
-t1371879821
+t1371881835
 s156744
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCLock.o
-t1371879823
+t1371881836
 s4032
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCMenu.o
-t1371879822
+t1371881835
 s140540
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCMenuItem.o
-t1371879822
+t1371881835
 s146876
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCMotionStreak.o
-t1371879822
+t1371881835
 s83664
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCNS.o
-t1371879820
+t1371881833
 s62344
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCNode.o
-t1371879819
+t1371881832
 s152160
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCNotificationCenter.o
-t1371879825
+t1371881838
 s52668
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCObject.o
-t1371879820
+t1371881833
 s23080
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParallaxNode.o
-t1371879826
+t1371881839
 s49956
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleBatchNode.o
-t1371879822
+t1371881836
 s110456
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleExamples.o
-t1371879822
+t1371881836
 s163520
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleSystem.o
-t1371879823
+t1371881836
 s173788
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCParticleSystemQuad.o
-t1371879822
+t1371881836
 s107080
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCPointExtension.o
-t1371879824
+t1371881837
 s20332
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCProfiling.o
-t1371879824
+t1371881837
 s44464
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCProgressTimer.o
-t1371879822
+t1371881835
 s75968
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCRenderTexture.o
-t1371879822
+t1371881836
 s118828
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSAXParser.o
-t1371879823
+t1371881836
 s87756
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCScene.o
-t1371879821
+t1371881834
 s44116
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCScheduler.o
-t1371879820
+t1371881833
 s105256
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCScriptSupport.o
-t1371879823
+t1371881837
 s35864
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSet.o
-t1371879820
+t1371881833
 s83420
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCShaderCache.o
-t1371879823
+t1371881837
 s45400
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSprite.o
-t1371879824
+t1371881837
 s144084
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSpriteBatchNode.o
-t1371879824
+t1371881837
 s116148
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSpriteFrame.o
-t1371879824
+t1371881837
 s49760
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCSpriteFrameCache.o
-t1371879824
+t1371881838
 s129368
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCString.o
-t1371879820
+t1371881833
 s41892
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTMXLayer.o
-t1371879826
+t1371881839
 s130564
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTMXObjectGroup.o
-t1371879826
+t1371881839
 s42828
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTMXTiledMap.o
-t1371879826
+t1371881839
 s92880
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTMXXMLParser.o
-t1371879827
+t1371881840
 s204836
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTextFieldTTF.o
-t1371879825
+t1371881838
 s114692
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTexture2D.o
-t1371879825
+t1371881838
 s81680
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTextureAtlas.o
-t1371879825
+t1371881838
 s63440
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTextureCache.o
-t1371879825
+t1371881839
 s240008
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTextureETC.o
-t1371879827
+t1371881840
 s15404
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTexturePVR.o
-t1371879825
+t1371881838
 s50648
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCThread.o
-t1371879823
+t1371881836
 s4312
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTileMapAtlas.o
-t1371879826
+t1371881839
 s98524
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTouch.o
-t1371879825
+t1371881838
 s13984
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTouchDispatcher.o
-t1371879825
+t1371881838
 s84664
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTouchHandler.o
-t1371879825
+t1371881838
 s45820
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTransition.o
-t1371879822
+t1371881835
 s241204
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTransitionPageTurn.o
-t1371879822
+t1371881835
 s39768
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCTransitionProgress.o
-t1371879822
+t1371881835
 s88744
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCUserDefault-5490D2BEC9557540.o
-t1371879827
+t1371881840
 s81396
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCUserDefault-638E146A6665553E.o
-t1371879826
+t1371881839
 s8592
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCUserDefaultAndroid.o
-t1371879826
+t1371881840
 s2024
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCVertex.o
-t1371879824
+t1371881837
 s16264
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/CCZone.o
-t1371879820
+t1371881833
 s3140
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/EAGLView.o
-t1371879823
+t1371881837
 s160596
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/TGAlib.o
-t1371879824
+t1371881838
 s15572
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/TransformUtils.o
-t1371879824
+t1371881838
 s9996
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ZipUtils.o
-t1371879825
+t1371881838
 s117888
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/aabb.o
-t1371879817
+t1371881833
 s4104
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/base64.o
-t1371879824
+t1371881837
 s5208
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccCArray.o
-t1371879824
+t1371881838
 s26528
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccFPSImages.o
-t1371879826
+t1371881839
 s9636
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccGLStateCache.o
-t1371879823
+t1371881837
 s19668
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccShaders.o
-t1371879823
+t1371881837
 s13884
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccUTF8.o
-t1371879826
+t1371881839
 s49568
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ccUtils.o
-t1371879824
+t1371881837
 s2744
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/cocos2d.o
-t1371879821
+t1371881834
 s33256
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/cocos2dx.LinkFileList
@@ -2384,543 +2384,543 @@ t1371879817
 s25607
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ioapi.o
-t1371879824
+t1371881838
 s15420
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/libcocos2dx.a
-t1371879828
+t1371881840
 s9573352
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/mat3.o
-t1371879820
+t1371881834
 s15032
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/mat4.o
-t1371879821
+t1371881834
 s23532
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/mat4stack.o
-t1371879820
+t1371881834
 s5544
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/matrix.o
-t1371879820
+t1371881834
 s10312
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/neon_matrix_impl.o
-t1371879821
+t1371881834
 s2984
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/plane.o
-t1371879821
+t1371881834
 s7604
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/platform.o
-t1371879823
+t1371881837
 s3828
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/quaternion.o
-t1371879821
+t1371881834
 s16932
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/ray2.o
-t1371879821
+t1371881834
 s7556
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/tinyxml2.o
-t1371879826
+t1371881839
 s183788
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/unzip.o
-t1371879824
+t1371881838
 s47700
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/utility.o
-t1371879821
+t1371881834
 s3924
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/vec2.o
-t1371879821
+t1371881834
 s6684
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/vec3.o
-t1371879821
+t1371881834
 s9876
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/vec4.o
-t1371879821
+t1371881834
 s9576
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/AccelerometerDelegateWrapper.o
-t1371879832
+t1371881845
 s17696
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/AccelerometerSimulation.o
-t1371879832
+t1371881846
 s2112
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAccelerometer.o
-t1371879832
+t1371881846
 s5660
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAction.o
-t1371879827
+t1371881840
 s66372
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionCamera.o
-t1371879827
+t1371881840
 s45080
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionCatmullRom.o
-t1371879827
+t1371881840
 s120784
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionEase.o
-t1371879827
+t1371881840
 s134512
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionGrid.o
-t1371879827
+t1371881840
 s79276
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionGrid3D.o
-t1371879827
+t1371881841
 s82944
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionInstant.o
-t1371879827
+t1371881841
 s100788
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionInterval.o
-t1371879828
+t1371881841
 s291352
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionManager.o
-t1371879828
+t1371881841
 s84060
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionPageTurn3D.o
-t1371879828
+t1371881841
 s25312
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionProgressTimer.o
-t1371879828
+t1371881841
 s50596
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionTiledGrid.o
-t1371879828
+t1371881841
 s115256
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCActionTween.o
-t1371879828
+t1371881841
 s36568
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAffineTransform.o
-t1371879828
+t1371881841
 s18392
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAnimation.o
-t1371879833
+t1371881846
 s68580
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAnimationCache.o
-t1371879833
+t1371881846
 s64668
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCApplication.o
-t1371879832
+t1371881846
 s26024
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCArray.o
-t1371879829
+t1371881842
 s49956
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAtlasNode.o
-t1371879828
+t1371881841
 s77472
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCAutoreleasePool.o
-t1371879829
+t1371881842
 s22892
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCCamera.o
-t1371879828
+t1371881841
 s32696
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCClippingNode.o
-t1371879834
+t1371881848
 s56524
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCCommon.o
-t1371879832
+t1371881846
 s14576
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCComponent.o
-t1371879836
+t1371881849
 s25380
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCComponentContainer.o
-t1371879836
+t1371881849
 s61192
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCConfiguration.o
-t1371879829
+t1371881842
 s109820
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDataVisitor.o
-t1371879836
+t1371881849
 s75168
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDevice.o
-t1371879835
+t1371881848
 s5896
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDictionary.o
-t1371879829
+t1371881842
 s83928
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDirector.o
-t1371879829
+t1371881842
 s150296
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDirectorCaller.o
-t1371879832
+t1371881846
 s18812
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDrawNode.o
-t1371879835
+t1371881848
 s59692
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCDrawingPrimitives.o
-t1371879835
+t1371881848
 s38896
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCEGLView.o
-t1371879832
+t1371881846
 s23272
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCEGLViewProtocol.o
-t1371879831
+t1371881844
 s81272
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCES2Renderer.o
-t1371879832
+t1371881846
 s33776
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCFileUtils.o
-t1371879835
+t1371881848
 s166004
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCFileUtilsIOS.o
-t1371879833
+t1371881846
 s109080
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCGLProgram.o
-t1371879832
+t1371881846
 s73200
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCGeometry.o
-t1371879829
+t1371881842
 s27816
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCGrabber.o
-t1371879829
+t1371881842
 s37224
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCGrid.o
-t1371879829
+t1371881842
 s101684
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCIMEDispatcher.o
-t1371879834
+t1371881847
 s63008
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCImage.o
-t1371879833
+t1371881846
 s58208
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCImageCommonWebp.o
-t1371879835
+t1371881848
 s17960
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCKeypadDelegate.o
-t1371879829
+t1371881843
 s12288
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCKeypadDispatcher.o
-t1371879830
+t1371881843
 s18384
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLabelAtlas.o
-t1371879830
+t1371881843
 s98172
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLabelBMFont.o
-t1371879830
+t1371881843
 s286380
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLabelTTF.o
-t1371879830
+t1371881843
 s104264
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLayer.o
-t1371879830
+t1371881843
 s156728
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCLock.o
-t1371879832
+t1371881844
 s4032
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCMenu.o
-t1371879831
+t1371881844
 s140404
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCMenuItem.o
-t1371879831
+t1371881844
 s146844
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCMotionStreak.o
-t1371879831
+t1371881844
 s83664
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCNS.o
-t1371879829
+t1371881842
 s62344
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCNode.o
-t1371879828
+t1371881841
 s152160
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCNotificationCenter.o
-t1371879834
+t1371881848
 s52668
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCObject.o
-t1371879829
+t1371881842
 s23080
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParallaxNode.o
-t1371879835
+t1371881848
 s49956
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParticleBatchNode.o
-t1371879831
+t1371881844
 s110424
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParticleExamples.o
-t1371879831
+t1371881844
 s163376
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParticleSystem.o
-t1371879831
+t1371881844
 s173516
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCParticleSystemQuad.o
-t1371879831
+t1371881844
 s107048
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCPointExtension.o
-t1371879833
+t1371881847
 s20304
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCProfiling.o
-t1371879833
+t1371881847
 s44464
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCProgressTimer.o
-t1371879831
+t1371881844
 s75884
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCRenderTexture.o
-t1371879831
+t1371881844
 s118796
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSAXParser.o
-t1371879832
+t1371881844
 s87756
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCScene.o
-t1371879830
+t1371881843
 s44116
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCScheduler.o
-t1371879829
+t1371881841
 s105192
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCScriptSupport.o
-t1371879832
+t1371881845
 s35864
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSet.o
-t1371879829
+t1371881842
 s83420
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCShaderCache.o
-t1371879833
+t1371881845
 s45400
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSprite.o
-t1371879833
+t1371881846
 s144036
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSpriteBatchNode.o
-t1371879833
+t1371881846
 s116116
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSpriteFrame.o
-t1371879833
+t1371881846
 s49712
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCSpriteFrameCache.o
-t1371879833
+t1371881847
 s129320
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCString.o
-t1371879829
+t1371881842
 s41876
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXLayer.o
-t1371879835
+t1371881849
 s130500
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXObjectGroup.o
-t1371879835
+t1371881849
 s42828
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXTiledMap.o
-t1371879835
+t1371881849
 s92880
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTMXXMLParser.o
-t1371879836
+t1371881849
 s204808
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTextFieldTTF.o
-t1371879834
+t1371881847
 s114692
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTexture2D.o
-t1371879834
+t1371881847
 s81544
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTextureAtlas.o
-t1371879834
+t1371881847
 s63456
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTextureCache.o
-t1371879834
+t1371881848
 s239876
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTextureETC.o
-t1371879836
+t1371881849
 s15404
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTexturePVR.o
-t1371879834
+t1371881848
 s50664
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCThread.o
-t1371879832
+t1371881846
 s4312
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTileMapAtlas.o
-t1371879835
+t1371881849
 s98512
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTouch.o
-t1371879834
+t1371881848
 s13984
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTouchDispatcher.o
-t1371879834
+t1371881848
 s84608
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTouchHandler.o
-t1371879834
+t1371881848
 s45820
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTransition.o
-t1371879830
+t1371881843
 s241108
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTransitionPageTurn.o
-t1371879830
+t1371881843
 s39768
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCTransitionProgress.o
-t1371879830
+t1371881843
 s88696
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCUserDefault-5490D2BEC9557540.o
-t1371879836
+t1371881849
 s81372
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCUserDefault-638E146A6665553E.o
-t1371879836
+t1371881849
 s8592
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCUserDefaultAndroid.o
-t1371879835
+t1371881849
 s2024
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCVertex.o
-t1371879833
+t1371881847
 s16256
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/CCZone.o
-t1371879829
+t1371881842
 s3140
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/EAGLView.o
-t1371879833
+t1371881846
 s160524
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/TGAlib.o
-t1371879834
+t1371881847
 s15488
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/TransformUtils.o
-t1371879834
+t1371881847
 s9984
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ZipUtils.o
-t1371879834
+t1371881847
 s117920
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/aabb.o
-t1371879829
+t1371881842
 s4104
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/base64.o
-t1371879833
+t1371881846
 s5208
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccCArray.o
-t1371879833
+t1371881847
 s26564
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccFPSImages.o
-t1371879835
+t1371881848
 s9636
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccGLStateCache.o
-t1371879832
+t1371881845
 s19668
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccShaders.o
-t1371879833
+t1371881846
 s13884
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccUTF8.o
-t1371879835
+t1371881848
 s49572
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ccUtils.o
-t1371879833
+t1371881847
 s2744
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/cocos2d.o
-t1371879830
+t1371881842
 s33256
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/cocos2dx.LinkFileList
@@ -2929,75 +2929,75 @@ t1371879817
 s25741
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ioapi.o
-t1371879833
+t1371881847
 s15420
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/libcocos2dx.a
-t1371879836
+t1371881849
 s9570096
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/mat3.o
-t1371879829
+t1371881842
 s15020
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/mat4.o
-t1371879829
+t1371881842
 s23460
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/mat4stack.o
-t1371879829
+t1371881842
 s5544
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/matrix.o
-t1371879829
+t1371881842
 s10312
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/neon_matrix_impl.o
-t1371879829
+t1371881842
 s2984
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/plane.o
-t1371879829
+t1371881842
 s7568
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/platform.o
-t1371879832
+t1371881845
 s3828
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/quaternion.o
-t1371879829
+t1371881842
 s16864
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/ray2.o
-t1371879830
+t1371881842
 s7512
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/tinyxml2.o
-t1371879835
+t1371881848
 s183820
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/unzip.o
-t1371879834
+t1371881847
 s47704
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/utility.o
-t1371879830
+t1371881842
 s3924
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/vec2.o
-t1371879830
+t1371881842
 s6684
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/vec3.o
-t1371879830
+t1371881842
 s9864
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7s/vec4.o
-t1371879830
+t1371881843
 s9576
 
 N/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Products/Debug-iphoneos/libcocos2dx.a
-t1371879837
+t1371881850
 s19143496
 
 CBuild AST from /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../CCCamera.cpp
@@ -3404,7 +3404,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies276691e37875b741^164f59e67875b741^---0#1#0#--18"Check dependencies36"B8FD3851-D04C-40DB-9001-A42217C2543B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesae473995ba77b741^1cd13995ba77b741^---0#1#0#--18"Check dependencies36"395268E1-AB83-4FB6-BEE1-EAB76CA593CE-
 
 CCompileC /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/cocos2dx.build/Debug-iphoneos/cocos2dx.build/Objects-normal/armv7/AccelerometerDelegateWrapper.o /Users/administrator/Desktop/depot/CrashTestMonkeys/libs/cocos2dx/proj.ios/../platform/ios/AccelerometerDelegateWrapper.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s393574636.387867

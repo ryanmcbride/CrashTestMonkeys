@@ -18,6 +18,7 @@ public:
     
     
     static int numItemsCanBuy();
+    static cocos2d::CCNode* buildCanBuyButton();
     
     // returns a Scene that contains the HelloWorld as the only child
     static cocos2d::CCScene* scene();

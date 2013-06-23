@@ -16,6 +16,7 @@ LOCAL_SRC_FILES := hellocpp/main.cpp \
                    ../../Classes/Commercials/CarCrash.cpp \
                    ../../Classes/Commercials/CNN.cpp \
                    ../../Classes/Commercials/Commercial.cpp \
+                   ../../Classes/Commercials/KenHint.cpp \
                    ../../Classes/Commercials/McAcme.cpp \
                    ../../Classes/Level/Backgrounds/BackGround.cpp \
                    ../../Classes/Level/Backgrounds/TutorialBackGround.cpp \

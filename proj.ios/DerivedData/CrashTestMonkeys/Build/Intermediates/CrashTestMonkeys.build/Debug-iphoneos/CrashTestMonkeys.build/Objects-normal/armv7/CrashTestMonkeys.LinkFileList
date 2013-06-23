@@ -213,7 +213,6 @@
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/TikiBackGround.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/TutorialBackGround.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/CrashOverlay.o
-/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/FinishOverlay.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/HUD.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/Level.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/LevelContactListener.o
@@ -265,3 +264,6 @@
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/Track.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/ScreenHelper.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/LocalStorage.o
+/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/LocalStorageAndroid.o
+/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/FinishOverlay.o
+/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphoneos/CrashTestMonkeys.build/Objects-normal/armv7/KenHint.o

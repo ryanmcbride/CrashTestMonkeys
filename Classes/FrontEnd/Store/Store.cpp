@@ -182,6 +182,67 @@ static float s_StoreMenuLastY = -10000.0f;
     s_node1 = node1;
     s_node2 = node2;
 }*/
+class StoreLabelTTF : public CCLabelTTF
+{
+public:
+    static StoreLabelTTF* create(const char *string, const char *fontName, float fontSize)
+    {
+        StoreLabelTTF *pRet = new StoreLabelTTF();
+        if(pRet && pRet->initWithString(string, fontName, fontSize, CCSizeZero, kCCTextAlignmentCenter, kCCVerticalTextAlignmentTop))
+        {
+            pRet->scheduleUpdate();
+            pRet->last_number_can_buy = -1;
+            pRet->autorelease();
+            return pRet;
+        }
+        CC_SAFE_DELETE(pRet);
+        return NULL;
+    }
+    virtual void update(float dt)
+    {
+        int new_items_can_buy = Store::numItemsCanBuy();
+        if(new_items_can_buy != last_number_can_buy)
+        {
+            char temp[5];
+            sprintf(temp, "%d", new_items_can_buy);
+            
+            setString(temp);
+            
+            last_number_can_buy = new_items_can_buy;
+            
+            if(new_items_can_buy <= 0)
+            {
+                getParent()->setVisible(false);
+            }
+            else
+            {
+                getParent()->setVisible(true);
+            }
+        }
+    }
+    int last_number_can_buy;
+};
+
+CCNode* Store::buildCanBuyButton()
+{
+    char temp[5];
+    sprintf(temp, "%d", numItemsCanBuy());
+    StoreLabelTTF *number = StoreLabelTTF::create(temp, "impact.ttf", 15);
+    number->setColor(ccc3(255,255,255));
+    number->setPosition(ccp(16,16));
+    CCSprite* redButton = CCSprite::create("redbutton.png");
+    redButton->addChild(number);
+    redButton->setPosition(ccp(60,60));
+    
+    redButton->runAction(
+                         CCRepeatForever::create(
+                                                 CCSequence::create(
+                                                                    CCScaleTo::create(0.75,1.2f),
+                                                                    CCScaleTo::create(0.75,1.0f),
+                                                                    NULL)));
+    
+    return redButton;
+}
 int Store::numItemsCanBuy()
 {
     int itemCount = 0;
@@ -198,19 +259,25 @@ int Store::numItemsCanBuy()
     for(i = 0; i < NUM_UPGRADE_ITEMS; i++)
     {
         if(currency >= s_UpgradeItemCost[i][unlockLevel[i]] && s_UpgradeItemCost[i][unlockLevel[i]] > 0)
+        {
             itemCount++;
+        }
     }
     for(i=0; i < NUM_POWERUP_ITEMS; i++)
     {
         if(currency >= s_PowerUpItemCost[i])
+        {
             itemCount++;
+        }
     }
     for(i=0; i < NUM_CHARACTER_ITEMS; i++)
     {
         if(currency >= s_CharacterItemCost[i])
         {
             if(!(SaveLoad::m_SaveData.characters[i] & SaveLoad::UNLOCKED))
+            {
                 itemCount++;
+            }
         }
     }
     for(i = 0; i < NUM_BIKE_ITEMS; i++)
@@ -218,7 +285,9 @@ int Store::numItemsCanBuy()
         if(currency >= s_BikeItemCost[i])
         {
             if(!(SaveLoad::m_SaveData.bikes[i] & SaveLoad::UNLOCKED))
+            {
                 itemCount++;
+            }
         }
     }
     

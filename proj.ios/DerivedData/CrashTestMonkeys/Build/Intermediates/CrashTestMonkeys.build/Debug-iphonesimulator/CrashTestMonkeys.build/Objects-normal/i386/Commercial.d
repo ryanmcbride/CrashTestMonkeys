@@ -174,7 +174,9 @@ dependencies: \
   /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../libs/CocosDenshion/include/Export.h \
   /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/../ScreenHelper.h \
   /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/../FrontEnd/Loading.h \
+  /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/../FrontEnd/SaveLoad.h \
   /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/BoredRoom.h \
   /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/CarCrash.h \
   /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/CNN.h \
-  /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/McAcme.h
+  /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/McAcme.h \
+  /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/../classes/../Classes/Commercials/KenHint.h

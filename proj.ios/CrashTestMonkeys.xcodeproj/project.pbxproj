@@ -241,7 +241,6 @@
 		C363103917756BF80072F4E0 /* TikiBackGround.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630FAB17756BF70072F4E0 /* TikiBackGround.cpp */; };
 		C363103A17756BF80072F4E0 /* TutorialBackGround.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630FAD17756BF70072F4E0 /* TutorialBackGround.cpp */; };
 		C363103B17756BF80072F4E0 /* CrashOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630FAF17756BF70072F4E0 /* CrashOverlay.cpp */; };
-		C363103C17756BF80072F4E0 /* FinishOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630FB117756BF70072F4E0 /* FinishOverlay.cpp */; };
 		C363103D17756BF80072F4E0 /* HUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630FB317756BF70072F4E0 /* HUD.cpp */; };
 		C363103E17756BF80072F4E0 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630FB517756BF70072F4E0 /* Level.cpp */; };
 		C363103F17756BF80072F4E0 /* LevelContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630FB717756BF70072F4E0 /* LevelContactListener.cpp */; };
@@ -293,6 +292,17 @@
 		C363106E17756BF80072F4E0 /* Track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C363101717756BF80072F4E0 /* Track.cpp */; };
 		C363117417756C470072F4E0 /* ScreenHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C363111E17756C470072F4E0 /* ScreenHelper.cpp */; };
 		C3CFAECB17760825004D5437 /* LocalStorageAndroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CFAECA17760825004D5437 /* LocalStorageAndroid.cpp */; };
+		C3CFAED9177779A2004D5437 /* cityBallon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED4177779A2004D5437 /* cityBallon.png */; };
+		C3CFAEDA177779A2004D5437 /* CityBG02.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED5177779A2004D5437 /* CityBG02.png */; };
+		C3CFAEDB177779A2004D5437 /* spaceBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED6177779A2004D5437 /* spaceBG.png */; };
+		C3CFAEDC177779A2004D5437 /* Tiki.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED7177779A2004D5437 /* Tiki.png */; };
+		C3CFAEDD177779A2004D5437 /* TikiObjs.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED8177779A2004D5437 /* TikiObjs.png */; };
+		C3CFAEDF17777B98004D5437 /* TikiObjs.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEDE17777B98004D5437 /* TikiObjs.plist */; };
+		C3CFAEE217778119004D5437 /* CityBG02_Blue.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */; };
+		C3CFAEE317778119004D5437 /* CityBG02_Blue.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEE117778119004D5437 /* CityBG02_Blue.pvr.ccz */; };
+		C3CFAEE5177784DB004D5437 /* FinishOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CFAEE4177784DB004D5437 /* FinishOverlay.cpp */; };
+		C3CFAEE81777A6F3004D5437 /* redbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEE71777A6F3004D5437 /* redbutton.png */; };
+		C3CFAEEC1777AC9C004D5437 /* KenHint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CFAEEA1777AC9C004D5437 /* KenHint.cpp */; };
 		C3F5C84517756CCF0061B578 /* LocalStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3F5C84217756CCF0061B578 /* LocalStorage.cpp */; };
 		C3F5CA4F177570840061B578 /* Armadillo_Blue.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C847177570820061B578 /* Armadillo_Blue.plist */; };
 		C3F5CA50177570840061B578 /* Armadillo_Purple.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C848177570820061B578 /* Armadillo_Purple.plist */; };
@@ -795,7 +805,6 @@
 		C3F5CC42177570840061B578 /* Tiki6.xml in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA3C177570840061B578 /* Tiki6.xml */; };
 		C3F5CC43177570840061B578 /* Tiki7.xml in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA3D177570840061B578 /* Tiki7.xml */; };
 		C3F5CC44177570840061B578 /* Tiki8.xml in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA3E177570840061B578 /* Tiki8.xml */; };
-		C3F5CC45177570840061B578 /* TikiObjs.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA3F177570840061B578 /* TikiObjs.plist */; };
 		C3F5CC46177570840061B578 /* TorchFire5.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA40177570840061B578 /* TorchFire5.plist */; };
 		C3F5CC47177570840061B578 /* TorchFire6.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA41177570840061B578 /* TorchFire6.plist */; };
 		C3F5CC48177570840061B578 /* Tutorial.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA42177570840061B578 /* Tutorial.plist */; };
@@ -1305,7 +1314,6 @@
 		C3630FAE17756BF70072F4E0 /* TutorialBackGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialBackGround.h; sourceTree = "<group>"; };
 		C3630FAF17756BF70072F4E0 /* CrashOverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrashOverlay.cpp; sourceTree = "<group>"; };
 		C3630FB017756BF70072F4E0 /* CrashOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashOverlay.h; sourceTree = "<group>"; };
-		C3630FB117756BF70072F4E0 /* FinishOverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FinishOverlay.cpp; sourceTree = "<group>"; };
 		C3630FB217756BF70072F4E0 /* FinishOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishOverlay.h; sourceTree = "<group>"; };
 		C3630FB317756BF70072F4E0 /* HUD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HUD.cpp; sourceTree = "<group>"; };
 		C3630FB417756BF70072F4E0 /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
@@ -1408,6 +1416,18 @@
 		C363111E17756C470072F4E0 /* ScreenHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreenHelper.cpp; path = ../Classes/ScreenHelper.cpp; sourceTree = "<group>"; };
 		C363111F17756C470072F4E0 /* ScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenHelper.h; path = ../Classes/ScreenHelper.h; sourceTree = "<group>"; };
 		C3CFAECA17760825004D5437 /* LocalStorageAndroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStorageAndroid.cpp; sourceTree = "<group>"; };
+		C3CFAED4177779A2004D5437 /* cityBallon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityBallon.png; sourceTree = "<group>"; };
+		C3CFAED5177779A2004D5437 /* CityBG02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityBG02.png; sourceTree = "<group>"; };
+		C3CFAED6177779A2004D5437 /* spaceBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceBG.png; sourceTree = "<group>"; };
+		C3CFAED7177779A2004D5437 /* Tiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiki.png; sourceTree = "<group>"; };
+		C3CFAED8177779A2004D5437 /* TikiObjs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TikiObjs.png; sourceTree = "<group>"; };
+		C3CFAEDE17777B98004D5437 /* TikiObjs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TikiObjs.plist; sourceTree = "<group>"; };
+		C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityBG02_Blue.plist; sourceTree = "<group>"; };
+		C3CFAEE117778119004D5437 /* CityBG02_Blue.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = CityBG02_Blue.pvr.ccz; sourceTree = "<group>"; };
+		C3CFAEE4177784DB004D5437 /* FinishOverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FinishOverlay.cpp; sourceTree = "<group>"; };
+		C3CFAEE71777A6F3004D5437 /* redbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton.png; sourceTree = "<group>"; };
+		C3CFAEEA1777AC9C004D5437 /* KenHint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KenHint.cpp; sourceTree = "<group>"; };
+		C3CFAEEB1777AC9C004D5437 /* KenHint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenHint.h; sourceTree = "<group>"; };
 		C3F5C84217756CCF0061B578 /* LocalStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStorage.cpp; sourceTree = "<group>"; };
 		C3F5C84317756CCF0061B578 /* LocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStorage.h; sourceTree = "<group>"; };
 		C3F5C847177570820061B578 /* Armadillo_Blue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Armadillo_Blue.plist; sourceTree = "<group>"; };
@@ -1911,7 +1931,6 @@
 		C3F5CA3C177570840061B578 /* Tiki6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tiki6.xml; sourceTree = "<group>"; };
 		C3F5CA3D177570840061B578 /* Tiki7.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tiki7.xml; sourceTree = "<group>"; };
 		C3F5CA3E177570840061B578 /* Tiki8.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tiki8.xml; sourceTree = "<group>"; };
-		C3F5CA3F177570840061B578 /* TikiObjs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TikiObjs.plist; sourceTree = "<group>"; };
 		C3F5CA40177570840061B578 /* TorchFire5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TorchFire5.plist; sourceTree = "<group>"; };
 		C3F5CA41177570840061B578 /* TorchFire6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TorchFire6.plist; sourceTree = "<group>"; };
 		C3F5CA42177570840061B578 /* Tutorial.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tutorial.plist; sourceTree = "<group>"; };
@@ -2759,6 +2778,15 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C3CFAEE71777A6F3004D5437 /* redbutton.png */,
+				C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */,
+				C3CFAEE117778119004D5437 /* CityBG02_Blue.pvr.ccz */,
+				C3CFAEDE17777B98004D5437 /* TikiObjs.plist */,
+				C3CFAED4177779A2004D5437 /* cityBallon.png */,
+				C3CFAED5177779A2004D5437 /* CityBG02.png */,
+				C3CFAED6177779A2004D5437 /* spaceBG.png */,
+				C3CFAED7177779A2004D5437 /* Tiki.png */,
+				C3CFAED8177779A2004D5437 /* TikiObjs.png */,
 				C3F5C847177570820061B578 /* Armadillo_Blue.plist */,
 				C3F5C848177570820061B578 /* Armadillo_Purple.plist */,
 				C3F5C849177570820061B578 /* Armadillo_Red.plist */,
@@ -3070,7 +3098,6 @@
 				C3F5CA3C177570840061B578 /* Tiki6.xml */,
 				C3F5CA3D177570840061B578 /* Tiki7.xml */,
 				C3F5CA3E177570840061B578 /* Tiki8.xml */,
-				C3F5CA3F177570840061B578 /* TikiObjs.plist */,
 				C3F5CA40177570840061B578 /* TorchFire5.plist */,
 				C3F5CA41177570840061B578 /* TorchFire6.plist */,
 				C3F5CA42177570840061B578 /* Tutorial.plist */,
@@ -3122,6 +3149,8 @@
 				C3630F7017756BF70072F4E0 /* Commercial.h */,
 				C3630F7117756BF70072F4E0 /* McAcme.cpp */,
 				C3630F7217756BF70072F4E0 /* McAcme.h */,
+				C3CFAEEA1777AC9C004D5437 /* KenHint.cpp */,
+				C3CFAEEB1777AC9C004D5437 /* KenHint.h */,
 			);
 			name = Commercials;
 			path = ../Classes/Commercials;
@@ -3185,7 +3214,7 @@
 				C3630FA217756BF70072F4E0 /* Backgrounds */,
 				C3630FAF17756BF70072F4E0 /* CrashOverlay.cpp */,
 				C3630FB017756BF70072F4E0 /* CrashOverlay.h */,
-				C3630FB117756BF70072F4E0 /* FinishOverlay.cpp */,
+				C3CFAEE4177784DB004D5437 /* FinishOverlay.cpp */,
 				C3630FB217756BF70072F4E0 /* FinishOverlay.h */,
 				C3630FB317756BF70072F4E0 /* HUD.cpp */,
 				C3630FB417756BF70072F4E0 /* HUD.h */,
@@ -4125,7 +4154,6 @@
 				C3F5CC42177570840061B578 /* Tiki6.xml in Resources */,
 				C3F5CC43177570840061B578 /* Tiki7.xml in Resources */,
 				C3F5CC44177570840061B578 /* Tiki8.xml in Resources */,
-				C3F5CC45177570840061B578 /* TikiObjs.plist in Resources */,
 				C3F5CC46177570840061B578 /* TorchFire5.plist in Resources */,
 				C3F5CC47177570840061B578 /* TorchFire6.plist in Resources */,
 				C3F5CC48177570840061B578 /* Tutorial.plist in Resources */,
@@ -4141,6 +4169,15 @@
 				C3F5CC52177570840061B578 /* TutorialArrow.png in Resources */,
 				C3F5CC53177570840061B578 /* TutorialBG.plist in Resources */,
 				C3F5CC54177570840061B578 /* TutorialBG.pvr.ccz in Resources */,
+				C3CFAED9177779A2004D5437 /* cityBallon.png in Resources */,
+				C3CFAEDA177779A2004D5437 /* CityBG02.png in Resources */,
+				C3CFAEDB177779A2004D5437 /* spaceBG.png in Resources */,
+				C3CFAEDC177779A2004D5437 /* Tiki.png in Resources */,
+				C3CFAEDD177779A2004D5437 /* TikiObjs.png in Resources */,
+				C3CFAEDF17777B98004D5437 /* TikiObjs.plist in Resources */,
+				C3CFAEE217778119004D5437 /* CityBG02_Blue.plist in Resources */,
+				C3CFAEE317778119004D5437 /* CityBG02_Blue.pvr.ccz in Resources */,
+				C3CFAEE81777A6F3004D5437 /* redbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4366,7 +4403,6 @@
 				C363103917756BF80072F4E0 /* TikiBackGround.cpp in Sources */,
 				C363103A17756BF80072F4E0 /* TutorialBackGround.cpp in Sources */,
 				C363103B17756BF80072F4E0 /* CrashOverlay.cpp in Sources */,
-				C363103C17756BF80072F4E0 /* FinishOverlay.cpp in Sources */,
 				C363103D17756BF80072F4E0 /* HUD.cpp in Sources */,
 				C363103E17756BF80072F4E0 /* Level.cpp in Sources */,
 				C363103F17756BF80072F4E0 /* LevelContactListener.cpp in Sources */,
@@ -4419,6 +4455,8 @@
 				C363117417756C470072F4E0 /* ScreenHelper.cpp in Sources */,
 				C3F5C84517756CCF0061B578 /* LocalStorage.cpp in Sources */,
 				C3CFAECB17760825004D5437 /* LocalStorageAndroid.cpp in Sources */,
+				C3CFAEE5177784DB004D5437 /* FinishOverlay.cpp in Sources */,
+				C3CFAEEC1777AC9C004D5437 /* KenHint.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

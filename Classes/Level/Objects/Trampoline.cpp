@@ -26,6 +26,7 @@ void createTrampVFX(CCNode *ccLayer, float x,float y, const char *name)
 {
     CCParticleSystemQuad *emitter = CCParticleSystemQuad::create(name);
     ccLayer->addChild(emitter);
+    emitter->setScale(ScreenHelper::getTextureScale());
     emitter->setPosition(ccp(x*ScreenHelper::getCameraZoom(),y*ScreenHelper::getCameraZoom()));
 }
 

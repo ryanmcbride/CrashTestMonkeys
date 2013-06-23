@@ -251,10 +251,12 @@ obj/local/armeabi/objs/cocos2dcpp_shared/__/__/Classes/Commercials/Commercial.o:
  /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.android/../libs//CocosDenshion/android/../include/Export.h \
  jni/../../Classes/Commercials/../ScreenHelper.h \
  jni/../../Classes/Commercials/../FrontEnd/Loading.h \
+ jni/../../Classes/Commercials/../FrontEnd/SaveLoad.h \
  jni/../../Classes/Commercials/BoredRoom.h \
  jni/../../Classes/Commercials/CarCrash.h \
  jni/../../Classes/Commercials/CNN.h \
- jni/../../Classes/Commercials/McAcme.h
+ jni/../../Classes/Commercials/McAcme.h \
+ jni/../../Classes/Commercials/KenHint.h
 
 jni/../../Classes/Commercials/Commercial.h:
 
@@ -758,6 +760,8 @@ jni/../../Classes/Commercials/../ScreenHelper.h:
 
 jni/../../Classes/Commercials/../FrontEnd/Loading.h:
 
+jni/../../Classes/Commercials/../FrontEnd/SaveLoad.h:
+
 jni/../../Classes/Commercials/BoredRoom.h:
 
 jni/../../Classes/Commercials/CarCrash.h:
@@ -765,3 +769,5 @@ jni/../../Classes/Commercials/CarCrash.h:
 jni/../../Classes/Commercials/CNN.h:
 
 jni/../../Classes/Commercials/McAcme.h:
+
+jni/../../Classes/Commercials/KenHint.h:

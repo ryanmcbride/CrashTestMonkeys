@@ -28,8 +28,11 @@ void CityBackGround::InitBG(cocos2d::CCNode *layer)
     CCTextureCache::sharedTextureCache()->addPVRImage("CityScape.pvr.ccz");
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("CityScape.plist");
     
-    bool cityObjsLoaded = ScreenHelper::AddOBBSpriteToCache("CityBG02.png","CityBG02.plist");
-    bool balloonObjsLoaded = ScreenHelper::AddOBBSpriteToCache("cityBallon.png","cityBallon.plist");
+    bool cityObjsLoaded = true;
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("CityBG02.plist","CityBG02.png");
+
+    bool balloonObjsLoaded = true;
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("cityBallon.plist","cityBallon.png");
     
     CCSize s = CCDirector::sharedDirector()->getWinSize();
     
@@ -63,7 +66,7 @@ void CityBackGround::InitBG(cocos2d::CCNode *layer)
             sprite = CCSprite::createWithSpriteFrameName(name);
             sprite->setScale(scale);
             m_Parallax2Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 512.0f*i, 123.0f);
-            pNode->addChild(sprite,0,CCPointMake(0.90f,0.0f),m_Parallax2Points[i]);
+            pNode->addChild(sprite,0,CCPointMake(0.91f,0.0f),m_Parallax2Points[i]);
             m_Parallax2->addObject(sprite);
             
             sprintf(name,"ctm_Balloon__%02d.png",(RandomInt(1, 22)));

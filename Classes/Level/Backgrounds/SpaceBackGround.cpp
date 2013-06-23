@@ -30,7 +30,8 @@ void SpaceBackGround::InitBG(cocos2d::CCNode *layer)
     //Adding some comments to test out a git pull request
     //
     //
-    bool nasaObjsLoaded = ScreenHelper::AddOBBSpriteToCache("spaceBG.png","spaceBG.plist");
+    bool nasaObjsLoaded = true;
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("spaceBG.plist","spaceBG.png");
     
     float scale = ScreenHelper::getTextureScale();
     float scaleX = ScreenHelper::getTextureScaleX();

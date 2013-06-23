@@ -116,10 +116,11 @@ HUD::HUD()
             CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("Hints.plist");
             CCSprite *hintsprite = CCSprite::createWithSpriteFrameName("Hints_EarnMedals_Tiki.png");
             hintsprite->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER));
-            hintsprite->setScale(ScreenHelper::getTextureScale());
+            hintsprite->setScale(ScreenHelper::getTextureScale()*320.0f/200.0f);
+            
             addChild(hintsprite,10);
             hintsprite->runAction(CCSequence::create(CCDelayTime::create(5.0f),CCCallFuncN::create(hintsprite, callfuncN_selector(CCNode::removeFromParentAndCleanup)),NULL));
-            //SaveLoad::m_SaveData.levelflags[currentLevel] |= SaveLoad::HINT_DISPLAY;
+            SaveLoad::m_SaveData.levelflags[currentLevel] |= SaveLoad::HINT_DISPLAY;
         }
         if(currentLevel==16 && !(SaveLoad::m_SaveData.levelflags[currentLevel] & SaveLoad::HINT_DISPLAY))
         {
@@ -127,10 +128,10 @@ HUD::HUD()
             CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("Hints.plist");
             CCSprite *hintsprite = CCSprite::createWithSpriteFrameName("Hints_EarnMedals_City.png");
             hintsprite->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER));
-            hintsprite->setScale(ScreenHelper::getTextureScale());
+            hintsprite->setScale(ScreenHelper::getTextureScale()*320.0f/200.0f);
             addChild(hintsprite,10);
             hintsprite->runAction(CCSequence::create(CCDelayTime::create(5.0f),CCCallFuncN::create(hintsprite, callfuncN_selector(CCNode::removeFromParentAndCleanup)),NULL));
-            //SaveLoad::m_SaveData.levelflags[currentLevel] |= SaveLoad::HINT_DISPLAY;
+            SaveLoad::m_SaveData.levelflags[currentLevel] |= SaveLoad::HINT_DISPLAY;
         }
     }
     
@@ -209,10 +210,11 @@ HUD::HUD()
     sprintf(timeChar,"%.2f",m_Time);
     m_TimeString = CCLabelBMFont::create(timeChar,"JacobyICGBlack18pnt.fnt",70,kCCTextAlignmentLeft);
     m_TimeString->setScale(scale);
-    m_TimeString->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_LEFT, 125, -20.0f));
+    m_TimeString->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_LEFT, 100, -20.0f));
     if(g_SlowClock)
         m_TimeString->setColor(ccc3(190,240,190));
     addChild(m_TimeString);
+    m_TimeString->setAnchorPoint(ccp(0.0f,0.5f));
     
     
     
@@ -225,9 +227,9 @@ HUD::HUD()
     sprintf(nutChar,"%d",Rider::g_Pickups);
     m_PeanutString = CCLabelBMFont::create(nutChar,"JacobyICGBlack18pnt.fnt",70,kCCTextAlignmentLeft);
     m_PeanutString->setScale(scale);
-    m_PeanutString->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER, 35, -20.0f));
+    m_PeanutString->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER, 30, -20.0f));
     addChild(m_PeanutString);
-    
+    m_PeanutString->setAnchorPoint(ccp(0.0f,0.5f));
     
     
     CCLabelBMFont *points = CCLabelBMFont::create("Points:","JacobyICGBlack18pnt.fnt");
@@ -239,8 +241,9 @@ HUD::HUD()
     sprintf(pointChar,"%d",Rider::g_Score);
     m_PointString = CCLabelBMFont::create(pointChar,"JacobyICGBlack18pnt.fnt",70,kCCTextAlignmentLeft);
     m_PointString->setScale(scale);
-    m_PointString->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_RIGHT, -85, -20.0f));
+    m_PointString->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_RIGHT, -90, -20.0f));
     addChild(m_PointString);
+    m_PointString->setAnchorPoint(ccp(0.0f,0.5f));
     
     if(currentLevel < 3)
     {
@@ -344,14 +347,17 @@ void HUD::update(float dt)
         char timeChar[16];
         sprintf(timeChar,"%.2f",m_Time);
         m_TimeString->setString(timeChar,true);
+        m_TimeString->setAnchorPoint(ccp(0.0f,0.5f));
     }
     char nutChar[16];
     sprintf(nutChar,"%d",Rider::g_Pickups);
     m_PeanutString->setString(nutChar,true);
+    m_PeanutString->setAnchorPoint(ccp(0.0f,0.5f));
     
     char pointChar[16];
     sprintf(pointChar,"%d",Rider::g_Score);
     m_PointString->setString(pointChar,true);
+    m_PointString->setAnchorPoint(ccp(0.0f,0.5f));
 }
 
 void HUD::pauseButtonTapped(CCObject*object)

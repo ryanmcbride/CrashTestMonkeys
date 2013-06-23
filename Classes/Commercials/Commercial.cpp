@@ -9,11 +9,13 @@
 #include "SimpleAudioEngine.h"
 #include "../ScreenHelper.h"
 #include "../FrontEnd/Loading.h"
+#include "../FrontEnd/SaveLoad.h"
 
 #include "BoredRoom.h"
 #include "CarCrash.h"
 #include "CNN.h"
 #include "McAcme.h"
+#include "KenHint.h"
 
 using namespace cocos2d;
 using namespace CocosDenshion;
@@ -46,7 +48,8 @@ CCScene* Commercial::scene()
     
     // add layer as a child to scene
     CCLayer* layer = NULL;
-    int random = CCRANDOM_0_1()*4.0f;
+    bool can_show_ken_hint = (SaveLoad::m_SaveData.medalLockLevel==0 && SaveLoad::m_SaveData.currentLevel < 24);
+    int random = CCRANDOM_0_1()*(can_show_ken_hint?5.0f:4.0f);
     switch(random)
     {
     default:
@@ -61,6 +64,9 @@ CCScene* Commercial::scene()
         break;
     case 3:
         layer = new CarCrash();
+        break;
+    case 4:
+        layer = new KenHint();
         break;
     }
     scene->addChild(layer);

@@ -35,8 +35,14 @@ void TikiBackGround::InitBG(cocos2d::CCNode *layer)
     sprite->setScaleX(s.width/940.0f);
     sprite->setScaleY(s.width/940.0f);
     pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,40.0f));
-    bool tikiObjsLoaded = ScreenHelper::AddOBBSpriteToCache("TikiObjs.png","TikiObjs.plist");
-    bool tikiListLoaded = ScreenHelper::AddOBBSpriteToCache("Tiki.png","Tiki.plist");
+    bool tikiObjsLoaded = true;
+    CCTextureCache::sharedTextureCache()->addImage("TikiObjs.png");
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("TikiObjs.plist");
+    
+    bool tikiListLoaded = true;
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("Tiki.plist","Tiki.png");
+    
+    
     if(tikiListLoaded)
     {
         char name[64];

@@ -202,6 +202,7 @@ bool Swing::HandleBeginContact(b2Fixture *fixtureA,b2Fixture *fixtureB)
                 char tempName[64];
                 sprintf(tempName,"ctm_impact_%04d.png",i);
                 CCSprite *pop = CCSprite::createWithSpriteFrameName(tempName);
+                pop->setScale(ScreenHelper::getTextureScale());
                 m_ccLayer->addChild(pop,3);
                 
                 pop->setPosition(ccp(m_EndPosition.x,m_EndPosition.y));

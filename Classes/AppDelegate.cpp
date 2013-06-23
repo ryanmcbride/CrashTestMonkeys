@@ -36,7 +36,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     pDirector->setOpenGLView(CCEGLView::sharedOpenGLView());
 
     // turn on display FPS
-    pDirector->setDisplayStats(true);
+    pDirector->setDisplayStats(false);
     pDirector->setDepthTest(false);
     pDirector->setAlphaBlending(false);
 

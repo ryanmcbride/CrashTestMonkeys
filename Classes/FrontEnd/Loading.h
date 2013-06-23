@@ -29,6 +29,8 @@ public:
     
     void update(float dt);
 private:
+    void showHiScore();
+    void buildTextArea();
     float m_TimeOut;
     cocos2d::CCNode *loadingBar;
 };

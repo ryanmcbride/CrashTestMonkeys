@@ -63,11 +63,11 @@ void SaveLoad::Load()
         m_SaveData.levelflags[NIGHT_LEVELSTART] |= UNLOCKED;
         m_SaveData.levelflags[SPACE_LEVELSTART] |= UNLOCKED;
         
-        for(int i = TUTORIAL_LEVELSTART; i < SPACE_LEVELSTART+8; i++)
+        /*for(int i = TUTORIAL_LEVELSTART; i < SPACE_LEVELSTART+8; i++)
         {
             m_SaveData.levelflags[i] |= UNLOCKED;
             m_SaveData.levelflags[i] |= ONE_COCONUT;
-        }
+        }*/
         
         m_SaveData.musicVolume = 1.0f;
         m_SaveData.sfxVolume = 1.0f;

@@ -30,9 +30,17 @@ Loading::Loading()
     glClearColor(0.0f/255.0f, 0.0f/255.0f, 0.0f/255.0f, 1.0f);
     setTouchEnabled( true );
 
+    g_TutorialState = 0;
+
     float scale = ScreenHelper::getTextureScale();
     float scaleX = ScreenHelper::getTextureScaleX();
     float scaleY = ScreenHelper::getTextureScaleY();
+    
+    int currentLevel = LevelSelect::getCurrentLevel();
+    if(currentLevel >= BONUS_LEVELSTART)
+        g_isTrickLevel = true;
+    else
+        g_isTrickLevel = false;
     
     CCTextureCache::sharedTextureCache()->addPVRImage("ctm_Buttons.pvr.ccz");
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("ctm_Buttons.plist");
@@ -72,21 +80,94 @@ Loading::Loading()
     sprite->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER));
     addChild(sprite,2);
     
-    sprite = CCSprite::createWithSpriteFrameName("BackgroundPlate.png");
-    sprite->setScale(scale);
-    scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-    scalePoint.x += -135.0f*scale;
-    scalePoint.y += -97.0f*scale;
-    sprite->setPosition(scalePoint);
-    addChild(sprite,2);
-    
-    sprite = CCSprite::createWithSpriteFrameName("BronzeText.png");
-    sprite->setScale(scale);
-    scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-    scalePoint.x += -135.0f*scale;
-    scalePoint.y += -97.0f*scale;
-    sprite->setPosition(scalePoint);
-    addChild(sprite,2);
+    if(!g_isTrickLevel)
+    {
+        sprite = CCSprite::createWithSpriteFrameName("BackgroundPlate.png");
+        sprite->setScale(scale);
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += -135.0f*scale;
+        scalePoint.y += -97.0f*scale;
+        sprite->setPosition(scalePoint);
+        addChild(sprite,2);
+        
+        if(SaveLoad::m_SaveData.medalLockLevel==0)
+            sprite = CCSprite::createWithSpriteFrameName("BronzeText.png");
+        else if(SaveLoad::m_SaveData.medalLockLevel==1)
+            sprite = CCSprite::createWithSpriteFrameName("SilverText.png");
+        else
+            sprite = CCSprite::createWithSpriteFrameName("GoldText.png");
+        
+        
+        sprite->setScale(scale);
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += -135.0f*scale;
+        scalePoint.y += -97.0f*scale;
+        sprite->setPosition(scalePoint);
+        addChild(sprite,2);
+    }
+    else
+    {
+        sprite = CCSprite::createWithSpriteFrameName("ctm_BonusLevel_MedalOverlay.png");
+        sprite->setScale(scale);
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += -135.0f*scale;
+        scalePoint.y += -97.0f*scale;
+        sprite->setPosition(scalePoint);
+        addChild(sprite,2);
+        
+        CCLabelTTF *templabel = CCLabelTTF::create("Hi Score:", "Jacoby ICG Black.ttf", 21*scale);
+        addChild(templabel, 2);
+        templabel->setColor(ccc3(237,188,0));
+        scalePoint.y += 25.0f*scale;
+        scalePoint.x += -75.0f*scale;
+        templabel->setPosition(scalePoint);
+        templabel->setAnchorPoint(ccp(0.0f,0.5f));
+
+        char temp[128];
+        sprintf(temp,"%lld",SaveLoad::m_SaveData.trickHiScore);
+        templabel = CCLabelTTF::create(temp, "Jacoby ICG Black.ttf", 21*scale);
+        addChild(templabel, 2);
+        templabel->setColor(ccc3(230,230,230));
+        scalePoint.y += -25.0f*scale;
+        scalePoint.x += 75.0f*scale;
+        templabel->setPosition(scalePoint);
+        templabel->setAnchorPoint(ccp(0.5f,0.5f));
+        
+        
+        scalePoint.y += 25.0f*scale;
+        scalePoint.x += -75.0f*scale;
+
+        CCSize dim;
+        dim.width = 160.0f*scaleX;
+        dim.height = 200.0f*scaleY;
+
+        int seconds = 45;
+        switch(currentLevel)
+        {
+            default:
+            case BONUS_LEVELSTART:
+                seconds = 45;
+                break;
+            case BONUS_LEVELSTART+1:
+                seconds = 60;
+                break;
+            case BONUS_LEVELSTART+2:
+                seconds = 75;
+                break;
+            case BONUS_LEVELSTART+3:
+                seconds = 90;
+                break;
+        }
+        sprintf(temp,"You Have %d Seconds to Score the Most Trick Points!",seconds);
+        templabel = CCLabelTTF::create(temp, "Jacoby ICG Black.ttf", 22*scale, dim, kCCTextAlignmentCenter);
+        addChild(templabel, 2);
+        templabel->setColor(ccc3(230,230,230));
+        scalePoint.y += 35.0f*scaleY;
+        scalePoint.x += -5.0f*scaleX;
+        templabel->setPosition(scalePoint);
+        templabel->setAnchorPoint(ccp(0.0f,0.5f));
+
+    }
     
     CCLabelTTF *label = CCLabelTTF::create(LevelSelect::getLevelName(), "impact.ttf", 42*scale);
     addChild(label, 2);
@@ -98,113 +179,12 @@ Loading::Loading()
     label->setColor(ccc3(237,188,0));
     label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER,0.0f,-42.0f));
     
-    int currentLevel = LevelSelect::getCurrentLevel();
-    if(currentLevel >= BONUS_LEVELSTART)
-        g_isTrickLevel = true;
+    
+    
+    if(g_isTrickLevel)
+        showHiScore();
     else
-        g_isTrickLevel = false;
-    
-    
-    int medalLevel = SaveLoad::m_SaveData.medalLockLevel;
-    int showMedal = 0;
-    if(medalLevel==0)
-    {
-        if(SaveLoad::m_SaveData.levelflags[currentLevel] & SaveLoad::ONE_COCONUT)
-            showMedal = 1;
-    }
-    if(medalLevel==1)
-    {
-        if(SaveLoad::m_SaveData.levelflags[currentLevel] & SaveLoad::TWO_COCONUT)
-            showMedal = 2;
-    }
-    if(medalLevel==2)
-    {
-        if(SaveLoad::m_SaveData.levelflags[currentLevel] & SaveLoad::THREE_COCONUT)
-            showMedal = 3;
-    }
-    
-    if(!showMedal)
-    {
-        CCSize dimensions;
-        dimensions.width = 100*scale;
-        dimensions.height  = 25*scale;
-        label = CCLabelTTF::create("Time:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
-        addChild(label, 2);
-        label->setColor(ccc3(237,188,0));
-
-        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-        scalePoint.x += (-240.0f+90.0f)*scale;
-        scalePoint.y += 50.0f*scale;
-        label->setPosition(scalePoint);
-        
-        char tempLabelStr[32];
-        sprintf(tempLabelStr,"%.2f",LevelSelect::getLevelGoals()->time);
-        label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
-        addChild(label, 2);
-        label->setColor(ccc3(255,255,255));
-        
-        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-        scalePoint.x += (-240.0f+150.0f)*scale;
-        scalePoint.y += 50.0f*scale;
-        label->setPosition(scalePoint);
-                
-        label = CCLabelTTF::create("Peanuts:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
-        addChild(label, 2);
-        label->setColor(ccc3(237,188,0));
-        
-        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-        scalePoint.x += (-240.0f+90.0f)*scale;
-        scalePoint.y += 20.0f*scale;
-        label->setPosition(scalePoint);
-        
-        sprintf(tempLabelStr,"%d",LevelSelect::getLevelGoals()->peanuts);
-        label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
-        addChild(label, 2);
-        label->setColor(ccc3(255,255,255));
-        
-        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-        scalePoint.x += (-240.0f+170.0f)*scale;
-        scalePoint.y += 20.0f*scale;
-        label->setPosition(scalePoint);
-        
-        label = CCLabelTTF::create("Points:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
-        addChild(label, 2);
-        label->setColor(ccc3(237,188,0));
-        
-        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-        scalePoint.x += (-240.0f+90.0f)*scale;
-        scalePoint.y += -10.0f*scale;
-        label->setPosition(scalePoint);
-        
-        sprintf(tempLabelStr,"%d",LevelSelect::getLevelGoals()->points);
-        label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
-        addChild(label, 2);
-        label->setColor(ccc3(255,255,255));
-
-        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-        scalePoint.x += (-240.0f+160.0f)*scale;
-        scalePoint.y += -10.0f*scale;
-        label->setPosition(scalePoint);        
-    }
-    else
-    {
-        CCTextureCache::sharedTextureCache()->addPVRImage("LoadingScreen2.pvr.ccz");
-        CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("LoadingScreen2.plist");
-
-        if(showMedal == 1)
-            sprite = CCSprite::createWithSpriteFrameName("ctm_BronzeMedalBig.png");
-        if(showMedal == 2)
-            sprite = CCSprite::createWithSpriteFrameName("ctm_SilverMedalBig.png");
-        if(showMedal == 3)
-            sprite = CCSprite::createWithSpriteFrameName("ctm_Loading_LargeGold.png");
-        
-        sprite->setScale(scale);
-        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-        scalePoint.x += -135.0f*scale;
-        scalePoint.y += 5.0f*scale;
-        sprite->setPosition(scalePoint);
-        addChild(sprite,2);
-    }
+        buildTextArea();
     
     CCMenuItem *StoreButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ctm_Button_17.png"), CCSprite::createWithSpriteFrameName("ctm_Button_17_Down.png"), this, menu_selector(Loading::storeButtonTapped));
     StoreButton->setScale(scale);
@@ -321,6 +301,118 @@ Loading::Loading()
     m_TimeOut = 3.0f;
     scheduleUpdate();
 }
+void Loading::showHiScore()
+{
+}
+void Loading::buildTextArea()
+{
+    float scale = ScreenHelper::getTextureScale();
+
+    CCPoint scalePoint;
+    int currentLevel = LevelSelect::getCurrentLevel();
+    int medalLevel = SaveLoad::m_SaveData.medalLockLevel;
+    int showMedal = 0;
+    if(medalLevel==0)
+    {
+        if(SaveLoad::m_SaveData.levelflags[currentLevel] & SaveLoad::ONE_COCONUT)
+            showMedal = 1;
+    }
+    if(medalLevel==1)
+    {
+        if(SaveLoad::m_SaveData.levelflags[currentLevel] & SaveLoad::TWO_COCONUT)
+            showMedal = 2;
+    }
+    if(medalLevel==2)
+    {
+        if(SaveLoad::m_SaveData.levelflags[currentLevel] & SaveLoad::THREE_COCONUT)
+            showMedal = 3;
+    }
+    
+    if(!showMedal)
+    {
+        CCSize dimensions;
+        dimensions.width = 100*scale;
+        dimensions.height  = 25*scale;
+        CCLabelTTF* label = CCLabelTTF::create("Time:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
+        addChild(label, 2);
+        label->setColor(ccc3(237,188,0));
+        
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += (-240.0f+90.0f)*scale;
+        scalePoint.y += 50.0f*scale;
+        label->setPosition(scalePoint);
+        
+        char tempLabelStr[32];
+        sprintf(tempLabelStr,"%.2f",LevelSelect::getLevelGoals()->time);
+        label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
+        addChild(label, 2);
+        label->setColor(ccc3(255,255,255));
+        
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += (-240.0f+150.0f)*scale;
+        scalePoint.y += 50.0f*scale;
+        label->setPosition(scalePoint);
+        
+        label = CCLabelTTF::create("Peanuts:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
+        addChild(label, 2);
+        label->setColor(ccc3(237,188,0));
+        
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += (-240.0f+90.0f)*scale;
+        scalePoint.y += 20.0f*scale;
+        label->setPosition(scalePoint);
+        
+        sprintf(tempLabelStr,"%d",LevelSelect::getLevelGoals()->peanuts);
+        label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
+        addChild(label, 2);
+        label->setColor(ccc3(255,255,255));
+        
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += (-240.0f+180.0f)*scale;
+        scalePoint.y += 20.0f*scale;
+        label->setPosition(scalePoint);
+        
+        label = CCLabelTTF::create("Points:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
+        addChild(label, 2);
+        label->setColor(ccc3(237,188,0));
+        
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += (-240.0f+90.0f)*scale;
+        scalePoint.y += -10.0f*scale;
+        label->setPosition(scalePoint);
+        
+        sprintf(tempLabelStr,"%d",LevelSelect::getLevelGoals()->points);
+        label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
+        addChild(label, 2);
+        label->setColor(ccc3(255,255,255));
+        
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += (-240.0f+160.0f)*scale;
+        scalePoint.y += -10.0f*scale;
+        label->setPosition(scalePoint);
+    }
+    else
+    {
+        CCTextureCache::sharedTextureCache()->addPVRImage("LoadingScreen2.pvr.ccz");
+        CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("LoadingScreen2.plist");
+        CCSprite *sprite = NULL;
+        if(showMedal == 1)
+            sprite = CCSprite::createWithSpriteFrameName("ctm_BronzeMedalBig.png");
+        if(showMedal == 2)
+            sprite = CCSprite::createWithSpriteFrameName("ctm_SilverMedalBig.png");
+        if(showMedal == 3)
+            sprite = CCSprite::createWithSpriteFrameName("ctm_Loading_LargeGold.png");
+        
+        sprite->setScale(scale);
+        scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
+        scalePoint.x += -135.0f*scale;
+        scalePoint.y += 5.0f*scale;
+        sprite->setPosition(scalePoint);
+        addChild(sprite,2);
+    }
+
+}
+
 void Loading::backButtonTapped(CCObject*object)
 {
     AudioManager::PlayEffect(AUDIO_SELECT);
@@ -662,7 +754,6 @@ public:
     }
     virtual ~TutorialLoading()
     {
-        
     }
     virtual void update(float dt)
     {

@@ -213,7 +213,6 @@
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/TikiBackGround.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/TutorialBackGround.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/CrashOverlay.o
-/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/FinishOverlay.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/HUD.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/Level.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/LevelContactListener.o
@@ -266,3 +265,5 @@
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/ScreenHelper.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/LocalStorage.o
 /Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/LocalStorageAndroid.o
+/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/FinishOverlay.o
+/Users/administrator/Desktop/depot/CrashTestMonkeys/proj.ios/DerivedData/CrashTestMonkeys/Build/Intermediates/CrashTestMonkeys.build/Debug-iphonesimulator/CrashTestMonkeys.build/Objects-normal/i386/KenHint.o

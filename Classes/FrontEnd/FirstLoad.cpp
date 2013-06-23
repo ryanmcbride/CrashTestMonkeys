@@ -70,7 +70,6 @@ void FirstLoad::update(float dt)
     
     CCTextureCache::sharedTextureCache()->addImage("ctm_Rider-hd.pvr.ccz");
     CCTextureCache::sharedTextureCache()->addImage("ctm_StartScreen.pvr.ccz");
-    ScreenHelper::AddOBBSpriteToCache("TikiObjs.png","TikiObjs.plist");
     CCTextureCache::sharedTextureCache()->addImage("LevelSelectIcon.pvr.ccz");
     CCTextureCache::sharedTextureCache()->addImage("LevelSelect.pvr.ccz");
     CCTextureCache::sharedTextureCache()->addImage("ctm_Icons.pvr.ccz");
