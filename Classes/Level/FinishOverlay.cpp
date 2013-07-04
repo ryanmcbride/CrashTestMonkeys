@@ -13,6 +13,7 @@
 #include "../AudioManager.h"
 #include "../FrontEnd/Achievements.h"
 #include "../FrontEnd/LevelSelect.h"
+#include "../FrontEnd/RegionSelect.h"
 #include "../FrontEnd/Pause.h"
 #include "../FrontEnd/Loading.h"
 #include "../Commercials/Commercial.h"
@@ -551,7 +552,7 @@ bool FinishOverlay::Medal(float startTime)
             
             label = CCLabelTTF::create(messageStr, "impact.ttf", 24*scale);
             addChild(label, 2);
-            label->setColor(ccc3(255,255,255));
+            label->setColor(ccc3(237,188,0));
             label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,0.0f));
             
             label->setOpacity(0);
@@ -811,7 +812,10 @@ void FinishOverlay::restartButtonTapped(CCObject*object)
 void FinishOverlay::levelSelectButtonTapped(CCObject*object)
 {
     SimpleAudioEngine::sharedEngine()->playEffect("Select.wav", false);
-    CCDirector::sharedDirector()->replaceScene(LevelSelect::scene());
+    if(LevelSelect::s_LevelID==0)
+        CCDirector::sharedDirector()->replaceScene(RegionSelect::scene());
+    else
+        CCDirector::sharedDirector()->replaceScene(LevelSelect::scene());
 }
 void FinishOverlay::nextLevelButtonTapped(CCObject*object)
 {

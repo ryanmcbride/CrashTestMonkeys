@@ -46,11 +46,13 @@ public:
     
     void backButtonTapped(CCObject*object);
     void levelButtonTapped(CCObject*object);
+    
+    static int s_LevelID;
 protected:
     void addButtonInfo(cocos2d::CCNode *node, REGIONID regionID, int number);
     static int m_LastRegionID;
     static char s_LevelName[64];
-    static int s_LevelID;
+    
     cocos2d::CCObject *m_Buttons[8];
 };
 

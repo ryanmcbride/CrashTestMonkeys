@@ -613,7 +613,7 @@ void DirtBike::Step(int loop)
 		m_bIsUpsideDown = false;
 	}
 	
-	if(wasUpSideDown && !m_bIsUpsideDown)
+	if(m_bInAir && wasUpSideDown && !m_bIsUpsideDown)
 	{
 		m_flipcount++;
         Rider::g_ScoreManager->SetFlips(m_flipcount);

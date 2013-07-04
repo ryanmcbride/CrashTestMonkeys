@@ -58,7 +58,7 @@ void SaveLoad::Load()
         m_SaveData.bikes[0] |= UNLOCKED;
         m_SaveData.bikes[0] |= SELECTED;
         m_SaveData.levelflags[TUTORIAL_LEVELSTART] |= UNLOCKED;
-        //m_SaveData.levelflags[ISLAND_LEVELSTART] |= UNLOCKED;
+        m_SaveData.levelflags[ISLAND_LEVELSTART] |= UNLOCKED;
         m_SaveData.levelflags[CITY_LEVELSTART] |= UNLOCKED;
         m_SaveData.levelflags[NIGHT_LEVELSTART] |= UNLOCKED;
         m_SaveData.levelflags[SPACE_LEVELSTART] |= UNLOCKED;

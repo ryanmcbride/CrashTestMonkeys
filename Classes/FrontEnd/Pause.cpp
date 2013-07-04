@@ -8,6 +8,7 @@
 #include "Pause.h"
 #include "SimpleAudioEngine.h"
 #include "LevelSelect.h"
+#include "RegionSelect.h"
 #include "ScreenHelper.h"
 #include "../Level/Level.h"
 #include "Loading.h"
@@ -74,7 +75,10 @@ void Pause::levelButtonTapped(CCObject*object)
 {
     SimpleAudioEngine::sharedEngine()->playEffect("Select.wav", false);
     s_bIsPaused = false;
-    CCDirector::sharedDirector()->replaceScene(LevelSelect::scene());
+    if(LevelSelect::s_LevelID==0)
+        CCDirector::sharedDirector()->replaceScene(RegionSelect::scene());
+    else
+        CCDirector::sharedDirector()->replaceScene(LevelSelect::scene());
 }
 
 void Pause::PauseEndAnim()

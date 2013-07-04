@@ -13,6 +13,7 @@
 #include "CCScrollingMenu.h"
 #include "LevelSelect.h"
 #include "SaveLoad.h"
+#include "Loading.h"
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 #include "../platform/android/jni/JniHelper.h"
@@ -301,7 +302,9 @@ void RegionSelect::oneBananaButtonTapped(CCObject*object)
 void RegionSelect::TutorialButtonTapped(CCObject*object)
 {
     SimpleAudioEngine::sharedEngine()->playEffect("Select.wav", false);
-    CCDirector::sharedDirector()->replaceScene(LevelSelect::scene(LevelSelect::REGION_TUTORIAL));
+    //CCDirector::sharedDirector()->replaceScene(LevelSelect::scene(LevelSelect::REGION_TUTORIAL));
+    LevelSelect::s_LevelID = 0;
+    CCDirector::sharedDirector()->replaceScene(Loading::scene());
 }
 void RegionSelect::TikiButtonTapped(CCObject*object)
 {

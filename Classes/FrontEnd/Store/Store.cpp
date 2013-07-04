@@ -1037,13 +1037,14 @@ void Store::powerupButtonTapped(CCObject*object)
             CCSize dim;
             dim.width = 200.0f;
             dim.height = 25.0f;
-            m_PowerUpNames[i]->removeFromParentAndCleanup(true);
 
             if(i==0)
             {
                 //fire
                 if(SaveLoad::m_SaveData.currency >= s_PowerUpItemCost[i])
                 {
+                    m_PowerUpNames[i]->removeFromParentAndCleanup(true);
+
                     SaveLoad::m_SaveData.numLevelFire++;
                     SaveLoad::m_SaveData.currency -= s_PowerUpItemCost[i];
                     
@@ -1067,6 +1068,8 @@ void Store::powerupButtonTapped(CCObject*object)
                 //slow clock
                 if(SaveLoad::m_SaveData.currency >= s_PowerUpItemCost[i])
                 {
+                    m_PowerUpNames[i]->removeFromParentAndCleanup(true);
+
                     SaveLoad::m_SaveData.numTimeSlow++;
                     SaveLoad::m_SaveData.currency -= s_PowerUpItemCost[i];
                     
@@ -1092,6 +1095,8 @@ void Store::powerupButtonTapped(CCObject*object)
                 //peanuts
                 if(SaveLoad::m_SaveData.currency >= s_PowerUpItemCost[i])
                 {
+                    m_PowerUpNames[i]->removeFromParentAndCleanup(true);
+
                     SaveLoad::m_SaveData.numDoubleNuts++;
                     SaveLoad::m_SaveData.currency -= s_PowerUpItemCost[i];
                     

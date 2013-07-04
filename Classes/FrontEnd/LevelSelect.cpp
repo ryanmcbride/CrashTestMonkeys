@@ -71,7 +71,7 @@ void LevelSelect::Init(REGIONID regionID)
     {
         case REGION_TUTORIAL:
             name = "TUTORIAL";
-            levels = 6;
+            levels = 1;
             icons[0] = "TutorialIcon_1.png";
             icons[1] = "TutorialIcon_2.png";
             break;
@@ -124,7 +124,7 @@ void LevelSelect::Init(REGIONID regionID)
     label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER,0.0f,-50.0f));
     
     int i;
-    if(levels==6)//tutorial
+    if(levels==1)//tutorial
     {
         for(i = 0; i < levels; i++)
         {
@@ -132,8 +132,8 @@ void LevelSelect::Init(REGIONID regionID)
             CCMenuItem *LevelButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName(icons[i%2==mod]), CCSprite::createWithSpriteFrameName(icons[i%2==mod]), this, menu_selector(LevelSelect::levelButtonTapped));
             LevelButton->setScale(scale*0.8f);
             CCPoint p;
-            p.x = -100 + 100 * (i>=(levels/2)?(i-levels/2):i);
-            p.y = -30+(i>=(levels/2)?-50:50);
+            p.x = 0;
+            p.y = -30;
             LevelButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,p.x,p.y));
             addButtonInfo(LevelButton, regionID, i);
             menu->addChild(LevelButton);

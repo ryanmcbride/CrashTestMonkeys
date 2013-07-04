@@ -295,7 +295,6 @@
 		C3CFAED9177779A2004D5437 /* cityBallon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED4177779A2004D5437 /* cityBallon.png */; };
 		C3CFAEDA177779A2004D5437 /* CityBG02.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED5177779A2004D5437 /* CityBG02.png */; };
 		C3CFAEDB177779A2004D5437 /* spaceBG.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED6177779A2004D5437 /* spaceBG.png */; };
-		C3CFAEDC177779A2004D5437 /* Tiki.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED7177779A2004D5437 /* Tiki.png */; };
 		C3CFAEDD177779A2004D5437 /* TikiObjs.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED8177779A2004D5437 /* TikiObjs.png */; };
 		C3CFAEDF17777B98004D5437 /* TikiObjs.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEDE17777B98004D5437 /* TikiObjs.plist */; };
 		C3CFAEE217778119004D5437 /* CityBG02_Blue.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */; };
@@ -303,6 +302,15 @@
 		C3CFAEE5177784DB004D5437 /* FinishOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CFAEE4177784DB004D5437 /* FinishOverlay.cpp */; };
 		C3CFAEE81777A6F3004D5437 /* redbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEE71777A6F3004D5437 /* redbutton.png */; };
 		C3CFAEEC1777AC9C004D5437 /* KenHint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CFAEEA1777AC9C004D5437 /* KenHint.cpp */; };
+		C3CFAEF6177A9422004D5437 /* Hints_0000.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEEF177A9422004D5437 /* Hints_0000.png */; };
+		C3CFAEF7177A9422004D5437 /* Hints_0001.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEF0177A9422004D5437 /* Hints_0001.png */; };
+		C3CFAEF8177A9422004D5437 /* Hints_0002.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEF1177A9422004D5437 /* Hints_0002.png */; };
+		C3CFAEF9177A9422004D5437 /* Hints_0003.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEF2177A9422004D5437 /* Hints_0003.png */; };
+		C3CFAEFA177A9422004D5437 /* Hints_0004.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEF3177A9422004D5437 /* Hints_0004.png */; };
+		C3CFAEFB177A9422004D5437 /* Hints_0005.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEF4177A9422004D5437 /* Hints_0005.png */; };
+		C3CFAEFC177A9422004D5437 /* Hints_0006.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEF5177A9422004D5437 /* Hints_0006.png */; };
+		C3CFAEFF177BCF6A004D5437 /* Tiki.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEFD177BCF69004D5437 /* Tiki.plist */; };
+		C3CFAF00177BCF6A004D5437 /* Tiki.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEFE177BCF69004D5437 /* Tiki.png */; };
 		C3F5C84517756CCF0061B578 /* LocalStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3F5C84217756CCF0061B578 /* LocalStorage.cpp */; };
 		C3F5CA4F177570840061B578 /* Armadillo_Blue.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C847177570820061B578 /* Armadillo_Blue.plist */; };
 		C3F5CA50177570840061B578 /* Armadillo_Purple.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C848177570820061B578 /* Armadillo_Purple.plist */; };
@@ -730,8 +738,6 @@
 		C3F5CBF6177570840061B578 /* FirstLoad.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C9EF177570830061B578 /* FirstLoad.png */; };
 		C3F5CBF7177570840061B578 /* Marker Felt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C9F1177570830061B578 /* Marker Felt.ttf */; };
 		C3F5CBF8177570840061B578 /* GrayBubbleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C9F2177570830061B578 /* GrayBubbleTexture.png */; };
-		C3F5CBF9177570840061B578 /* Hints.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C9F3177570830061B578 /* Hints.plist */; };
-		C3F5CBFA177570840061B578 /* Hints.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C9F4177570830061B578 /* Hints.pvr.ccz */; };
 		C3F5CBFB177570840061B578 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C9F5177570830061B578 /* Icon-72.png */; };
 		C3F5CBFC177570840061B578 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C9F6177570840061B578 /* Icon-Small-50.png */; };
 		C3F5CBFD177570840061B578 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C9F7177570840061B578 /* Icon-Small.png */; };
@@ -796,7 +802,6 @@
 		C3F5CC39177570840061B578 /* SwingPeanutImpact.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA33177570840061B578 /* SwingPeanutImpact.plist */; };
 		C3F5CC3A177570840061B578 /* TankBubbles.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA34177570840061B578 /* TankBubbles.plist */; };
 		C3F5CC3B177570840061B578 /* TeslaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA35177570840061B578 /* TeslaIcon.png */; };
-		C3F5CC3C177570840061B578 /* Tiki.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA36177570840061B578 /* Tiki.plist */; };
 		C3F5CC3D177570840061B578 /* Tiki1.xml in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA37177570840061B578 /* Tiki1.xml */; };
 		C3F5CC3E177570840061B578 /* Tiki2.xml in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA38177570840061B578 /* Tiki2.xml */; };
 		C3F5CC3F177570840061B578 /* Tiki3.xml in Resources */ = {isa = PBXBuildFile; fileRef = C3F5CA39177570840061B578 /* Tiki3.xml */; };
@@ -1419,7 +1424,6 @@
 		C3CFAED4177779A2004D5437 /* cityBallon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityBallon.png; sourceTree = "<group>"; };
 		C3CFAED5177779A2004D5437 /* CityBG02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityBG02.png; sourceTree = "<group>"; };
 		C3CFAED6177779A2004D5437 /* spaceBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceBG.png; sourceTree = "<group>"; };
-		C3CFAED7177779A2004D5437 /* Tiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiki.png; sourceTree = "<group>"; };
 		C3CFAED8177779A2004D5437 /* TikiObjs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TikiObjs.png; sourceTree = "<group>"; };
 		C3CFAEDE17777B98004D5437 /* TikiObjs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TikiObjs.plist; sourceTree = "<group>"; };
 		C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityBG02_Blue.plist; sourceTree = "<group>"; };
@@ -1428,6 +1432,15 @@
 		C3CFAEE71777A6F3004D5437 /* redbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton.png; sourceTree = "<group>"; };
 		C3CFAEEA1777AC9C004D5437 /* KenHint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KenHint.cpp; sourceTree = "<group>"; };
 		C3CFAEEB1777AC9C004D5437 /* KenHint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenHint.h; sourceTree = "<group>"; };
+		C3CFAEEF177A9422004D5437 /* Hints_0000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0000.png; sourceTree = "<group>"; };
+		C3CFAEF0177A9422004D5437 /* Hints_0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0001.png; sourceTree = "<group>"; };
+		C3CFAEF1177A9422004D5437 /* Hints_0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0002.png; sourceTree = "<group>"; };
+		C3CFAEF2177A9422004D5437 /* Hints_0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0003.png; sourceTree = "<group>"; };
+		C3CFAEF3177A9422004D5437 /* Hints_0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0004.png; sourceTree = "<group>"; };
+		C3CFAEF4177A9422004D5437 /* Hints_0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0005.png; sourceTree = "<group>"; };
+		C3CFAEF5177A9422004D5437 /* Hints_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0006.png; sourceTree = "<group>"; };
+		C3CFAEFD177BCF69004D5437 /* Tiki.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tiki.plist; sourceTree = "<group>"; };
+		C3CFAEFE177BCF69004D5437 /* Tiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiki.png; sourceTree = "<group>"; };
 		C3F5C84217756CCF0061B578 /* LocalStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStorage.cpp; sourceTree = "<group>"; };
 		C3F5C84317756CCF0061B578 /* LocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStorage.h; sourceTree = "<group>"; };
 		C3F5C847177570820061B578 /* Armadillo_Blue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Armadillo_Blue.plist; sourceTree = "<group>"; };
@@ -1856,8 +1869,6 @@
 		C3F5C9EF177570830061B578 /* FirstLoad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FirstLoad.png; sourceTree = "<group>"; };
 		C3F5C9F1177570830061B578 /* Marker Felt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Marker Felt.ttf"; sourceTree = "<group>"; };
 		C3F5C9F2177570830061B578 /* GrayBubbleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayBubbleTexture.png; sourceTree = "<group>"; };
-		C3F5C9F3177570830061B578 /* Hints.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hints.plist; sourceTree = "<group>"; };
-		C3F5C9F4177570830061B578 /* Hints.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hints.pvr.ccz; sourceTree = "<group>"; };
 		C3F5C9F5177570830061B578 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		C3F5C9F6177570840061B578 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		C3F5C9F7177570840061B578 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
@@ -1922,7 +1933,6 @@
 		C3F5CA33177570840061B578 /* SwingPeanutImpact.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SwingPeanutImpact.plist; sourceTree = "<group>"; };
 		C3F5CA34177570840061B578 /* TankBubbles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TankBubbles.plist; sourceTree = "<group>"; };
 		C3F5CA35177570840061B578 /* TeslaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TeslaIcon.png; sourceTree = "<group>"; };
-		C3F5CA36177570840061B578 /* Tiki.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tiki.plist; sourceTree = "<group>"; };
 		C3F5CA37177570840061B578 /* Tiki1.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tiki1.xml; sourceTree = "<group>"; };
 		C3F5CA38177570840061B578 /* Tiki2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tiki2.xml; sourceTree = "<group>"; };
 		C3F5CA39177570840061B578 /* Tiki3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tiki3.xml; sourceTree = "<group>"; };
@@ -2778,6 +2788,15 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C3CFAEFD177BCF69004D5437 /* Tiki.plist */,
+				C3CFAEFE177BCF69004D5437 /* Tiki.png */,
+				C3CFAEEF177A9422004D5437 /* Hints_0000.png */,
+				C3CFAEF0177A9422004D5437 /* Hints_0001.png */,
+				C3CFAEF1177A9422004D5437 /* Hints_0002.png */,
+				C3CFAEF2177A9422004D5437 /* Hints_0003.png */,
+				C3CFAEF3177A9422004D5437 /* Hints_0004.png */,
+				C3CFAEF4177A9422004D5437 /* Hints_0005.png */,
+				C3CFAEF5177A9422004D5437 /* Hints_0006.png */,
 				C3CFAEE71777A6F3004D5437 /* redbutton.png */,
 				C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */,
 				C3CFAEE117778119004D5437 /* CityBG02_Blue.pvr.ccz */,
@@ -2785,7 +2804,6 @@
 				C3CFAED4177779A2004D5437 /* cityBallon.png */,
 				C3CFAED5177779A2004D5437 /* CityBG02.png */,
 				C3CFAED6177779A2004D5437 /* spaceBG.png */,
-				C3CFAED7177779A2004D5437 /* Tiki.png */,
 				C3CFAED8177779A2004D5437 /* TikiObjs.png */,
 				C3F5C847177570820061B578 /* Armadillo_Blue.plist */,
 				C3F5C848177570820061B578 /* Armadillo_Purple.plist */,
@@ -3023,8 +3041,6 @@
 				C3F5C9EF177570830061B578 /* FirstLoad.png */,
 				C3F5C9F0177570830061B578 /* fonts */,
 				C3F5C9F2177570830061B578 /* GrayBubbleTexture.png */,
-				C3F5C9F3177570830061B578 /* Hints.plist */,
-				C3F5C9F4177570830061B578 /* Hints.pvr.ccz */,
 				C3F5C9F5177570830061B578 /* Icon-72.png */,
 				C3F5C9F6177570840061B578 /* Icon-Small-50.png */,
 				C3F5C9F7177570840061B578 /* Icon-Small.png */,
@@ -3089,7 +3105,6 @@
 				C3F5CA33177570840061B578 /* SwingPeanutImpact.plist */,
 				C3F5CA34177570840061B578 /* TankBubbles.plist */,
 				C3F5CA35177570840061B578 /* TeslaIcon.png */,
-				C3F5CA36177570840061B578 /* Tiki.plist */,
 				C3F5CA37177570840061B578 /* Tiki1.xml */,
 				C3F5CA38177570840061B578 /* Tiki2.xml */,
 				C3F5CA39177570840061B578 /* Tiki3.xml */,
@@ -4079,8 +4094,6 @@
 				C3F5CBF6177570840061B578 /* FirstLoad.png in Resources */,
 				C3F5CBF7177570840061B578 /* Marker Felt.ttf in Resources */,
 				C3F5CBF8177570840061B578 /* GrayBubbleTexture.png in Resources */,
-				C3F5CBF9177570840061B578 /* Hints.plist in Resources */,
-				C3F5CBFA177570840061B578 /* Hints.pvr.ccz in Resources */,
 				C3F5CBFB177570840061B578 /* Icon-72.png in Resources */,
 				C3F5CBFC177570840061B578 /* Icon-Small-50.png in Resources */,
 				C3F5CBFD177570840061B578 /* Icon-Small.png in Resources */,
@@ -4145,7 +4158,6 @@
 				C3F5CC39177570840061B578 /* SwingPeanutImpact.plist in Resources */,
 				C3F5CC3A177570840061B578 /* TankBubbles.plist in Resources */,
 				C3F5CC3B177570840061B578 /* TeslaIcon.png in Resources */,
-				C3F5CC3C177570840061B578 /* Tiki.plist in Resources */,
 				C3F5CC3D177570840061B578 /* Tiki1.xml in Resources */,
 				C3F5CC3E177570840061B578 /* Tiki2.xml in Resources */,
 				C3F5CC3F177570840061B578 /* Tiki3.xml in Resources */,
@@ -4172,12 +4184,20 @@
 				C3CFAED9177779A2004D5437 /* cityBallon.png in Resources */,
 				C3CFAEDA177779A2004D5437 /* CityBG02.png in Resources */,
 				C3CFAEDB177779A2004D5437 /* spaceBG.png in Resources */,
-				C3CFAEDC177779A2004D5437 /* Tiki.png in Resources */,
 				C3CFAEDD177779A2004D5437 /* TikiObjs.png in Resources */,
 				C3CFAEDF17777B98004D5437 /* TikiObjs.plist in Resources */,
 				C3CFAEE217778119004D5437 /* CityBG02_Blue.plist in Resources */,
 				C3CFAEE317778119004D5437 /* CityBG02_Blue.pvr.ccz in Resources */,
 				C3CFAEE81777A6F3004D5437 /* redbutton.png in Resources */,
+				C3CFAEF6177A9422004D5437 /* Hints_0000.png in Resources */,
+				C3CFAEF7177A9422004D5437 /* Hints_0001.png in Resources */,
+				C3CFAEF8177A9422004D5437 /* Hints_0002.png in Resources */,
+				C3CFAEF9177A9422004D5437 /* Hints_0003.png in Resources */,
+				C3CFAEFA177A9422004D5437 /* Hints_0004.png in Resources */,
+				C3CFAEFB177A9422004D5437 /* Hints_0005.png in Resources */,
+				C3CFAEFC177A9422004D5437 /* Hints_0006.png in Resources */,
+				C3CFAEFF177BCF6A004D5437 /* Tiki.plist in Resources */,
+				C3CFAF00177BCF6A004D5437 /* Tiki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

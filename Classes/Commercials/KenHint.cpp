@@ -20,32 +20,30 @@ KenHint::KenHint()
     
     float scale = ScreenHelper::getTextureScale();
     
-    CCTextureCache::sharedTextureCache()->addPVRImage("Hints.pvr.ccz");
-    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("Hints.plist");
     CCSprite *hintsprite = NULL;
     int hintnum = CCRANDOM_0_1()*5;
     switch(hintnum)
     {
         default:
         case 0:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_UPGRADE_Armadillo.png");
+            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0000.png");
             break;
         case 1:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_UPGRADE_Flips.png");
+            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0001.png");
             break;
         case 2:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_UPGRADE_TimePickups.png");
+            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0002.png");
             break;
         case 3:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_UPGRADE_Tricks.png");
+            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0003.png");
             break;
         case 4:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_UPGRADE_TurboStrips.png");
+            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0004.png");
             break;
     }
     
     hintsprite->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER));
-    hintsprite->setScale(ScreenHelper::getTextureScale()*320.0f/200.0f);
+    hintsprite->setScale(ScreenHelper::getTextureScale());
     
     addChild(hintsprite);
     

@@ -396,17 +396,16 @@ void CNN::update(float dt)
     Commercial::update(dt);
     float scale = ScreenHelper::getTextureScale();
     
+    if(!bMouthAudio)
+    {
+        //[Options PlayEffect:AUDIO_MONKEY_ANCHOR_1+RandomInt(0,6)];
+        m_mouthAudio = AudioManager::PlayEffect(AUDIO_NEWS_ANCHOR);
+        bMouthAudio = true;
+    }
         mouthIndexTime -= dt;
         talkTime -= dt;
         if(talkTime > 0.0f && mouthIndexTime <= 0.0f)
         {
-            if(!bMouthAudio)
-            {
-                //[Options PlayEffect:AUDIO_MONKEY_ANCHOR_1+RandomInt(0,6)];
-                m_mouthAudio = AudioManager::PlayEffect(AUDIO_NEWS_ANCHOR);
-                bMouthAudio = true;
-            }
-            
             mouthSprite->removeFromParentAndCleanup(true);
             
             int anchorMouthIndex = RandomInt(1,6);

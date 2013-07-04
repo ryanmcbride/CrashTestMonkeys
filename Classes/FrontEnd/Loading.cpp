@@ -24,9 +24,47 @@ extern bool g_SlowClock;
 extern int g_TutorialState;
 bool g_isTrickLevel = false;
 
+class KensBullShitHint1 : public CCLayer
+{
+public:
+    virtual ~KensBullShitHint1()
+    {
+        myparent->addChild(myloadScreen);
+        myloadScreen->release();
+    }
+    KensBullShitHint1(CCLayer *loadScreen, CCNode *parent, bool other=false)
+    {
+        loadScreen->retain();
+        myloadScreen = loadScreen;
+        myparent = parent;
+        
+        if(!other)
+        {
+            CCSprite *hintsprite = CCSprite::create("Hints_0005.png");
+            hintsprite->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER));
+            hintsprite->setScale(ScreenHelper::getTextureScale());
+            
+            addChild(hintsprite,10);
+            hintsprite->runAction(CCSequence::create(CCDelayTime::create(5.0f),CCCallFuncN::create(this, callfuncN_selector(CCNode::removeFromParentAndCleanup)),NULL));
+        }
+        else
+        {
+            CCSprite *hintsprite = CCSprite::create("Hints_0006.png");
+            hintsprite->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER));
+            hintsprite->setScale(ScreenHelper::getTextureScale());
+            addChild(hintsprite,10);
+            hintsprite->runAction(CCSequence::create(CCDelayTime::create(5.0f),CCCallFuncN::create(this, callfuncN_selector(CCNode::removeFromParentAndCleanup)),NULL));
+        }
+    }
+    CCLayer *myloadScreen;
+    CCNode *myparent;
 
+};
 Loading::Loading()
 {
+    g_SlowClock = false;
+    g_PermanentFire = false;
+    g_2XPeanuts = false;
     glClearColor(0.0f/255.0f, 0.0f/255.0f, 0.0f/255.0f, 1.0f);
     setTouchEnabled( true );
 
@@ -91,17 +129,17 @@ Loading::Loading()
         addChild(sprite,2);
         
         if(SaveLoad::m_SaveData.medalLockLevel==0)
-            sprite = CCSprite::createWithSpriteFrameName("BronzeText.png");
+            sprite = CCSprite::createWithSpriteFrameName("LoadScreen_Bronze.png");
         else if(SaveLoad::m_SaveData.medalLockLevel==1)
-            sprite = CCSprite::createWithSpriteFrameName("SilverText.png");
+            sprite = CCSprite::createWithSpriteFrameName("LoadScreen_Silver.png");
         else
-            sprite = CCSprite::createWithSpriteFrameName("GoldText.png");
+            sprite = CCSprite::createWithSpriteFrameName("LoadScreen_Gold.png");
         
         
         sprite->setScale(scale);
         scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
-        scalePoint.x += -135.0f*scale;
-        scalePoint.y += -97.0f*scale;
+        //scalePoint.x += -135.0f*scale;
+        scalePoint.y += -30.0f*scale;
         sprite->setPosition(scalePoint);
         addChild(sprite,2);
     }
@@ -172,12 +210,12 @@ Loading::Loading()
     CCLabelTTF *label = CCLabelTTF::create(LevelSelect::getLevelName(), "impact.ttf", 42*scale);
     addChild(label, 2);
     label->setColor(ccc3(0,0,0));
-    label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER,2.0f,-44.0f));
+    label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER,2.0f,-48.0f));
     
     label = CCLabelTTF::create(LevelSelect::getLevelName(), "impact.ttf", 42*scale);
     addChild(label, 2);
     label->setColor(ccc3(237,188,0));
-    label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER,0.0f,-42.0f));
+    label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER,0.0f,-46.0f));
     
     
     
@@ -189,7 +227,7 @@ Loading::Loading()
     CCMenuItem *StoreButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ctm_Button_17.png"), CCSprite::createWithSpriteFrameName("ctm_Button_17_Down.png"), this, menu_selector(Loading::storeButtonTapped));
     StoreButton->setScale(scale);
     scalePoint = ccp(0,0);
-    scalePoint.x += 85.0f*scale;
+    scalePoint.x += 175.0f*scale;
     scalePoint.y += -100.0f*scale;
     StoreButton->setPosition(scalePoint);
     
@@ -210,9 +248,9 @@ Loading::Loading()
         barImage->setOpacity(0);
         barImageSel->setOpacity(0);
         CCMenuItemSprite *menuImage = CCMenuItemSprite::create(barImage,barImageSel,this,menu_selector(Loading::nutsButtonTapped));
-        CCLabelTTF *blabel = CCLabelTTF::create(" Use 2X Peanuts","Jacoby ICG Black.ttf",18,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *blabel = CCLabelTTF::create("Use 2X Peanuts","Jacoby ICG Black.ttf",18,dim,kCCTextAlignmentLeft);
         blabel->setColor(ccc3(237,188,0));
-        blabel->setPosition(ccp(157.0f,18.0f));
+        blabel->setPosition(ccp(155.0f,18.0f));
         menuImage->addChild(blabel,0,1234);
         items[1] = menuImage;
         CCSprite *sprite = CCSprite::createWithSpriteFrameName("ctm_icon_Store_17_2X-peanuts.png");
@@ -227,6 +265,9 @@ Loading::Loading()
             blabel->setColor(ccc3(237/2,188/2,0));
             sprite->setColor(ccc3(128,128,128));
         }
+        nutImage = sprite;
+        nutLabel = blabel;
+
         
     }
     //if(SaveLoad::m_SaveData.numLevelFire)
@@ -239,9 +280,9 @@ Loading::Loading()
         barImage->setOpacity(0);
         barImageSel->setOpacity(0);
         CCMenuItemSprite *menuImage = CCMenuItemSprite::create(barImage,barImageSel,this,menu_selector(Loading::fireButtonTapped));
-        CCLabelTTF *blabel = CCLabelTTF::create(" Use Permanent Fire","Jacoby ICG Black.ttf",18,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *blabel = CCLabelTTF::create("Use Permanent Fire","Jacoby ICG Black.ttf",18,dim,kCCTextAlignmentLeft);
         blabel->setColor(ccc3(237,188,0));
-        blabel->setPosition(ccp(157.0f,18.0f));
+        blabel->setPosition(ccp(155.0f,18.0f));
         menuImage->addChild(blabel,0,1234);
         items[2] = menuImage;
         CCSprite *sprite = CCSprite::createWithSpriteFrameName("ctm_icon_Store_18_Fire.png");
@@ -256,6 +297,9 @@ Loading::Loading()
             blabel->setColor(ccc3(237/2,188/2,0));
             sprite->setColor(ccc3(128,128,128));
         }
+        fireImage = sprite;
+        fireLabel = blabel;
+        
     }
     //if(SaveLoad::m_SaveData.numTimeSlow)
     {
@@ -268,9 +312,9 @@ Loading::Loading()
         barImage->setOpacity(0);
         barImageSel->setOpacity(0);
         CCMenuItemSprite *menuImage = CCMenuItemSprite::create(barImage,barImageSel,this,menu_selector(Loading::timeButtonTapped));
-        CCLabelTTF *blabel = CCLabelTTF::create(" Use Slow Clock","Jacoby ICG Black.ttf",18,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *blabel = CCLabelTTF::create("Use Slow Clock","Jacoby ICG Black.ttf",18,dim,kCCTextAlignmentLeft);
         blabel->setColor(ccc3(237,188,0));
-        blabel->setPosition(ccp(157.0f,18.0f));
+        blabel->setPosition(ccp(155.0f,18.0f));
         menuImage->addChild(blabel,0,1234);
         items[0] = menuImage;
         CCSprite *sprite = CCSprite::createWithSpriteFrameName("ctm_icon_Store_16_Slow-Clock.png");
@@ -285,6 +329,8 @@ Loading::Loading()
             blabel->setColor(ccc3(237/2,188/2,0));
             sprite->setColor(ccc3(128,128,128));
         }
+        timeImage = sprite;
+        timeLabel = blabel;
 
         
     }
@@ -297,7 +343,7 @@ Loading::Loading()
     powerUpMenu->setPosition(scalePoint);
     addChild(powerUpMenu);
     
-    
+    return_from_store_check = false;
     m_TimeOut = 3.0f;
     scheduleUpdate();
 }
@@ -335,7 +381,7 @@ void Loading::buildTextArea()
         dimensions.height  = 25*scale;
         CCLabelTTF* label = CCLabelTTF::create("Time:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
         addChild(label, 2);
-        label->setColor(ccc3(237,188,0));
+        label->setColor(ccc3(0,0,0));
         
         scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
         scalePoint.x += (-240.0f+90.0f)*scale;
@@ -346,7 +392,7 @@ void Loading::buildTextArea()
         sprintf(tempLabelStr,"%.2f",LevelSelect::getLevelGoals()->time);
         label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
         addChild(label, 2);
-        label->setColor(ccc3(255,255,255));
+        label->setColor(ccc3(0,0,0));
         
         scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
         scalePoint.x += (-240.0f+150.0f)*scale;
@@ -355,7 +401,7 @@ void Loading::buildTextArea()
         
         label = CCLabelTTF::create("Peanuts:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
         addChild(label, 2);
-        label->setColor(ccc3(237,188,0));
+        label->setColor(ccc3(0,0,0));
         
         scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
         scalePoint.x += (-240.0f+90.0f)*scale;
@@ -365,7 +411,7 @@ void Loading::buildTextArea()
         sprintf(tempLabelStr,"%d",LevelSelect::getLevelGoals()->peanuts);
         label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
         addChild(label, 2);
-        label->setColor(ccc3(255,255,255));
+        label->setColor(ccc3(0,0,0));
         
         scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
         scalePoint.x += (-240.0f+180.0f)*scale;
@@ -374,7 +420,7 @@ void Loading::buildTextArea()
         
         label = CCLabelTTF::create("Points:", "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
         addChild(label, 2);
-        label->setColor(ccc3(237,188,0));
+        label->setColor(ccc3(0,0,0));
         
         scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
         scalePoint.x += (-240.0f+90.0f)*scale;
@@ -384,7 +430,7 @@ void Loading::buildTextArea()
         sprintf(tempLabelStr,"%d",LevelSelect::getLevelGoals()->points);
         label = CCLabelTTF::create(tempLabelStr, "impact.ttf", 21*scale,dimensions,kCCTextAlignmentLeft);
         addChild(label, 2);
-        label->setColor(ccc3(255,255,255));
+        label->setColor(ccc3(0,0,0));
         
         scalePoint = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER);
         scalePoint.x += (-240.0f+160.0f)*scale;
@@ -420,6 +466,7 @@ void Loading::backButtonTapped(CCObject*object)
 }
 void Loading::storeButtonTapped(CCObject*object)
 {
+    return_from_store_check = true;
     AudioManager::PlayEffect(AUDIO_SELECT);
     m_TimeOut = 3.0f;
     CCDirector::sharedDirector()->pushScene(Store::scene());
@@ -543,6 +590,24 @@ void Loading::update(float dt)
         float width = 400.0f;
         float positionX = (3.0f-m_TimeOut)/3.0f*width-140.0f;
         loadingBar->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_LEFT,positionX,-50.0f));
+    }
+    if(return_from_store_check)
+    {
+        if(SaveLoad::m_SaveData.numTimeSlow)
+        {
+            timeLabel->setColor(ccc3(237,188,0));
+            timeImage->setColor(ccc3(255,255,255));
+        }
+        if(SaveLoad::m_SaveData.numDoubleNuts)
+        {
+            nutLabel->setColor(ccc3(237,188,0));
+            nutImage->setColor(ccc3(255,255,255));
+        }
+        if(SaveLoad::m_SaveData.numLevelFire)
+        {
+            fireLabel->setColor(ccc3(237,188,0));
+            fireImage->setColor(ccc3(255,255,255));
+        }
     }
 }
 
@@ -780,8 +845,30 @@ CCScene* Loading::scene()
     else
         layer = new Loading();
     // add layer as a child to scene
-    scene->addChild(layer);
-    layer->release();
+    
+    
+    if(LevelSelect::getCurrentLevel()==8 && !(SaveLoad::m_SaveData.levelflags[LevelSelect::getCurrentLevel()] & SaveLoad::HINT_DISPLAY))
+    {
+        KensBullShitHint1 *hint = new KensBullShitHint1(layer,scene);
+        scene->addChild(hint);
+        hint->release();
+        
+        SaveLoad::m_SaveData.levelflags[LevelSelect::getCurrentLevel()] |= SaveLoad::HINT_DISPLAY;
+    }
+    else if(LevelSelect::getCurrentLevel()==16 && !(SaveLoad::m_SaveData.levelflags[LevelSelect::getCurrentLevel()] & SaveLoad::HINT_DISPLAY))
+    {
+        KensBullShitHint1 *hint = new KensBullShitHint1(layer,scene,true);
+        scene->addChild(hint);
+        hint->release();
+        
+        SaveLoad::m_SaveData.levelflags[LevelSelect::getCurrentLevel()] |= SaveLoad::HINT_DISPLAY;
+    }
+    else
+    {
+        scene->addChild(layer);
+        layer->release();
+    }
+
     
     return scene;
 }

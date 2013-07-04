@@ -33,6 +33,17 @@ private:
     void buildTextArea();
     float m_TimeOut;
     cocos2d::CCNode *loadingBar;
+    
+    cocos2d::CCSprite *nutImage;
+    cocos2d::CCSprite *fireImage;
+    cocos2d::CCSprite *timeImage;
+    
+    cocos2d::CCLabelTTF *nutLabel;
+    cocos2d::CCLabelTTF *fireLabel;
+    cocos2d::CCLabelTTF *timeLabel;
+    
+    bool return_from_store_check;
+    
 };
 
 #endif // __LOADING_H__

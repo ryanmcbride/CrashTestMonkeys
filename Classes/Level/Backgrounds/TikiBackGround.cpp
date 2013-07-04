@@ -40,7 +40,8 @@ void TikiBackGround::InitBG(cocos2d::CCNode *layer)
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("TikiObjs.plist");
     
     bool tikiListLoaded = true;
-    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("Tiki.plist","Tiki.png");
+    CCTextureCache::sharedTextureCache()->addImage("Tiki.png");
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("Tiki.plist");
     
     
     if(tikiListLoaded)

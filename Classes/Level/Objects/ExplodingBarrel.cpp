@@ -141,7 +141,7 @@ bool ExplodingBarrel::HandleBeginContact(b2Fixture *fixtureA,b2Fixture *fixtureB
             }
             
         }
-        Rider::g_OnFire = 5.0f;
+        //Rider::g_OnFire = 5.0f;
 		createBarrelExplosion(m_ccLayer->getParent(),m_StartPos.x*PTM_RATIO,m_StartPos.y*PTM_RATIO);
 		//createExplosion([m_ccLayer parent],m_StartPos.x*PTM_RATIO,m_StartPos.y*PTM_RATIO);
 		

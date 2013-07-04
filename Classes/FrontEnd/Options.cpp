@@ -75,7 +75,8 @@ Options::Options()
         optionsLabel = CCLabelTTF::create("SFX:  OFF", "impact.ttf", 40*scale);
     else
         optionsLabel = CCLabelTTF::create("SFX:  ON", "impact.ttf", 40*scale);
-    
+    optionsLabel->setColor(ccc3(237,188,0));
+
     CCMenuItemLabel *SoundFX = CCMenuItemLabel::create(optionsLabel, this, menu_selector(Options::sfxButtonTapped));
     SoundFX->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER, 0, 20));
     
@@ -86,6 +87,8 @@ Options::Options()
     else
         optionsLabel = CCLabelTTF::create("Music:  ON", "impact.ttf", 40*scale);
     
+    optionsLabel->setColor(ccc3(237,188,0));
+
     CCMenuItemLabel *Music = CCMenuItemLabel::create(optionsLabel, this, menu_selector(Options::musicButtonTapped));
     Music->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER, 0, -20));
     

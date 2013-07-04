@@ -126,7 +126,7 @@ void TutorialManager8::Update(float xpos,float ypos)
         m_State = 2;
     }
     
-    if(m_State == 2 && (Trigger::TriggerFlags & 3))
+    if(m_State == 2 && (Trigger::TriggerFlags & 4))
     {
         m_frontLayer->removeChildByTag(TUTORIAL_TAG,true);
         
@@ -147,13 +147,18 @@ void TutorialManager8::Update(float xpos,float ypos)
         sprite->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_RIGHT,-44.0f,35.0f));
         main->addChild(sprite);
         
+        sprite = CCSprite::create("TutorialArrow.png");
+        sprite->setScale(scale);
+        sprite->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_RIGHT,-44.0f,135.0f));
+        main->addChild(sprite);
+        
         m_frontLayer->addChild(main,10,TUTORIAL_TAG);
         main->setVisible(false);
         
         m_State = 3;
     }
     
-    if(m_State == 3 && (Trigger::TriggerFlags & 3))
+    if(m_State == 3 && (Trigger::TriggerFlags & 4))
     {
         if(!Rider::g_isInAir && JumpInRange(xpos/PTM_RATIO + 9) && ypos < -74)
         {
@@ -187,6 +192,11 @@ void TutorialManager8::Update(float xpos,float ypos)
         CCSprite *sprite = CCSprite::createWithSpriteFrameName("ctm_Tutorial_BtnGlow_ver1.png");
         sprite->setScale(scale);
         sprite->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_RIGHT,-44.0f,35.0f));
+        main->addChild(sprite);
+        
+        sprite = CCSprite::create("TutorialArrow.png");
+        sprite->setScale(scale);
+        sprite->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_RIGHT,-44.0f,135.0f));
         main->addChild(sprite);
         
         m_frontLayer->addChild(main,10,TUTORIAL_TAG);
