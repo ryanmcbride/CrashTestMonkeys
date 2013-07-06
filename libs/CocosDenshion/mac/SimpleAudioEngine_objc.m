@@ -146,6 +146,10 @@ static CDBufferManager *bufferManager = nil;
   [soundEngine pauseSound: soundId];
 }
 
+-(void) setEffectVolume:(ALuint) soundId volume:(float) fvolume {
+    [soundEngine setEffectVolume: soundId volume:fvolume] ;
+}
+
 -(void) pauseAllEffects {
   [soundEngine pauseAllSounds];
 }

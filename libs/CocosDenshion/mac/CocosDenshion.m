@@ -977,6 +977,14 @@ static BOOL _mixerRateSet = NO;
   alSourcePause(sourceId);
   alGetError();//Clear error in case we pause any sounds that couldn't be paused
 }
+-(void) setEffectVolume:(ALuint) sourceId volume:(float)fvolume
+{
+    if (!functioning_) {
+        return;
+    }
+    alSourcef(sourceId, AL_GAIN, fvolume);
+    alGetError();//Clear error in case we pause any sounds that couldn't be paused
+}
 
 - (void) pauseAllSounds {
   for (int i = 0; i < sourceTotal_; i++) {

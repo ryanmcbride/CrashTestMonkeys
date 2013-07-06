@@ -79,6 +79,7 @@
 -(ALuint) playEffect:(NSString*) filePath loop:(BOOL)loop pitch:(Float32) pitch pan:(Float32) pan gain:(Float32) gain;
 /** pause an audio */
 -(void) pauseEffect:(ALuint) soundId;
+-(void) resumeEffect:(ALuint) soundId volume:(float) fvolume;
 /** pause all audioes */
 -(void) pauseAllEffects;
 /** resume an audio */

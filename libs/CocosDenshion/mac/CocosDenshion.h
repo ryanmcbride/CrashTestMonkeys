@@ -257,6 +257,7 @@ typedef struct _sourceInfo {
 -(void) stopAllSounds;
 /** Pause a sound */
 -(void) pauseSound:(ALuint) sourceId;
+-(void) setEffectVolume:(ALuint) sourceId volume:(float)fvolume;
 /** Pause all sounds */
 -(void) pauseAllSounds;
 /** Resume a sound */

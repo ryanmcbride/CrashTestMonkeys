@@ -119,6 +119,11 @@ static void static_pauseEffect(unsigned int uSoundId)
     [[SimpleAudioEngine sharedEngine] pauseEffect: uSoundId];
 }
 
+static void static_setEffectVolume(unsigned int uSoundId,float fvolume)
+{
+    [[SimpleAudioEngine sharedEngine] setEffectVolume: uSoundId volume:fvolume];
+}
+
 static void static_pauseAllEffects()
 {
     [[SimpleAudioEngine sharedEngine] pauseAllEffects];
@@ -267,6 +272,11 @@ void SimpleAudioEngine::unloadEffect(const char* pszFilePath)
 void SimpleAudioEngine::pauseEffect(unsigned int uSoundId)
 {
     static_pauseEffect(uSoundId);
+}
+    
+void SimpleAudioEngine::setEffectVolume(unsigned int uSoundId,float fvolume)
+{
+    static_setEffectVolume(uSoundId,fvolume);
 }
 
 void SimpleAudioEngine::resumeEffect(unsigned int uSoundId)
