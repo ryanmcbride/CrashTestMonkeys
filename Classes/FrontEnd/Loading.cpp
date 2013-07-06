@@ -12,7 +12,7 @@
 #include "../Level/Level.h"
 #include "LevelSelect.h"
 #include "XMLLevelLoader.h"
-#include "Store/STore.h"
+#include "Store/Store.h"
 #include "SaveLoad.h"
 
 using namespace cocos2d;

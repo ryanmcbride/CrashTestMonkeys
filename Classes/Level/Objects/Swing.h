@@ -9,7 +9,7 @@
 #ifndef __SWING_OBJECT_H__
 #define __SWING_OBJECT_H__
 
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TrackObject.h"
 #include "TextureObject.h"
 

@@ -2,7 +2,7 @@
 #define BIPED_H
 #ifdef __cplusplus
 
-#include "box2d.h"
+#include "Box2D.h"
 
 // Ragdoll class thanks to darkzerox.
 class Biped

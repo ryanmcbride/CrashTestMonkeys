@@ -9,7 +9,7 @@
 #ifndef __BARRIER_H__
 #define __BARRIER_H__
 
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TrackObject.h"
 #include "TextureObject.h"
 

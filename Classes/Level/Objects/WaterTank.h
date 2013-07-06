@@ -9,7 +9,7 @@
 #ifndef __WATER_TANK_H__
 #define __WATER_TANK_H__
 
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TrackObject.h"
 #include "TextureObject.h"
 

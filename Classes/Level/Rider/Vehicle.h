@@ -8,7 +8,7 @@
  */
 #ifndef __VEHICLE_H__
 #define __VEHICLE_H__
-#include "Box2d.h"
+#include "Box2D.h"
 #include "Biped.h"
 
 #define TEST_SCALE (1.0f)

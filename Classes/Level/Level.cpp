@@ -14,7 +14,7 @@
 #include "HUD.h"
 #include "../FrontEnd/Pause.h"
 #include "Rider/Rider.h"
-#include "BackGrounds/BackGround.h"
+#include "Backgrounds/BackGround.h"
 #include "../AudioManager.h"
 #include "Objects/Pickup.h"
 #include "../FrontEnd/SaveLoad.h"

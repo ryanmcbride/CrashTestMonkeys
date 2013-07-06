@@ -9,7 +9,7 @@
 #define __SPAWN_POINT_H__
 
 #include "cocos2d.h"
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TextureObject.h"
 #include "TrackObject.h"
 

@@ -1,7 +1,7 @@
 #ifndef BIPED_DEF_H
 #define BIPED_DEF_H
 
-#include "box2d.h"
+#include "Box2D.h"
 
 class BipedDef
 {
