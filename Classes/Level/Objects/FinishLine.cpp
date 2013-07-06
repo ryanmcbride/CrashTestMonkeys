@@ -53,7 +53,7 @@ void FinishLine::Update(float xpos,float ypos)
             emitter = CCParticleSystemQuad::create(particleStr);
             emitter->setScale(ScreenHelper::getTextureScale());
             
-            emitter->setPosition(ccp((m_StartPos.x*PTM_RATIO+RandomInt(-100,100))*ScreenHelper::getCameraZoom(),(m_StartPos.y*PTM_RATIO+100+RandomInt(-50,150))*ScreenHelper::getCameraZoom()));  // setting emitter position
+            emitter->setPosition(ccp((m_StartPos.x*PTM_RATIO+RandomInt(-100,100))*ScreenHelper::getCameraZoom(),(m_StartPos.y*PTM_RATIO+170+RandomInt(-50,150))*ScreenHelper::getCameraZoom()));  // setting emitter position
             m_ccLayer->getParent()->addChild(emitter,10); // adding the emitter
             
             m_FireWorks--;

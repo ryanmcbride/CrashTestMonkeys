@@ -148,7 +148,7 @@ void TikiBackGround::InitBG(cocos2d::CCNode *layer)
             sprintf(name,"ctm_Tiki_torch_0%d.png",(RandomInt(1, 10)));
             sprite = CCSprite::createWithSpriteFrameName(name);
             sprite->setScale(scale);
-            m_Parallax3Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 256.0f*i, 93.0f);
+            m_Parallax3Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 256.0f*i+CCRANDOM_MINUS1_1()*25.0f, 73.0f+CCRANDOM_MINUS1_1()*10.0f);
             pNode->addChild(sprite,2,CCPointMake(0.90f,0.0f),m_Parallax3Points[i]);
             m_Parallax3->addObject(sprite);
             CCParticleSystem *fire = CCParticleSystemQuad::create("TorchFire6.plist");

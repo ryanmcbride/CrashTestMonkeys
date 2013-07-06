@@ -99,19 +99,19 @@ Credits::Credits()
     
     CCLabelTTF *audio = CCLabelTTF::create("Audio","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
     audio->setColor(ccc3(237,188,0));
-    audio->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-80.0f));
+    audio->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-75.0f));
     addChild(audio);
     
     CCLabelTTF *pete = CCLabelTTF::create("Peter Lehman","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
     pete->setColor(ccc3(230,230,230));
-    pete->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-100.0f));
+    pete->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-95.0f));
     addChild(pete);
     
     
     dim.width = 300*scale;
     CCLabelTTF *ludicrous = CCLabelTTF::create("© 2013 Ludicrous Games LLC","Jacoby ICG Black.ttf",24*scale,dim,kCCTextAlignmentCenter);
     ludicrous->setColor(ccc3(237,188,0));
-    ludicrous->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER,0.0f,40.0f));
+    ludicrous->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,-115.0f));
     addChild(ludicrous);
     
 

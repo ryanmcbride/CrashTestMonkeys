@@ -186,6 +186,8 @@ void LevelSelect::addButtonInfo(cocos2d::CCNode *node, REGIONID regionID, int nu
         leveloffset = NIGHT_LEVELSTART;
     if(regionID==LevelSelect::REGION_SPACE)
         leveloffset = SPACE_LEVELSTART;
+    if(regionID==LevelSelect::REGION_BONUS)
+        leveloffset = BONUS_LEVELSTART;
     if(regionID==LevelSelect::REGION_TUTORIAL)
         leveloffset = TUTORIAL_LEVELSTART;
     
@@ -194,15 +196,25 @@ void LevelSelect::addButtonInfo(cocos2d::CCNode *node, REGIONID regionID, int nu
 //number
     if(SaveLoad::m_SaveData.levelflags[leveloffset] & SaveLoad::UNLOCKED)
     {
-        CCLabelTTF *label = CCLabelTTF::create(num, "Jacoby ICG Black.ttf", 50);
-        node->addChild(label, 2);
-        label->setColor(ccc3(0,0,0));
-        label->setPosition(ccp(82.0f,78.0f));
+        if(regionID != REGION_BONUS)
+        {
+            CCLabelTTF *label = CCLabelTTF::create(num, "Jacoby ICG Black.ttf", 50);
+            node->addChild(label, 2);
+            label->setColor(ccc3(0,0,0));
+            label->setPosition(ccp(82.0f,78.0f));
+            
+            label = CCLabelTTF::create(num, "Jacoby ICG Black.ttf", 50);
+            node->addChild(label, 2);
+            label->setColor(ccc3(237,188,0));
+            label->setPosition(ccp(80.0f,80.0f));
+        }
         
-        label = CCLabelTTF::create(num, "Jacoby ICG Black.ttf", 50);
-        node->addChild(label, 2);
-        label->setColor(ccc3(237,188,0));
-        label->setPosition(ccp(80.0f,80.0f));
+        const char* medalNames[3] =
+        {
+            "Levelselect_BronzeMedal.png",
+            "Levelselect_SilverMedal.png",
+            "Levelselect_GoldMedal.png"
+        };
         
 //medals
         if(regionID != REGION_TUTORIAL && regionID != REGION_BONUS)
@@ -216,18 +228,95 @@ void LevelSelect::addButtonInfo(cocos2d::CCNode *node, REGIONID regionID, int nu
             if(SaveLoad::m_SaveData.levelflags[leveloffset] & SaveLoad::THREE_COCONUT)
                 numMedals++;
             
-            const char* medalNames[3] =
-            {
-                "Levelselect_BronzeMedal.png",
-                "Levelselect_SilverMedal.png",
-                "Levelselect_GoldMedal.png"
-            };
             for(int i = 0; i < numMedals; i++)
             {
                 CCSprite *medal = CCSprite::createWithSpriteFrameName(medalNames[i]);
                 node->addChild(medal);
                 medal->setScale(0.5f);
                 medal->setPosition(ccp(40+33*i,20.0f));
+            }
+        }
+        else if (regionID == REGION_BONUS)
+        {
+            if(leveloffset == (BONUS_LEVELSTART+1))
+            {
+                int number = 24-SaveLoad::NumBronzeMedals();
+                if(number > 0)
+                {
+                    char temp[256];
+                    sprintf(temp,"%d",number);
+                    
+                    float scale = ScreenHelper::getTextureScale();
+                    CCLabelTTF *label = CCLabelTTF::create(temp, "impact.ttf", 12*scale);
+                    label->enableShadow(CCSizeMake(0.5*scale,-0.5*scale), 1.0, 0.2);
+                    label->setAnchorPoint(ccp(0.0f,0.5f));
+                    label->setPosition(ccp(50.0f,105.0f));
+                    node->addChild(label);
+                    
+                    CCSprite *medal = CCSprite::createWithSpriteFrameName(medalNames[0]);
+                    node->addChild(medal);
+                    medal->setScale(0.8f);
+                    medal->setPosition(ccp(100.0f,95.0f));
+                    
+                    label = CCLabelTTF::create("To Unlock!", "impact.ttf", 8*scale);
+                    label->enableShadow(CCSizeMake(0.5*scale,-0.5*scale), 1.0, 0.2);
+                    label->setAnchorPoint(ccp(0.0f,0.5f));
+                    label->setPosition(ccp(40.0f,50.0f));
+                    node->addChild(label);
+                    ((CCMenuItem*)node)->setEnabled(false);
+                }
+            }
+            if(leveloffset == (BONUS_LEVELSTART+2))
+            {
+                int number = 24-SaveLoad::NumSilverMedals();
+                char temp[256];
+                sprintf(temp,"%d",number);
+                
+                float scale = ScreenHelper::getTextureScale();
+                CCLabelTTF *label = CCLabelTTF::create(temp, "impact.ttf", 12*scale);
+                label->enableShadow(CCSizeMake(0.5*scale,-0.5*scale), 1.0, 0.2);
+                label->setAnchorPoint(ccp(0.0f,0.5f));
+                label->setPosition(ccp(50.0f,105.0f));
+                node->addChild(label);
+                
+                CCSprite *medal = CCSprite::createWithSpriteFrameName(medalNames[1]);
+                node->addChild(medal);
+                medal->setScale(0.8f);
+                medal->setPosition(ccp(100.0f,95.0f));
+                
+                label = CCLabelTTF::create("To Unlock!", "impact.ttf", 8*scale);
+                label->enableShadow(CCSizeMake(0.5*scale,-0.5*scale), 1.0, 0.2);
+                label->setAnchorPoint(ccp(0.0f,0.5f));
+                label->setPosition(ccp(40.0f,50.0f));
+                node->addChild(label);
+                ((CCMenuItem*)node)->setEnabled(false);
+
+            }
+            if(leveloffset == (BONUS_LEVELSTART+3))
+            {
+                int number = 24-SaveLoad::NumGoldMedals();
+                char temp[256];
+                sprintf(temp,"%d",number);
+                
+                float scale = ScreenHelper::getTextureScale();
+                CCLabelTTF *label = CCLabelTTF::create(temp, "impact.ttf", 12*scale);
+                label->enableShadow(CCSizeMake(0.5*scale,-0.5*scale), 1.0, 0.2);
+                label->setAnchorPoint(ccp(0.0f,0.5f));
+                label->setPosition(ccp(50.0f,105.0f));
+                node->addChild(label);
+                
+                CCSprite *medal = CCSprite::createWithSpriteFrameName(medalNames[2]);
+                node->addChild(medal);
+                medal->setScale(0.8f);
+                medal->setPosition(ccp(100.0f,95.0f));
+                
+                label = CCLabelTTF::create("To Unlock!", "impact.ttf", 8*scale);
+                label->enableShadow(CCSizeMake(0.5*scale,-0.5*scale), 1.0, 0.2);
+                label->setAnchorPoint(ccp(0.0f,0.5f));
+                label->setPosition(ccp(40.0f,50.0f));
+                node->addChild(label);
+                ((CCMenuItem*)node)->setEnabled(false);
+
             }
         }
     }
@@ -361,22 +450,22 @@ LevelGoals s_Goals[44][3] =
     {{50.0f,0,3000},{45.0f,1,10000},{40.0f,1,30000}},
     {{28.0f,0,1000},{25.0f,175,10000},{40.0f,350,30000}},
     {{40.0f,0,2000},{35.0f,120,20000},{40.0f,300,30000}},
-    {{25.0f,80,3000},{25.0f,130,11000},{30.0f,450,30000}},//NIGHT
-    {{35.0f,110,3000},{35.0f,180,6000},{35.0f,450,30000}},
-    {{45.0f,85,3000},{40.0f,100,12000},{50.0f,450,30000}},
-    {{45.0f,125,3000},{35.0f,175,12000},{50.0f,450,30000}},
-    {{37.0f,50,400},{40.0f,170,13000},{50.0f,450,30000}},
-    {{60.0f,1,2000},{55.0f,1,10000},{50.0f,1,30000}},
-    {{15.0f,80,1000},{12.0f,110,3000},{9.0f,350,30000}},
-    {{45.0f,130,4000},{45.0f,220,12000},{40.0f,450,30000}},
-    {{50.0f,175,4000},{55.0f,470,10000},{50.0f,450,40000}},//SPACE
-    {{45.0f,130,3000},{20.0f,220,10000},{50.0f,450,40000}},
-    {{45.0f,130,2000},{40.0f,175,12000},{50.0f,450,40000}},
-    {{60.0f,130,1000},{55.0f,250,5000},{50.0f,450,40000}},
-    {{60.0f,110,1000},{45.0f,150,15000},{50.0f,450,40000}},
+    {{25.0f,0,3000},{25.0f,130,11000},{30.0f,450,30000}},//NIGHT
+    {{35.0f,0,3000},{35.0f,180,6000},{35.0f,450,30000}},
+    {{45.0f,0,3000},{40.0f,100,12000},{50.0f,450,30000}},
+    {{45.0f,0,3000},{35.0f,175,12000},{50.0f,450,30000}},
+    {{37.0f,0,400},{40.0f,170,13000},{50.0f,450,30000}},
+    {{60.0f,0,2000},{55.0f,1,10000},{50.0f,1,30000}},
+    {{15.0f,0,1000},{12.0f,110,3000},{9.0f,350,30000}},
+    {{45.0f,0,4000},{45.0f,220,12000},{40.0f,450,30000}},
+    {{50.0f,0,4000},{55.0f,470,10000},{50.0f,450,40000}},//SPACE
+    {{45.0f,0,3000},{20.0f,220,10000},{50.0f,450,40000}},
+    {{45.0f,0,2000},{40.0f,175,12000},{50.0f,450,40000}},
+    {{60.0f,0,1000},{55.0f,250,5000},{50.0f,450,40000}},
+    {{60.0f,0,1000},{45.0f,150,15000},{50.0f,450,40000}},
     {{45.0f,0,10000},{45.0f,0,20000},{120.0f,1,40000}},
-    {{60.0f,130,2000},{45.0f,275,10000},{50.0f,450,40000}},
-    {{45.0f,130,2000},{55.0f,275,8000},{50.0f,600,40000}},
+    {{60.0f,0,2000},{45.0f,275,10000},{50.0f,450,40000}},
+    {{45.0f,0,2000},{55.0f,275,8000},{50.0f,600,40000}},
     {{30.0f,50,300},{40.0f,100,3000},{50.0f,500,30000}},//BONUS
     {{30.0f,50,300},{40.0f,100,3000},{50.0f,500,30000}},
     {{30.0f,50,300},{40.0f,100,3000},{50.0f,500,30000}},

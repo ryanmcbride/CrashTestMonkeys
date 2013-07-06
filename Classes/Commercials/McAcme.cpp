@@ -28,6 +28,10 @@ McAcme::McAcme()
     CCSprite *sprite = NULL;
     char tempName[64];
     
+    s_adNumber = 1 + (CCRANDOM_0_1()*20);
+    if(s_adNumber > 20)
+        s_adNumber = 20;
+    
     if(s_adNumber >=1 && s_adNumber <= 6)
     {
         CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("McAcme1-6.plist","McAcme1-6.pvr.ccz");
@@ -87,7 +91,6 @@ McAcme::McAcme()
             m_TimeOut = 29.0f;
             break;
     };
-
 }
 
 McAcme::~McAcme()

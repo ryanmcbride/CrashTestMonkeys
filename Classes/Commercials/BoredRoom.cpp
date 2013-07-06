@@ -230,8 +230,6 @@ BoredRoom::BoredRoom()
     fartState = 0;
     
     m_TimeOut = 10.0f;
-
-    
 }
 BoredRoom::~BoredRoom()
 {

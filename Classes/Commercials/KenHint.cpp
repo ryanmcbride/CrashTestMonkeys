@@ -26,19 +26,19 @@ KenHint::KenHint()
     {
         default:
         case 0:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0000.png");
+            hintsprite = CCSprite::create("Hints_0000.png");
             break;
         case 1:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0001.png");
+            hintsprite = CCSprite::create("Hints_0001.png");
             break;
         case 2:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0002.png");
+            hintsprite = CCSprite::create("Hints_0002.png");
             break;
         case 3:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0003.png");
+            hintsprite = CCSprite::create("Hints_0003.png");
             break;
         case 4:
-            hintsprite = CCSprite::createWithSpriteFrameName("Hints_0004.png");
+            hintsprite = CCSprite::create("Hints_0004.png");
             break;
     }
     

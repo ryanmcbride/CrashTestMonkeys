@@ -24,6 +24,8 @@ extern bool g_SlowClock;
 extern int g_TutorialState;
 bool g_isTrickLevel = false;
 
+#define LOAD_TIME 6.0f
+
 class KensBullShitHint1 : public CCLayer
 {
 public:
@@ -207,12 +209,12 @@ Loading::Loading()
 
     }
     
-    CCLabelTTF *label = CCLabelTTF::create(LevelSelect::getLevelName(), "impact.ttf", 42*scale);
+    CCLabelTTF *label = CCLabelTTF::create(LevelSelect::getLevelName(), "impact.ttf", 40*scale);
     addChild(label, 2);
     label->setColor(ccc3(0,0,0));
     label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER,2.0f,-48.0f));
     
-    label = CCLabelTTF::create(LevelSelect::getLevelName(), "impact.ttf", 42*scale);
+    label = CCLabelTTF::create(LevelSelect::getLevelName(), "impact.ttf", 40*scale);
     addChild(label, 2);
     label->setColor(ccc3(237,188,0));
     label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_CENTER,0.0f,-46.0f));
@@ -344,7 +346,7 @@ Loading::Loading()
     addChild(powerUpMenu);
     
     return_from_store_check = false;
-    m_TimeOut = 3.0f;
+    m_TimeOut = LOAD_TIME;
     scheduleUpdate();
 }
 void Loading::showHiScore()
@@ -468,7 +470,7 @@ void Loading::storeButtonTapped(CCObject*object)
 {
     return_from_store_check = true;
     AudioManager::PlayEffect(AUDIO_SELECT);
-    m_TimeOut = 3.0f;
+    m_TimeOut = LOAD_TIME;
     CCDirector::sharedDirector()->pushScene(Store::scene());
 }
 void Loading::nutsButtonTapped(CCObject*object)
@@ -588,7 +590,7 @@ void Loading::update(float dt)
     else
     {
         float width = 400.0f;
-        float positionX = (3.0f-m_TimeOut)/3.0f*width-140.0f;
+        float positionX = (LOAD_TIME-m_TimeOut)/LOAD_TIME*width-140.0f;
         loadingBar->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_LEFT,positionX,-50.0f));
     }
     if(return_from_store_check)
@@ -855,14 +857,14 @@ CCScene* Loading::scene()
         
         SaveLoad::m_SaveData.levelflags[LevelSelect::getCurrentLevel()] |= SaveLoad::HINT_DISPLAY;
     }
-    else if(LevelSelect::getCurrentLevel()==16 && !(SaveLoad::m_SaveData.levelflags[LevelSelect::getCurrentLevel()] & SaveLoad::HINT_DISPLAY))
+/*    else if(LevelSelect::getCurrentLevel()==16 && !(SaveLoad::m_SaveData.levelflags[LevelSelect::getCurrentLevel()] & SaveLoad::HINT_DISPLAY))
     {
         KensBullShitHint1 *hint = new KensBullShitHint1(layer,scene,true);
         scene->addChild(hint);
         hint->release();
         
         SaveLoad::m_SaveData.levelflags[LevelSelect::getCurrentLevel()] |= SaveLoad::HINT_DISPLAY;
-    }
+    }*/
     else
     {
         scene->addChild(layer);

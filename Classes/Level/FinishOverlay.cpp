@@ -290,14 +290,14 @@ void FinishOverlay::Score(float startTime)
         dim.width = 300.0f;
         dim.height = 40.0f;
         
-        CCLabelTTF *pointLabel = CCLabelTTF::create("Points:","Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
-        pointLabel->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+        CCLabelTTF *pointLabel = CCLabelTTF::create("Points:","Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
+        pointLabel->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         pointLabel->setColor(ccc3(237,188,0));
         pointLabel->setPosition(ccp(20.0f,40.0f));
         mainNode->addChild(pointLabel);
         
         sprintf(tempString,"             %d/%d",m_points,goals->points);
-        CCLabelTTF *pointLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *pointLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
         pointLabelAmount->setPosition(ccp(20.0f,40.0f));
         
         if(m_points >= goals->points)
@@ -305,19 +305,19 @@ void FinishOverlay::Score(float startTime)
         else
             pointLabelAmount->setColor(ccc3(255,0,0));
         
-        pointLabelAmount->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+        pointLabelAmount->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         mainNode->addChild(pointLabelAmount);
         
         
         sprintf(tempString,"           %.2f/%.2f",m_time,goals->time);
-        CCLabelTTF *timeLabel = CCLabelTTF::create("Time:","Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *timeLabel = CCLabelTTF::create("Time:","Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
         timeLabel->setColor(ccc3(237,188,0));
         timeLabel->setPosition(ccp(20.0f,0.0f));
-        timeLabel->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+        timeLabel->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         mainNode->addChild(timeLabel);
         
         
-        CCLabelTTF *timeLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *timeLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
         timeLabelAmount->setPosition(ccp(20.0f,0.0f));
         
         if(m_time <= goals->time)
@@ -325,27 +325,27 @@ void FinishOverlay::Score(float startTime)
         else
             timeLabelAmount->setColor(ccc3(255,0,0));
         
-        timeLabelAmount->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+        timeLabelAmount->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         mainNode->addChild(timeLabelAmount);
         
         
         if(goals->peanuts)
         {
-            CCLabelTTF *pickupLabel = CCLabelTTF::create("Peanuts:","Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+            CCLabelTTF *pickupLabel = CCLabelTTF::create("Peanuts:","Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
             pickupLabel->setColor(ccc3(237,188,0));
             pickupLabel->setPosition(ccp(20.0f,-40.0f));
-            pickupLabel->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+            pickupLabel->enableShadow(CCSizeMake(2*scale,-2*scale), 1.0f, 0.2f);
             mainNode->addChild(pickupLabel);
             
             sprintf(tempString,"                %d/%d",m_peanuts,goals->peanuts);
-            CCLabelTTF *pickupLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+            CCLabelTTF *pickupLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
             pickupLabelAmount->setPosition(ccp(20.0f,-40.0f));
             
             if(m_peanuts >= goals->peanuts)
                 pickupLabelAmount->setColor(ccc3(255,255,255));
             else
                 pickupLabelAmount->setColor(ccc3(255,0,0));
-            pickupLabelAmount->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+            pickupLabelAmount->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
             mainNode->addChild(pickupLabelAmount);
         }
 
@@ -362,49 +362,49 @@ void FinishOverlay::Score(float startTime)
         dim.width = 300.0f;
         dim.height = 40.0f;
         
-        CCLabelTTF *pointLabel = CCLabelTTF::create("Points:","Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *pointLabel = CCLabelTTF::create("Points:","Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
         pointLabel->setColor(ccc3(237,188,0));
         pointLabel->setPosition(ccp(20.0f,40.0f));
-        pointLabel->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+        pointLabel->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         mainNode->addChild(pointLabel);
         
         sprintf(tempString,"             %d",m_points);
-        CCLabelTTF *pointLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *pointLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
         pointLabelAmount->setPosition(ccp(20.0f,40.0f));
         pointLabelAmount->setColor(ccc3(255,255,255));
-        pointLabelAmount->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+        pointLabelAmount->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         mainNode->addChild(pointLabelAmount);
         
         
         sprintf(tempString,"           %.2f",m_time);
-        CCLabelTTF *timeLabel = CCLabelTTF::create("Time:","Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *timeLabel = CCLabelTTF::create("Time:","Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
         timeLabel->setColor(ccc3(237,188,0));
         timeLabel->setPosition(ccp(20.0f,0.0f));
-        timeLabel->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+        timeLabel->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         mainNode->addChild(timeLabel);
         
         
-        CCLabelTTF *timeLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+        CCLabelTTF *timeLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
         timeLabelAmount->setPosition(ccp(20.0f,0.0f));
         timeLabelAmount->setColor(ccc3(255,255,255));
-        timeLabelAmount->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+        timeLabelAmount->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         mainNode->addChild(timeLabelAmount);
         
         
         if(goals->peanuts)
         {
-            CCLabelTTF *pickupLabel = CCLabelTTF::create("Peanuts:","Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+            CCLabelTTF *pickupLabel = CCLabelTTF::create("Peanuts:","Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
             pickupLabel->setColor(ccc3(237,188,0));
             pickupLabel->setPosition(ccp(20.0f,-40.0f));
-            pickupLabel->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+            pickupLabel->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
             mainNode->addChild(pickupLabel);
             
             sprintf(tempString,"                %d",m_peanuts);
-            CCLabelTTF *pickupLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
+            CCLabelTTF *pickupLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",32,dim,kCCTextAlignmentLeft);
             pickupLabelAmount->setPosition(ccp(20.0f,-40.0f));
             pickupLabelAmount->setColor(ccc3(255,255,255));
             
-            pickupLabelAmount->enableShadow(CCSizeMake(2*scale,-2*scale), 0.9f, 0.2f);
+            pickupLabelAmount->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
             mainNode->addChild(pickupLabelAmount);
         }
     }
@@ -547,12 +547,16 @@ bool FinishOverlay::Medal(float startTime)
                 "Silver",
                 "Gold",
             };
+            
+            
+                         
             char messageStr[128];
             sprintf(messageStr,"Earn all of the %s medals\nto unlock %s medal challenges.",medalStrings[showMessage-1],medalStrings[showMessage]);
             
-            label = CCLabelTTF::create(messageStr, "impact.ttf", 24*scale);
+            label = CCLabelTTF::create(messageStr, "impact.ttf", 29*scale);
             addChild(label, 2);
-            label->setColor(ccc3(237,188,0));
+            label->setColor(ccc3(230,230,230));
+            label->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
             label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,0.0f));
             
             label->setOpacity(0);
@@ -1021,13 +1025,15 @@ void BonusFinishOverlay::Score(float startTime)
     
     CCLabelTTF *pointLabel = CCLabelTTF::create("Points:","Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
     pointLabel->setColor(ccc3(237,188,0));
+    pointLabel->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
     pointLabel->setPosition(ccp(20.0f,40.0f));
     mainNode->addChild(pointLabel);
     
-    sprintf(tempString,"             %d/%d",m_points,goals->points);
+    sprintf(tempString,"             %d",m_points);
     CCLabelTTF *pointLabelAmount = CCLabelTTF::create(tempString,"Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
     pointLabelAmount->setPosition(ccp(20.0f,40.0f));
     
+    pointLabelAmount->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
     pointLabelAmount->setColor(ccc3(255,255,255));
     
     mainNode->addChild(pointLabelAmount);
@@ -1080,13 +1086,11 @@ bool BonusFinishOverlay::Medal(float startTime)
         addChild(mainNode,2);
     
         
-        CCSize dim;
-        dim.width = 300.0f;
-        dim.height = 40.0f;
+        CCLabelTTF *pointLabel = CCLabelTTF::create("Hi Score!","Jacoby ICG Black.ttf",40);
         
-        CCLabelTTF *pointLabel = CCLabelTTF::create("Hi Score!","Jacoby ICG Black.ttf",28,dim,kCCTextAlignmentLeft);
         pointLabel->setColor(ccc3(237,188,0));
-        pointLabel->setPosition(ccp(20.0f,40.0f));
+        pointLabel->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
+        pointLabel->setPosition(ccp(0.0f,0.0f));
         mainNode->addChild(pointLabel);
         
         CCSequence *sequence3 = CCSequence::create(

@@ -110,6 +110,7 @@ RegionSelect::RegionSelect()
     BonusButton->setScale(scale*0.8f);
     BonusButton->setPosition(ccp(0.0f,0.0f));
     addName(BonusButton,"Bonus");
+    addHighScore(BonusButton);
     screenMenu->addChild(BonusButton);
     
     CCMenuItem *NightButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("IMG_0505.PNG"), CCSprite::createWithSpriteFrameName("IMG_0505.PNG"), this, menu_selector(RegionSelect::NightButtonTapped));
@@ -134,10 +135,15 @@ RegionSelect::RegionSelect()
     }
     screenMenu->addChild(SpaceButton);
 
-    CCMenuItem *TwentyTwelveButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ChimpOdyseeButton.png"), CCSprite::createWithSpriteFrameName("ChimpOdyseeButton_dn.png"), this, menu_selector(RegionSelect::TwentyTwelveButtonTapped));
+    CCMenuItem *TwentyTwelveButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ChimpOdyseeButton.png"), CCSprite::createWithSpriteFrameName("ChimpOdyseeButton_dn.png"), CCSprite::createWithSpriteFrameName("ChimpOdyseeButton_dn.png"), this, menu_selector(RegionSelect::TwentyTwelveButtonTapped));
     TwentyTwelveButton->setScale(scale);
     TwentyTwelveButton->setPosition(ccp(0.0f,0.0f));
     screenMenu->addChild(TwentyTwelveButton);
+    
+    if(SaveLoad::NumBronzeMedals()<32)
+    {
+        TwentyTwelveButton->setEnabled(false);
+    }
     
     CCMenuItem *ComingSoonButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("IMG_0501.PNG"), CCSprite::createWithSpriteFrameName("IMG_0501.PNG"), this, menu_selector(RegionSelect::ComingSoonButtonTapped));
     ComingSoonButton->setScale(scale*0.8f);
@@ -182,9 +188,27 @@ void RegionSelect::addName(cocos2d::CCNode * node,const char *name)
     label->setPosition(ccp(120.0f,176.0f));
 }
 
+void RegionSelect::addHighScore(cocos2d::CCNode * node)
+{
+    char temp[256];
+    sprintf(temp,"High Score: %lld",SaveLoad::m_SaveData.trickHiScore);
+    CCLabelTTF *label = CCLabelTTF::create(temp, "Jacoby ICG Black.ttf", 20);
+    label->setAnchorPoint(ccp(0.0f,0.5f));
+    node->addChild(label, 2);
+    label->setColor(ccc3(0,0,0));
+    label->setPosition(ccp(2.0f,-10.0f));
+    
+    label = CCLabelTTF::create(temp, "Jacoby ICG Black.ttf", 20);
+    label->setAnchorPoint(ccp(0.0f,0.5f));
+    node->addChild(label, 2);
+    label->setColor(ccc3(237,188,0));
+    label->setPosition(ccp(0.0f,-12.0f));
+}
+
 bool RegionSelect::addLock(cocos2d::CCNode * node,int regionID)
 {
     bool isLocked = false;
+    char temp[256];
     
     if(regionID==LevelSelect::REGION_TIKI)
     {
@@ -193,18 +217,31 @@ bool RegionSelect::addLock(cocos2d::CCNode * node,int regionID)
     }
     if(regionID==LevelSelect::REGION_CITY)
     {
-        if(SaveLoad::NumBronzeMedals()<8)
+        int number = 8-SaveLoad::NumBronzeMedals();
+        if(number > 0)
+        {
+            sprintf(temp,"You need %d more\nmedals to\nunlock this level",number);
             isLocked = true;
+        }
+        
     }
     if(regionID==LevelSelect::REGION_NIGHT)
     {
-        if(SaveLoad::NumBronzeMedals()<16)
+        int number = 16-SaveLoad::NumBronzeMedals();
+        if(number > 0)
+        {
+            sprintf(temp,"You need %d more\nmedals to\nunlock this level",number);
             isLocked = true;
+        }
     }
     if(regionID==LevelSelect::REGION_SPACE)
     {
-        if(SaveLoad::NumBronzeMedals()<24)
+        int number = 24-SaveLoad::NumBronzeMedals();
+        if(number > 0)
+        {
+            sprintf(temp,"You need %d more\nmedals to\nunlock this level",number);
             isLocked = true;
+        }
     }
     
     if(isLocked)
@@ -213,6 +250,13 @@ bool RegionSelect::addLock(cocos2d::CCNode * node,int regionID)
         node->addChild(lock);
         lock->setScale(1.2f);
         lock->setPosition(ccp(110.0f,75.0f));
+        
+        float scale = ScreenHelper::getTextureScale();
+        CCLabelTTF *label = CCLabelTTF::create(temp, "impact.ttf", 12*scale);
+        //label->enableStroke(ccc3(0,0,0), 0.5f*scale);
+        label->setAnchorPoint(ccp(0.5f,0.5f));
+        label->setPosition(ccp(110.0f,75.0f));
+        node->addChild(label);
     }
     
     return isLocked;

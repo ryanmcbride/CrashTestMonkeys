@@ -35,6 +35,7 @@ private:
     cocos2d::extension::CCScrollView *m_Scrollview;
     static float m_fScrollViewOffset;
     void addName(cocos2d::CCNode * node,const char *name);
+    void addHighScore(cocos2d::CCNode * node);
     void addMedals(cocos2d::CCNode * node,int regionID);
     bool addLock(cocos2d::CCNode * node,int regionID);
 };

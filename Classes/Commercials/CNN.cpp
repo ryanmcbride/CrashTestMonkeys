@@ -396,31 +396,34 @@ void CNN::update(float dt)
     Commercial::update(dt);
     float scale = ScreenHelper::getTextureScale();
     
-    if(!bMouthAudio)
-    {
-        //[Options PlayEffect:AUDIO_MONKEY_ANCHOR_1+RandomInt(0,6)];
-        m_mouthAudio = AudioManager::PlayEffect(AUDIO_NEWS_ANCHOR);
-        bMouthAudio = true;
-    }
+    
         mouthIndexTime -= dt;
         talkTime -= dt;
         if(talkTime > 0.0f && mouthIndexTime <= 0.0f)
         {
-            mouthSprite->removeFromParentAndCleanup(true);
-            
-            int anchorMouthIndex = RandomInt(1,6);
-            while (anchorMouthIndex == mouthIndex)
+            if(!bMouthAudio)
             {
-                anchorMouthIndex = RandomInt(1,6);
+                //[Options PlayEffect:AUDIO_MONKEY_ANCHOR_1+RandomInt(0,6)];
+                m_mouthAudio = AudioManager::PlayEffect(AUDIO_NEWS_ANCHOR);
+                bMouthAudio = true;
             }
-            char anchorMouthName[64];
-            sprintf(anchorMouthName,"ctm_News_Anchor_mth%02d.png",anchorMouthIndex);
-            mouthSprite = CCSprite::createWithSpriteFrameName(anchorMouthName);
-            mouthSprite->setScale(scale);
-            mouthSprite->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER, -10, 0));
-            addChild(mouthSprite);
-            mouthIndex = anchorMouthIndex;
-            
+            if(mouthSprite)
+            {
+                mouthSprite->removeFromParentAndCleanup(true);
+                
+                int anchorMouthIndex = RandomInt(1,6);
+                while (anchorMouthIndex == mouthIndex)
+                {
+                    anchorMouthIndex = RandomInt(1,6);
+                }
+                char anchorMouthName[64];
+                sprintf(anchorMouthName,"ctm_News_Anchor_mth%02d.png",anchorMouthIndex);
+                mouthSprite = CCSprite::createWithSpriteFrameName(anchorMouthName);
+                mouthSprite->setScale(scale);
+                mouthSprite->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER, -10, 0));
+                addChild(mouthSprite);
+                mouthIndex = anchorMouthIndex;
+            }
             mouthIndexTime = RandomFloat(1.5f/30.0f, 4.0f/30.0f);
         }
         else if(mouthSprite != NULL && mouthIndexTime <= 0.0f)

@@ -40,7 +40,7 @@ ScoreManager::ScoreManager()
     
     m_TrickNode = CCNode::create();
     
-    m_TrickNode->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER, 0.0f, 70.0f));
+    m_TrickNode->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER, 0.0f, 80.0f));
     addChild(m_TrickNode);
     scheduleUpdate();
 }
@@ -64,7 +64,7 @@ void ScoreManager::SetTrick(int tricknum)
 
     if(m_time > 0.0f) return;
     
-    float scale = ScreenHelper::getTextureScale();
+    float scale = ScreenHelper::getTextureScaleY();
     
     if(m_iTrick < 3)
     {
@@ -140,7 +140,7 @@ void ScoreManager::SetFlips(int flips)
 {
     if(m_time > 0.0f) return;
 
-    float scale = ScreenHelper::getTextureScale();
+    float scale = ScreenHelper::getTextureScaleY();
     
     ccColor3B rgb;
     rgb.r = 0;
@@ -204,7 +204,7 @@ void ScoreManager::SetLoops(int loops)
 {
     if(m_time > 0.0f) return;
 
-    float scale = ScreenHelper::getTextureScale();
+    float scale = ScreenHelper::getTextureScaleY();
     
     if(m_flipLabel != NULL)
         m_flipLabel->removeFromParentAndCleanup(true);
@@ -234,7 +234,7 @@ void ScoreManager::SetFire()
 {
     if(m_time > 0.0f) return;
 
-    float scale = ScreenHelper::getTextureScale();
+    float scale = ScreenHelper::getTextureScaleY();
 
     if(!m_bFlaming && Rider::g_OnFire>0.0f)
     {
@@ -330,7 +330,7 @@ void ScoreManager::FinishTrickGood(bool goodBad)
                 m_flipLabel->setColor(ccc3(rgb.r,rgb.g,rgb.b));
             if(m_trickLabel != NULL)
             {
-                float scale = ScreenHelper::getTextureScale();
+                float scale = ScreenHelper::getTextureScaleY();
                 m_trickLabel->removeFromParentAndCleanup(true);
                 CCSize dim;
                 dim.width = 400.0f*scale;
@@ -432,7 +432,7 @@ void ScoreManager::AddScore(int score)
     
     Rider::g_Score += score;
 
-    float scale = ScreenHelper::getTextureScale();
+    float scale = ScreenHelper::getTextureScaleY();
     
     CCSize dim;
     dim.width = 290.0f*scale;

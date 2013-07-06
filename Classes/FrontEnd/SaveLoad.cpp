@@ -62,6 +62,10 @@ void SaveLoad::Load()
         m_SaveData.levelflags[CITY_LEVELSTART] |= UNLOCKED;
         m_SaveData.levelflags[NIGHT_LEVELSTART] |= UNLOCKED;
         m_SaveData.levelflags[SPACE_LEVELSTART] |= UNLOCKED;
+        m_SaveData.levelflags[BONUS_LEVELSTART] |= UNLOCKED;
+        m_SaveData.levelflags[BONUS_LEVELSTART+1] |= UNLOCKED;
+        m_SaveData.levelflags[BONUS_LEVELSTART+2] |= UNLOCKED;
+        m_SaveData.levelflags[BONUS_LEVELSTART+3] |= UNLOCKED;
         
         /*for(int i = TUTORIAL_LEVELSTART; i < SPACE_LEVELSTART+8; i++)
         {
