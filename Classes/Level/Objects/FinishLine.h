@@ -8,7 +8,7 @@
 #ifndef __FINISH_LINE_H__
 #define __FINISH_LINE_H__
 #include "cocos2d.h"
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TrackObject.h"
 #include "TextureObject.h"
 

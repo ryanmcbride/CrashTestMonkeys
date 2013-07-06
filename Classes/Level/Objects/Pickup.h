@@ -9,7 +9,7 @@
 #define __PICKUP_OBJECT_H__
 
 #include "cocos2d.h"
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TrackObject.h"
 
 class CCRotateRandom : public cocos2d::CCActionInterval

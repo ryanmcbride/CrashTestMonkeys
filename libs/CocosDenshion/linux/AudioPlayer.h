@@ -112,6 +112,8 @@ public:
 	 */
 	virtual void pauseEffect(unsigned int uSoundId) = 0;
 
+	virtual void setEffectVolume(unsigned int uSoundId,float fvolume) = 0;
+
 	/**
 	 @brief  		pause all playing effects
 	 */

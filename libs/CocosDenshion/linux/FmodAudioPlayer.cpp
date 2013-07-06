@@ -341,6 +341,21 @@ void FmodAudioPlayer::stopEffect(unsigned int nSoundId) {
 	mapEffectSoundChannel.erase(nSoundId);
 }
 
+void FmodAudioPlayer::setEffectVolume(unsigned int uSoundId,float fvolume) {
+	FMOD::Channel* pChannel;
+	pSystem->update();
+
+	map<unsigned int, FMOD::Channel*>::iterator l_it =
+			mapEffectSoundChannel.find(uSoundId);
+	if (l_it == mapEffectSoundChannel.end()) {
+		//no play  yet
+		return;
+	}
+	pChannel = l_it->second;
+	//pause the channel;
+	pChannel->setVolume(fvolume);
+}
+
 void FmodAudioPlayer::pauseEffect(unsigned int uSoundId) {
 	FMOD::Channel* pChannel;
 	pSystem->update();

@@ -554,6 +554,15 @@ namespace CocosDenshion
 		checkALError("pauseEffect:alSourcePause");
 	}
 
+	void SimpleAudioEngine::setEffectVolume(unsigned int nSoundId, float fvolume)
+	{
+		ALint state;
+		alGetSourcei(nSoundId, AL_SOURCE_STATE, &state);
+		if (state == AL_PLAYING)
+			alSourcef(nSoundId, AL_GAIN, fvolume);
+		checkALError("pauseEffect:alSourcePause");
+	}
+
 	void SimpleAudioEngine::pauseAllEffects()
 	{
 		EffectsMap::iterator iter = s_effects.begin();

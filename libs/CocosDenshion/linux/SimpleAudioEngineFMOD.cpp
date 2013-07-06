@@ -95,6 +95,10 @@ void SimpleAudioEngine::pauseEffect(unsigned int uSoundId) {
 	oAudioPlayer->pauseEffect(uSoundId);
 }
 
+void SimpleAudioEngine::setEffectVolume(unsigned int uSoundId, float fvolume) {
+	oAudioPlayer->setEffectVolume(uSoundId,fvolume);
+}
+
 void SimpleAudioEngine::pauseAllEffects() {
 	oAudioPlayer->pauseAllEffects();
 }

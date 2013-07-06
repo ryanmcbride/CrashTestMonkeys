@@ -40,20 +40,20 @@ done
 mkdir -p $OUTPUT_DEBUG
 mkdir -p $OUTPUT_RELEASE
 
-make -C $COCOS2DX20_TRUNK/external/Box2D/proj.linux DEBUG=1
+make -C $COCOS2DX20_TRUNK/external/Box2D/proj.linux
 check_make_result
 
-make -C $COCOS2DX20_TRUNK/external/chipmunk/proj.linux DEBUG=1
+make -C $COCOS2DX20_TRUNK/external/chipmunk/proj.linux
 check_make_result
 
-make -C $COCOS2DX20_TRUNK/cocos2dx/proj.linux DEBUG=1
+make -C $COCOS2DX20_TRUNK/cocos2dx/proj.linux
 check_make_result
 
-make -C $COCOS2DX20_TRUNK/CocosDenshion/proj.linux DEBUG=1
+make -C $COCOS2DX20_TRUNK/CocosDenshion/proj.linux
 check_make_result
 
-make -C $COCOS2DX20_TRUNK/extensions/proj.linux DEBUG=1
+make -C $COCOS2DX20_TRUNK/extensions/proj.linux
 check_make_result
 
-make DEBUG=1
+make 
 check_make_result

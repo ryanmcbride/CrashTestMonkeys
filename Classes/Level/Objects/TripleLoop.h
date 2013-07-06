@@ -10,7 +10,7 @@
 #define __TRIPLE_LOOP_H__
 
 #include "cocos2d.h"
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TextureObject.h"
 #include "TrackObject.h"
 #include "Spline.h"

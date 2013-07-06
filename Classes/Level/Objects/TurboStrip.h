@@ -10,7 +10,7 @@
 #define __TURBO_STRIP_H__
 
 #include "cocos2d.h"
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TrackObject.h"
 #include "TextureObject.h"
 

@@ -9,7 +9,7 @@
 #ifndef __EXPLODING_BARREL_H__
 #define __EXPLODING_BARREL_H__
 
-#include "Box2d.h"
+#include "Box2D.h"
 #include "TrackObject.h"
 #include "TextureObject.h"
 
