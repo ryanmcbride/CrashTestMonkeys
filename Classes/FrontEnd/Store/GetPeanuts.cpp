@@ -13,6 +13,14 @@
 #include "../../ScreenHelper.h"
 #include "../Achievements.h"
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#include "StoreBridge/cocos2dx_StoreInventory.h"
+#include "StoreBridge/cocos2dx_StoreController.h"
+#include "StoreBridge/cocos2dx_StoreInfo.h"
+#include "StoreBridge/Includes.h"
+#endif
+
+
 using namespace cocos2d;
 
 GetPeanuts::~GetPeanuts()
@@ -172,19 +180,35 @@ void GetPeanuts::buyButtonTapped(CCObject*object)
 {
     if(object == m_MenuItems[0])
     {
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+        cocos2dx_StoreController::buyMarketItem("peanuts_3000");
+#else
         SaveLoad::m_SaveData.currency += 3000;
+#endif
     }
     if(object == m_MenuItems[1])
     {
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+        cocos2dx_StoreController::buyMarketItem("peanuts_35000");
+#else
         SaveLoad::m_SaveData.currency += 35000;
+#endif
     }
     if(object == m_MenuItems[2])
     {
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+        cocos2dx_StoreController::buyMarketItem("peanuts_10000");
+#else
         SaveLoad::m_SaveData.currency += 100000;
+#endif
     }
     if(object == m_MenuItems[3])
     {
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+        cocos2dx_StoreController::buyMarketItem("peanuts_300000");
+#else
         SaveLoad::m_SaveData.currency += 300000;
+#endif
     }
     SaveLoad::Save();
 

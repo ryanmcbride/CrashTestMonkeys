@@ -331,7 +331,7 @@ void RegionSelect::oneBananaButtonTapped(CCObject*object)
     SimpleAudioEngine::sharedEngine()->playEffect("Select.wav", false);
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
     JniMethodInfo t;
-    if (JniHelper::getStaticMethodInfo(t, "com/LudicrousGames/CrashTestMonkeys/CrashTestMonkeys", "playMovie", "(Ljava/lang/String;)V"))
+    if (JniHelper::getStaticMethodInfo(t, "com/LudicrousGames/MonkeyDroid/CrashTestMonkeys", "playMovie", "(Ljava/lang/String;)V"))
     {
         jstring stringArg1;
         stringArg1 = t.env->NewStringUTF("OneBanana_FinalCut.mp4");
@@ -375,7 +375,7 @@ void RegionSelect::TwentyTwelveButtonTapped(CCObject*object)
     SimpleAudioEngine::sharedEngine()->playEffect("Select.wav", false);
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
     JniMethodInfo t;
-    if (JniHelper::getStaticMethodInfo(t, "com/LudicrousGames/CrashTestMonkeys/CrashTestMonkeys", "playMovie", "(Ljava/lang/String;)V"))
+    if (JniHelper::getStaticMethodInfo(t, "com/LudicrousGames/MonkeyDroid/CrashTestMonkeys", "playMovie", "(Ljava/lang/String;)V"))
     {
         jstring stringArg1;
         stringArg1 = t.env->NewStringUTF("chimpodd");

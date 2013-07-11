@@ -101,7 +101,7 @@ void FeedbackMenu::facebookButtonTapped(CCObject*object)
     SimpleAudioEngine::sharedEngine()->playEffect("Select.wav", false);
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
     JniMethodInfo t;
-        if (JniHelper::getStaticMethodInfo(t, "com/LudicrousGames/CrashTestMonkeys/CrashTestMonkeys", "openURL", "(Ljava/lang/String;)V"))
+        if (JniHelper::getStaticMethodInfo(t, "com/LudicrousGames/MonkeyDroid/CrashTestMonkeys", "openURL", "(Ljava/lang/String;)V"))
         {
            jstring stringArg1;
            stringArg1 = t.env->NewStringUTF("http://www.facebook.com/pages/Crash-Test-Monkeys/223880524416997");

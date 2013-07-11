@@ -18,6 +18,13 @@
 #include "../../ScreenHelper.h"
 #include "../Achievements.h"
 
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#include "StoreBridge/cocos2dx_StoreController.h"
+#include "StoreBridge/cocos2dx_StoreInventory.h"
+#include "StoreBridge/cocos2dx_StoreInfo.h"
+#include "StoreBridge/Includes.h"
+#endif
+
 using namespace cocos2d;
 using namespace CocosDenshion;
 using namespace cocos2d::extension;
@@ -311,7 +318,9 @@ CCScene* Store::scene()
 // initialize your instance here
 Store::Store()
 {
-	
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+cocos2dx_StoreController::storeOpening();
+#endif
     //SaveLoad::m_SaveData.currency = 300000;
     //SaveLoad::SaveGame();
     // enable touches
@@ -437,6 +446,9 @@ Store::Store()
 
 Store::~Store()
 {
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    cocos2dx_StoreController::storeClosing();
+#endif
 }
 
 void Store::update(float dt)
