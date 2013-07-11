@@ -32,7 +32,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 
-import com.LudicrousGames.CrashTestMonkeys.PlayMovie;
+import com.LudicrousGames.MonkeyDroid.PlayMovie;
 
 
 public class Cocos2dxHandler extends Handler {

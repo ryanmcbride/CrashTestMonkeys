@@ -50,6 +50,7 @@ public class Cocos2dxAccelerometer implements SensorEventListener {
 	private final SensorManager mSensorManager;
 	private final Sensor mAccelerometer;
 	private final int mNaturalOrientation;
+	private final int mRotation;
 
 	// ===========================================================
 	// Constructors
@@ -63,6 +64,7 @@ public class Cocos2dxAccelerometer implements SensorEventListener {
 
 		final Display display = ((WindowManager) this.mContext.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
 		this.mNaturalOrientation = display.getOrientation();
+		this.mRotation = display.getRotation();
 	}
 
 	// ===========================================================
@@ -117,6 +119,11 @@ public class Cocos2dxAccelerometer implements SensorEventListener {
 			x = y;
 			y = -tmp;
 		}		
+		//trying to flip accelerometer on kindle fire hd.
+		if ((orientation == Configuration.ORIENTATION_LANDSCAPE) && (this.mRotation == Surface.ROTATION_270))
+		{
+			x = -x;
+		}
 		
 		Cocos2dxGLSurfaceView.queueAccelerometer(x,y,z,pSensorEvent.timestamp);
 		
