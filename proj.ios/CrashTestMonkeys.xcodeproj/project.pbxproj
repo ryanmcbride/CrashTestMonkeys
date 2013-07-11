@@ -1441,6 +1441,7 @@
 		C3CFAEF5177A9422004D5437 /* Hints_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0006.png; sourceTree = "<group>"; };
 		C3CFAEFD177BCF69004D5437 /* Tiki.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tiki.plist; sourceTree = "<group>"; };
 		C3CFAEFE177BCF69004D5437 /* Tiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiki.png; sourceTree = "<group>"; };
+		C3E34BE0178E097700633D34 /* EventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventHandler.h; path = ../Classes/EventHandler.h; sourceTree = "<group>"; };
 		C3F5C84217756CCF0061B578 /* LocalStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStorage.cpp; sourceTree = "<group>"; };
 		C3F5C84317756CCF0061B578 /* LocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStorage.h; sourceTree = "<group>"; };
 		C3F5C847177570820061B578 /* Armadillo_Blue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Armadillo_Blue.plist; sourceTree = "<group>"; };
@@ -2478,6 +2479,7 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C3E34BE0178E097700633D34 /* EventHandler.h */,
 				C363111E17756C470072F4E0 /* ScreenHelper.cpp */,
 				C363111F17756C470072F4E0 /* ScreenHelper.h */,
 				C3630F6617756BF70072F4E0 /* AudioManager.cpp */,
