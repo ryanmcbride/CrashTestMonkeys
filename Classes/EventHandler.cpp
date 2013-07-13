@@ -17,6 +17,7 @@
 
 
 #include "EventHandler.h"
+#include "FrontEnd/SaveLoad.h"
 
 
 #include "StoreBridge/Includes.h"
@@ -63,13 +64,32 @@ void EventHandler::marketPurchaseCancelled(string& itemId) {
 #endif
 }
 void EventHandler::marketPurchase(string& itemId) {
-	
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    __android_log_write(ANDROID_LOG_ERROR, "SOOMLA JNI", "Market purchase!");
+    
+    if(itemId == "peanuts_3000")
+        SaveLoad::m_SaveData.currency += 3000;
+    if(itemId == "peanuts_35000")
+        SaveLoad::m_SaveData.currency += 35000;
+    if(itemId == "peanuts_100000")
+        SaveLoad::m_SaveData.currency += 100000;
+    if(itemId == "peanuts_300000")
+        SaveLoad::m_SaveData.currency += 300000;
+    
+    
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    iOSHelper::LogMessage("Market purchase!");
+#endif
 }
 void EventHandler::marketPurchaseStarted(string& itemId) {
 	
 }
 void EventHandler::marketRefund(string& itemId) {
-	
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    __android_log_write(ANDROID_LOG_ERROR, "SOOMLA JNI", "Market refund!");
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    iOSHelper::LogMessage("Market purchase!");
+#endif
 }
 void EventHandler::restoreTransactions(bool success) {
 	
@@ -78,7 +98,11 @@ void EventHandler::restoreTransactionsStarted() {
 	
 }
 void EventHandler::unexpectedErrorInStore() {
-	
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+    __android_log_write(ANDROID_LOG_ERROR, "SOOMLA JNI", "Market error!");
+#elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
+    iOSHelper::LogMessage("Market purchase!");
+#endif
 }
 
 

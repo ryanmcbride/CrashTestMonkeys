@@ -49,7 +49,7 @@ public class CrashTestMonkeys extends Cocos2dxActivity{
          * You'll need to provide an implementation of IStoreAssets and your public key from Google Play.
          */
         StoreControllerBridge.initialize(mGLSurfaceView,
-                new PeanutCurrency(), "CtM", this);
+                new PeanutCurrency(), "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1vWzdijevVsluTERveWqNByTcTelg1sPYQgqWFAA25h7xZBZjnewZYMZuvc9NOozxrg5vHau+b+IQXyUnwkDz6z+fa1Fu2bzAR/4Mtwkyt73hVFfpNeMcp5AMFzoCDqfVwkwW0CA5JCK3kSDA8q9g2P2SmAx4sI/NmmwmO3dag1ZRIFqskXXnF1ViLgwFjl7Q8u6rFIvuPgQmbZDP8EIX4fPsE+0baXp/unKClz1ueXZ7nKvlFVxk22oeP1lPHkRlCjCUvtUGK/lLCcXHVuAgxMliUXmOHHGx7GjcOhquIEovPxULHObP62DsG+3Q94Dvybpm3VfaxEfwbmnk9lSmwIDAQAB", this);
 	}
 
     

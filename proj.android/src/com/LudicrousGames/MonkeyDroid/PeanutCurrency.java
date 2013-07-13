@@ -62,6 +62,11 @@ public class PeanutCurrency implements IStoreAssets  {
     public static final String FIFTYMUFF_PACK_PRODUCT_ID    = "peanuts_35000";
     public static final String FOURHUNDMUFF_PACK_PRODUCT_ID = "peanuts_100000";
     public static final String THOUSANDMUFF_PACK_PRODUCT_ID = "peanuts_300000";
+    //public static final String TENMUFF_PACK_PRODUCT_ID      = "android.test.refunded";
+    //public static final String FIFTYMUFF_PACK_PRODUCT_ID    = "android.test.canceled";
+    //public static final String FOURHUNDMUFF_PACK_PRODUCT_ID = "android.test.purchased";
+    //public static final String THOUSANDMUFF_PACK_PRODUCT_ID = "android.test.item_unavailable";
+    
 
 
     /** Virtual Currencies **/
@@ -76,7 +81,7 @@ public class PeanutCurrency implements IStoreAssets  {
     public static final VirtualCurrencyPack TENMUFF_PACK = new VirtualCurrencyPack(
             "10 Muffins",                                   // name
             "Test refund of an item",                       // description
-            "peanuts_3000",                                   // item id
+            TENMUFF_PACK_PRODUCT_ID,                                   // item id
             10,                                             // number of currencies in the pack
             PEANUT_CURRENCY_ITEM_ID,                                // the currency associated with this pack
             new PurchaseWithMarket(TENMUFF_PACK_PRODUCT_ID, 1.99));
@@ -84,7 +89,7 @@ public class PeanutCurrency implements IStoreAssets  {
     public static final VirtualCurrencyPack FIFTYMUFF_PACK = new VirtualCurrencyPack(
             "50 Muffins",                                   // name
             "Test cancellation of an item",                 // description
-            "peanuts_35000",                                   // item id
+            FIFTYMUFF_PACK_PRODUCT_ID,                                   // item id
             50,                                             // number of currencies in the pack
             PEANUT_CURRENCY_ITEM_ID,                        // the currency associated with this pack
             new PurchaseWithMarket(FIFTYMUFF_PACK_PRODUCT_ID, 7.99));
@@ -92,7 +97,7 @@ public class PeanutCurrency implements IStoreAssets  {
     public static final VirtualCurrencyPack FOURHUNDMUFF_PACK = new VirtualCurrencyPack(
             "400 Muffins",                                  // name
             "Test purchase of an item",                     // description
-            "peanuts_100000",                                  // item id
+            FOURHUNDMUFF_PACK_PRODUCT_ID,                                  // item id
             400,                                            // number of currencies in the pack
             PEANUT_CURRENCY_ITEM_ID,                        // the currency associated with this pack
             new PurchaseWithMarket(FOURHUNDMUFF_PACK_PRODUCT_ID, 14.99));
@@ -100,7 +105,7 @@ public class PeanutCurrency implements IStoreAssets  {
     public static final VirtualCurrencyPack THOUSANDMUFF_PACK = new VirtualCurrencyPack(
             "1000 Muffins",                                 // name
             "Test item unavailable",                        // description
-            "peanuts_300000",                                 // item id
+            THOUSANDMUFF_PACK_PRODUCT_ID,                                 // item id
             1000,                                           // number of currencies in the pack
             PEANUT_CURRENCY_ITEM_ID,                        // the currency associated with this pack
             new PurchaseWithMarket(THOUSANDMUFF_PACK_PRODUCT_ID, 24.99));
