@@ -72,12 +72,8 @@ HUD::HUD()
         
         label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
         m_startPrompt->addChild(label, 2);
-        label->setColor(ccc3(0,0,0));
-        label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,2.0f,8.0f));
-        
-        label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
-        m_startPrompt->addChild(label, 2);
         label->setColor(ccc3(237,188,0));
+        label->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,10.0f));
     }
     else if(currentLevel==5)
@@ -89,24 +85,16 @@ HUD::HUD()
         
         label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
         m_startPrompt->addChild(label, 2);
-        label->setColor(ccc3(0,0,0));
-        label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,2.0f,-12.0f));
-        
-        label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
-        m_startPrompt->addChild(label, 2);
         label->setColor(ccc3(237,188,0));
+        label->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,-10.0f));
     }
     else if(currentLevel > 5)
     {
         label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
         m_startPrompt->addChild(label, 2);
-        label->setColor(ccc3(0,0,0));
-        label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,2.0f,38.0f));
-        
-        label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
-        m_startPrompt->addChild(label, 2);
         label->setColor(ccc3(237,188,0));
+        label->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,40.0f));
         
     }

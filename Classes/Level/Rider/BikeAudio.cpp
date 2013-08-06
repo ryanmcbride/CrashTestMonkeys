@@ -15,7 +15,7 @@
 USING_NS_CC;
 using namespace CocosDenshion;
 
-#if (CC_TARGET_PLATFORM != CC_PLATFORM_IPHONE)
+#if (CC_TARGET_PLATFORM != CC_PLATFORM_IOS)
 #define AUDIO_DIRECTORY "Audio/"
 #else
 #define AUDIO_DIRECTORY ""

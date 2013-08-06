@@ -148,7 +148,7 @@ void TikiBackGround::InitBG(cocos2d::CCNode *layer)
             sprintf(name,"ctm_Tiki_torch_0%d.png",(RandomInt(1, 10)));
             sprite = CCSprite::createWithSpriteFrameName(name);
             sprite->setScale(scale);
-            m_Parallax3Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 256.0f*i+CCRANDOM_MINUS1_1()*25.0f, 73.0f+CCRANDOM_MINUS1_1()*10.0f);
+            m_Parallax3Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 256.0f*i+CCRANDOM_MINUS1_1()*25.0f, 23.0f+CCRANDOM_MINUS1_1()*10.0f);
             pNode->addChild(sprite,2,CCPointMake(0.90f,0.0f),m_Parallax3Points[i]);
             m_Parallax3->addObject(sprite);
             CCParticleSystem *fire = CCParticleSystemQuad::create("TorchFire6.plist");
@@ -156,6 +156,8 @@ void TikiBackGround::InitBG(cocos2d::CCNode *layer)
             fire->setPosition(ccp(sprite->getContentSize().width/2.0f+2.5f,sprite->getContentSize().height));
             fire->setPositionType(kCCPositionTypeRelative);
             sprite->addChild(fire);
+
+            sprite->setVisible(CCRANDOM_MINUS1_1()>0);
 
             
             //palm

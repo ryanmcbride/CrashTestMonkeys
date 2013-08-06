@@ -78,15 +78,15 @@ void Crate::CreateSelf()
     
     if(m_type==BEACH_BALL)
     {
-        b2CircleShape circle;
-        circle.m_radius = 1.6f;
-        fd.shape = &circle;        
+        b2CircleShape *circle = new b2CircleShape();
+        circle->m_radius = 1.6f;
+        fd.shape = circle;
     }
     else
     {
-        b2PolygonShape box;
-        box.SetAsBox(1.2f, 1.2f);
-        fd.shape = &box;
+        b2PolygonShape *box = new b2PolygonShape();
+        box->SetAsBox(1.2f, 1.2f);
+        fd.shape = box;
     }
     
 	fd.density = 2.0f;
@@ -121,7 +121,7 @@ void Crate::CreateSelf()
     
     tex->SetTextureScale(m_Scale,m_Scale);
 	m_MainCollision->SetUserData(tex);
-	
+	delete fd.shape;
 }
 void Crate::DestroySelf()
 {

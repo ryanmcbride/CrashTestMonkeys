@@ -48,10 +48,10 @@ void CityBackGround::InitBG(cocos2d::CCNode *layer)
     if(cityObjsLoaded)
     {
         sprite = CCSprite::createWithSpriteFrameName("ctm_Back_CityScape_01.png");
-        pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,-128.0f,-100.0f));
+        pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,-128.0f-64.0f,-70.0f));
         
         sprite = CCSprite::createWithSpriteFrameName("ctm_Back_CityScape_02.png");
-        pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,128.0f,-100.0f));
+        pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,128.0f+64.0f,-70.0f));
     }
     
     if(balloonObjsLoaded)
@@ -61,18 +61,18 @@ void CityBackGround::InitBG(cocos2d::CCNode *layer)
         for(int i = 0; i < 4; i++)
         {
             char name[64];
-            sprintf(name,"ctm_BalloonString_%02d.png",(RandomInt(1, 3)));
+            sprintf(name,"ctm_BalloonString_%02d.png",i%2+1);
             
             sprite = CCSprite::createWithSpriteFrameName(name);
             sprite->setScale(scale);
-            m_Parallax2Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 512.0f*i, 123.0f);
+            m_Parallax2Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 512.0f*i, 110.0f);
             pNode->addChild(sprite,0,CCPointMake(0.91f,0.0f),m_Parallax2Points[i]);
             m_Parallax2->addObject(sprite);
             
             sprintf(name,"ctm_Balloon__%02d.png",(RandomInt(1, 22)));
             
             CCSprite *balloon = CCSprite::createWithSpriteFrameName(name);
-            balloon->setPosition(ccp(75.0f,220.0f));
+            balloon->setPosition(ccp(75.0f,i%2?258:200.0f));
             sprite->addChild(balloon);
             
         }

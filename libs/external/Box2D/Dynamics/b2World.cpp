@@ -33,6 +33,7 @@
 #include <Box2D/Common/b2Draw.h>
 #include <Box2D/Common/b2Timer.h>
 #include <new>
+#include <stdio.h>
 
 b2World::b2World(const b2Vec2& gravity)
 {
@@ -106,14 +107,17 @@ void b2World::SetDebugDraw(b2Draw* debugDraw)
 
 b2Body* b2World::CreateBody(const b2BodyDef* def)
 {
+    printf("asdf0");
     b2Assert(IsLocked() == false);
     if (IsLocked())
     {
         return NULL;
     }
-
+    printf("asdf");
     void* mem = m_blockAllocator.Allocate(sizeof(b2Body));
+    printf("asdf1");
     b2Body* b = new (mem) b2Body(def, this);
+    printf("asdf2");
 
     // Add to world doubly linked list.
     b->m_prev = NULL;
@@ -124,6 +128,7 @@ b2Body* b2World::CreateBody(const b2BodyDef* def)
     }
     m_bodyList = b;
     ++m_bodyCount;
+    printf("asdf3");
 
     return b;
 }

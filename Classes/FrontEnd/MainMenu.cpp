@@ -192,13 +192,13 @@ MainMenu::MainMenu()
     OptionsButton->setScale(scale);
     OptionsButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT,40.0f,35.0f));
 
-    CCMenuItem *AchievementsButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ctm_Button_18.png"), CCSprite::createWithSpriteFrameName("ctm_Button_18_Down.png"), this, menu_selector(MainMenu::achievementsButtonTapped));
+    CCMenuItem *AchievementsButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("NewAchievementButton.png"), CCSprite::createWithSpriteFrameName("NewAchievementButton_down.png"), this, menu_selector(MainMenu::achievementsButtonTapped));
     AchievementsButton->setScale(scale);
     AchievementsButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER,50.0f,35.0f));
 
-    CCMenuItem *FeedbackButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("FeedbackIcon_Options.png"), CCSprite::createWithSpriteFrameName("FeedbackIcon_Options_Down.png"), this, menu_selector(MainMenu::feedbackButtonTapped));
+    CCMenuItem *FeedbackButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("Review_IconButton.png"), CCSprite::createWithSpriteFrameName("Review_IconButton_down.png"), this, menu_selector(MainMenu::feedbackButtonTapped));
     FeedbackButton->setScale(scale);
-    FeedbackButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER,-50.0f,32.0f));
+    FeedbackButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER,-50.0f,35.0f));
 
     CCMenu* menu = CCMenu::create(PlayButton, StoreButton, OptionsButton, AchievementsButton, FeedbackButton, NULL);
     menu->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_BOTTOM_LEFT));

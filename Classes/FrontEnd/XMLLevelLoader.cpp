@@ -603,7 +603,9 @@ void XMLLevelLoader::finishObject()
     else if(strcmp(objClass, "Beachball")==0)
     {
         b2Vec2 pos(xpos+xObjectoffset,ypos+yObjectoffset);
-        m_Track->AddObject(new Crate(m_world,m_frontLayer,&pos,Crate::BEACH_BALL,3));
+        Crate * crate = new Crate(m_world,m_frontLayer,&pos,Crate::BEACH_BALL,3);
+        cocos2d::CCLog("crate %d",crate);
+        m_Track->AddObject(crate);
     }
     else if(strcmp(objClass, "Trigger")==0)
     {

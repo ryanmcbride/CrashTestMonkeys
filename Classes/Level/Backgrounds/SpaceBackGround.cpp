@@ -133,6 +133,9 @@ CCNode *SpaceBackGround::getBGObject()
     
     char name[64];
     int number = RandomInt(1,10);
+    static int last_number = 0;
+    while(number == last_number){number = RandomInt(1,10);}
+    last_number = number;
     switch(number)
     {
         default:
@@ -160,7 +163,7 @@ CCNode *SpaceBackGround::getBGObject()
         case 3:
             sprintf(name,"ctm_Space_Buggy%02d.png",(RandomInt(1, 3)));
             sprite = CCSprite::createWithSpriteFrameName(name);
-            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(-90.0f, -40.0f)));
+            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(-80.0f, -25.0f)));
             node = sprite;
             node->setZOrder(2);
             break;
@@ -171,11 +174,12 @@ CCNode *SpaceBackGround::getBGObject()
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(100, 300)));
             node->addChild(sprite);
             node->setZOrder(0);
+            sprite->setVisible(false);
             break;
         case 5:
             sprintf(name,"ctm_Space_nasa%02d.png",(RandomInt(1, 5)));
             sprite = CCSprite::createWithSpriteFrameName(name);
-            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(5.0f, 55.0f)));
+            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(5.0f, 0.0f)));
             node = sprite;
             node->setZOrder(2);
             break;
@@ -194,9 +198,11 @@ CCNode *SpaceBackGround::getBGObject()
             else
                 sprintf(name,"ctm_Space_Mercury1small.png");
             sprite = CCSprite::createWithSpriteFrameName(name);
-            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),-50.0f));
-            node = sprite;
-            node->setZOrder(2);
+            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(100,300)));
+            node = CCNode::create();
+            node->addChild(sprite);
+            node->setZOrder(0);
+            node->runAction(CCRepeatForever::create(CCRotateBy::create(RandomFloat(10.0f, 30.0f), 360.0f)));
             break;
         case 8:
             sprintf(name,"ctm_Space_Shuttle01.png");

@@ -248,7 +248,7 @@ void McAcme::BuildIntro()
         "Do you have unusual cravings?",
         "Have you ever trained a walrus?",
         "Are there too many hours in the day?",
-        "Has somebody turned off the light at the end of the tunnel?",
+        "Is the light at the end of the tunnel turned off?",
         "Is your neighbors grass always greener?",
     };
     const char *needArray2[NUM_NEEDS] =

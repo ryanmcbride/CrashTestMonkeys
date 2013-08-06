@@ -33,11 +33,11 @@
             <key>FeedbackIcon_Options.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{428,332},{58,52}}</string>
+                <string>{{56,386},{58,52}}</string>
                 <key>offset</key>
                 <string>{0,3}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{7,3},{58,52}}</string>
                 <key>sourceSize</key>
@@ -46,11 +46,11 @@
             <key>FeedbackIcon_Options_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{336,268},{58,52}}</string>
+                <string>{{2,446},{58,52}}</string>
                 <key>offset</key>
                 <string>{0,3}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{7,3},{58,52}}</string>
                 <key>sourceSize</key>
@@ -95,14 +95,66 @@
                 <key>sourceSize</key>
                 <string>{128,128}</string>
             </dict>
+            <key>NewAchievementButton.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,322},{58,52}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{58,52}}</string>
+                <key>sourceSize</key>
+                <string>{58,52}</string>
+            </dict>
+            <key>NewAchievementButton_down.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,386},{58,52}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{58,52}}</string>
+                <key>sourceSize</key>
+                <string>{58,52}</string>
+            </dict>
+            <key>Review_IconButton.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{428,332},{58,52}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{58,52}}</string>
+                <key>sourceSize</key>
+                <string>{58,52}</string>
+            </dict>
+            <key>Review_IconButton_down.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{336,268},{58,52}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{58,52}}</string>
+                <key>sourceSize</key>
+                <string>{58,52}</string>
+            </dict>
             <key>ctm_Back_Button.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{272,418},{54,52}}</string>
+                <string>{{434,386},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,1}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{10,5},{54,52}}</string>
                 <key>sourceSize</key>
@@ -111,7 +163,7 @@
             <key>ctm_Back_Button_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{218,452},{54,52}}</string>
+                <string>{{380,442},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,1}</string>
                 <key>rotated</key>
@@ -124,7 +176,7 @@
             <key>ctm_Button_17.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{164,452},{54,52}}</string>
+                <string>{{380,386},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -137,11 +189,11 @@
             <key>ctm_Button_17_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{276,364},{54,52}}</string>
+                <string>{{326,418},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{10,6},{54,52}}</string>
                 <key>sourceSize</key>
@@ -150,11 +202,11 @@
             <key>ctm_Button_18.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{164,398},{54,52}}</string>
+                <string>{{272,418},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{10,6},{54,52}}</string>
                 <key>sourceSize</key>
@@ -163,11 +215,11 @@
             <key>ctm_Button_18_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{220,364},{54,52}}</string>
+                <string>{{218,452},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{10,6},{54,52}}</string>
                 <key>sourceSize</key>
@@ -176,11 +228,11 @@
             <key>ctm_Button_19.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{332,322},{54,52}}</string>
+                <string>{{164,452},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{10,6},{54,52}}</string>
                 <key>sourceSize</key>
@@ -189,7 +241,7 @@
             <key>ctm_Button_19_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{276,310},{54,52}}</string>
+                <string>{{276,364},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -202,7 +254,7 @@
             <key>ctm_Button_20.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{164,344},{54,52}}</string>
+                <string>{{164,398},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -215,7 +267,7 @@
             <key>ctm_Button_20_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{220,310},{54,52}}</string>
+                <string>{{220,364},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -228,7 +280,7 @@
             <key>ctm_Button_21.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{164,290},{54,52}}</string>
+                <string>{{332,322},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -241,7 +293,7 @@
             <key>ctm_Button_21_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{164,236},{54,52}}</string>
+                <string>{{276,310},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -254,11 +306,11 @@
             <key>ctm_Button_22.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{110,236},{54,52}}</string>
+                <string>{{164,344},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{10,6},{54,52}}</string>
                 <key>sourceSize</key>
@@ -267,11 +319,11 @@
             <key>ctm_Button_22_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{110,442},{54,52}}</string>
+                <string>{{220,310},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{10,6},{54,52}}</string>
                 <key>sourceSize</key>
@@ -280,11 +332,11 @@
             <key>ctm_Button_25.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{110,322},{54,52}}</string>
+                <string>{{164,290},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{10,6},{54,52}}</string>
                 <key>sourceSize</key>
@@ -293,11 +345,11 @@
             <key>ctm_Button_25_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{110,386},{54,52}}</string>
+                <string>{{164,236},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{10,6},{54,52}}</string>
                 <key>sourceSize</key>
@@ -306,7 +358,7 @@
             <key>ctm_Button_26.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{56,442},{54,52}}</string>
+                <string>{{110,236},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -319,7 +371,7 @@
             <key>ctm_Button_26_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{56,264},{54,52}}</string>
+                <string>{{110,442},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -449,7 +501,7 @@
             <key>ctm_UI_Button_15.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{56,322},{54,52}}</string>
+                <string>{{110,322},{54,52}}</string>
                 <key>offset</key>
                 <string>{0,3}</string>
                 <key>rotated</key>
@@ -462,7 +514,7 @@
             <key>ctm_UI_Button_15_down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{56,386},{54,52}}</string>
+                <string>{{110,386},{54,52}}</string>
                 <key>offset</key>
                 <string>{0,3}</string>
                 <key>rotated</key>
@@ -475,7 +527,7 @@
             <key>ctm_UI_Button_7.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,442},{54,52}}</string>
+                <string>{{56,446},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -488,7 +540,7 @@
             <key>ctm_UI_Button_7_down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,264},{54,52}}</string>
+                <string>{{56,264},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -592,7 +644,7 @@
             <key>ctm_shareButton.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,322},{54,52}}</string>
+                <string>{{56,322},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -605,7 +657,7 @@
             <key>ctm_shareButton_Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,386},{54,52}}</string>
+                <string>{{2,264},{54,52}}</string>
                 <key>offset</key>
                 <string>{1,0}</string>
                 <key>rotated</key>
@@ -625,7 +677,7 @@
             <key>size</key>
             <string>{512,512}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:20ac8e68b1caafe32707a1aeb02749af$</string>
+            <string>$TexturePacker:SmartUpdate:f29152117fc8e8210cab41aa3d969a0d$</string>
             <key>textureFileName</key>
             <string>ctm_Buttons.pvr.ccz</string>
         </dict>

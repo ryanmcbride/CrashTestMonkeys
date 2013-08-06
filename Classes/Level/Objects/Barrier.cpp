@@ -61,7 +61,7 @@ void Barrier::CreateSelf()
     tex->SetTextureOffset(0.75f, 1.0f);
     
     m_Lights = CCSprite::createWithSpriteFrameName("ctm_City_Barrier_Small_Lights.png");
-    //m_Lights->setPosition = ccp(PTM_RATIO*(m_StartPos.x+0.75),PTM_RATIO*(m_StartPos.y+2.5f));
+    m_Lights->setPosition(ccp(47,57));
     tex->GetSprite()->addChild(m_Lights,2);
     
     m_Exploded = false;

@@ -51,6 +51,7 @@ CCScene* Commercial::scene()
     bool can_show_ken_hint = (SaveLoad::m_SaveData.medalLockLevel==0 && SaveLoad::m_SaveData.currentLevel < 24);
     int random = CCRANDOM_0_1()*(can_show_ken_hint?5.0f:4.0f);
     bool do_boarder = false;
+    if(random == 3) random == CCRANDOM_0_1()*4.0f;
     switch(random)
     {
     default:
