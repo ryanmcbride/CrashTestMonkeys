@@ -177,9 +177,34 @@ void Level::FinalizeLevel()
     
     ((HUD*)m_HUD)->SetRider(m_Rider);
     
-    if(!SimpleAudioEngine::sharedEngine()->isBackgroundMusicPlaying())
-        SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMIslandMusic.3gp", true);
+    if(!SimpleAudioEngine::sharedEngine()->isBackgroundMusicPlaying()){
+        
+        int level = LevelSelect::getCurrentLevel();
+        
+        if(level>=0 && level < 8)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMIslandMusic.3gp", true);
+        else if(level>=8 && level < 16)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMIslandMusic.3gp", true);
+        else if(level>=16 && level < 24)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMNightMusic.3gp", true);
+        else if(level>=24 && level < 32)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMNightMusic.3gp", true);
+        else if(level>=32 && level < 40)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMSpaceMusic.3gp", true);
+        else if(level==40)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMIslandMusic.3gp", true);
+        else if(level==41)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMNightMusic.3gp", true);
+        else if(level==42)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMNightMusic.3gp", true);
+        else if(level==43)
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMSpaceMusic.3gp", true);
+        else
+            SimpleAudioEngine::sharedEngine()->playBackgroundMusic("CTMIslandMusic.3gp", true);
+        
 
+    }
+    
 }
 
 void Level::update(float dt)

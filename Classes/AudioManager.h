@@ -65,7 +65,8 @@
 #define AUDIO_TRIGGER               59
 #define AUDIO_FAIL_STINGER_NIGHT    60
 
-#define NUM_AUDIO                   61
+#define AUDIO_KITTENS               61
+#define NUM_AUDIO                   62
 
 class AudioManager
 {

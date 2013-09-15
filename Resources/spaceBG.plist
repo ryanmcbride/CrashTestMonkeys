@@ -7,11 +7,11 @@
             <key>ctm_SpacePoster_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,432},{252,174}}</string>
+                <string>{{256,354},{252,174}}</string>
                 <key>offset</key>
                 <string>{0,6}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{2,35},{252,174}}</string>
                 <key>sourceSize</key>
@@ -20,11 +20,11 @@
             <key>ctm_SpacePoster_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,178},{252,174}}</string>
+                <string>{{2,354},{252,174}}</string>
                 <key>offset</key>
                 <string>{0,6}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{2,35},{252,174}}</string>
                 <key>sourceSize</key>
@@ -33,7 +33,7 @@
             <key>ctm_SpacePoster_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{764,2},{252,174}}</string>
+                <string>{{256,178},{252,174}}</string>
                 <key>offset</key>
                 <string>{0,6}</string>
                 <key>rotated</key>
@@ -46,7 +46,7 @@
             <key>ctm_SpacePoster_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{510,2},{252,174}}</string>
+                <string>{{2,178},{252,174}}</string>
                 <key>offset</key>
                 <string>{0,6}</string>
                 <key>rotated</key>
@@ -82,408 +82,330 @@
                 <key>sourceSize</key>
                 <string>{256,256}</string>
             </dict>
-            <key>ctm_Space_Astronaut.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{448,452},{98,84}}</string>
-                <key>offset</key>
-                <string>{-1,-2}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{14,24},{98,84}}</string>
-                <key>sourceSize</key>
-                <string>{128,128}</string>
-            </dict>
             <key>ctm_Space_Buggy01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{306,612},{106,72}}</string>
+                <string>{{102,658},{86,59}}</string>
                 <key>offset</key>
-                <string>{-1,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{10,30},{106,72}}</string>
+                <string>{{0,0},{86,59}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{86,59}</string>
             </dict>
             <key>ctm_Space_Buggy02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{388,454},{100,58}}</string>
+                <string>{{160,746},{82,46}}</string>
                 <key>offset</key>
-                <string>{-2,1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{12,34},{100,58}}</string>
+                <string>{{0,0},{82,46}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{82,46}</string>
             </dict>
             <key>ctm_Space_Mercury1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{296,454},{90,110}}</string>
+                <string>{{38,969},{43,50}}</string>
                 <key>offset</key>
-                <string>{-1,2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{18,7},{90,110}}</string>
+                <string>{{0,0},{43,50}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{43,50}</string>
             </dict>
             <key>ctm_Space_Mercury1small.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{466,254},{70,72}}</string>
+                <string>{{163,656},{69,71}}</string>
                 <key>offset</key>
-                <string>{-1,4}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{28,24},{70,72}}</string>
+                <string>{{0,0},{69,71}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{69,71}</string>
             </dict>
             <key>ctm_Space_Satelite01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{464,178},{74,62}}</string>
+                <string>{{263,648},{39,31}}</string>
                 <key>offset</key>
-                <string>{1,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{28,33},{74,62}}</string>
+                <string>{{0,0},{39,31}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{39,31}</string>
             </dict>
             <key>ctm_Space_Satelite02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{396,556},{82,52}}</string>
+                <string>{{2,969},{53,34}}</string>
                 <key>offset</key>
-                <string>{-1,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{22,40},{82,52}}</string>
+                <string>{{0,0},{53,34}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{53,34}</string>
             </dict>
             <key>ctm_Space_Satelite03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{312,410},{104,42}}</string>
+                <string>{{134,746},{50,24}}</string>
                 <key>offset</key>
-                <string>{0,-2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{12,13},{104,42}}</string>
+                <string>{{0,0},{50,24}}</string>
                 <key>sourceSize</key>
-                <string>{128,64}</string>
+                <string>{50,24}</string>
             </dict>
             <key>ctm_Space_Satelite04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{90,990},{54,32}}</string>
+                <string>{{234,718},{41,24}}</string>
                 <key>offset</key>
-                <string>{-1,2}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{4,14},{54,32}}</string>
+                <string>{{0,0},{41,24}}</string>
                 <key>sourceSize</key>
-                <string>{64,64}</string>
+                <string>{41,24}</string>
             </dict>
             <key>ctm_Space_Shuttle01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{178,614},{70,126}}</string>
+                <string>{{118,831},{70,126}}</string>
                 <key>offset</key>
-                <string>{3,-1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{32,2},{70,126}}</string>
+                <string>{{0,0},{70,126}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{70,126}</string>
             </dict>
             <key>ctm_Space_module01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{220,686},{120,118}}</string>
+                <string>{{227,530},{68,67}}</string>
                 <key>offset</key>
-                <string>{4,-5}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{8,10},{120,118}}</string>
+                <string>{{0,0},{68,67}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{68,67}</string>
             </dict>
             <key>ctm_Space_nasa01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{234,476},{60,128}}</string>
+                <string>{{57,832},{59,127}}</string>
                 <key>offset</key>
-                <string>{2,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{36,0},{60,128}}</string>
+                <string>{{0,0},{59,127}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{59,127}</string>
             </dict>
             <key>ctm_Space_nasa02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{276,324},{34,128}}</string>
+                <string>{{67,681},{33,127}}</string>
                 <key>offset</key>
-                <string>{-1,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{46,0},{34,128}}</string>
+                <string>{{0,0},{33,127}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{33,127}</string>
             </dict>
             <key>ctm_Space_nasa03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{146,990},{20,122}}</string>
+                <string>{{67,810},{19,122}}</string>
                 <key>offset</key>
-                <string>{1,-3}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{7,6},{20,122}}</string>
+                <string>{{0,0},{19,122}}</string>
                 <key>sourceSize</key>
-                <string>{32,128}</string>
+                <string>{19,122}</string>
             </dict>
             <key>ctm_Space_nasa04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,990},{32,86}}</string>
+                <string>{{120,530},{31,86}}</string>
                 <key>offset</key>
-                <string>{0,-5}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,26},{32,86}}</string>
+                <string>{{0,0},{31,86}}</string>
                 <key>sourceSize</key>
-                <string>{32,128}</string>
+                <string>{31,86}</string>
             </dict>
             <key>ctm_space_Retro01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{178,178},{60,150}}</string>
+                <string>{{76,530},{42,126}}</string>
                 <key>offset</key>
-                <string>{-1,-3}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{33,56},{60,150}}</string>
+                <string>{{0,0},{42,126}}</string>
                 <key>sourceSize</key>
-                <string>{128,256}</string>
+                <string>{42,126}</string>
             </dict>
             <key>ctm_space_Retro02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{216,838},{64,150}}</string>
+                <string>{{2,681},{63,149}}</string>
                 <key>offset</key>
-                <string>{11,1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{43,52},{64,150}}</string>
+                <string>{{0,0},{63,149}}</string>
                 <key>sourceSize</key>
-                <string>{128,256}</string>
+                <string>{63,149}</string>
             </dict>
             <key>ctm_space_Retro03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{146,686},{72,150}}</string>
+                <string>{{2,530},{72,149}}</string>
                 <key>offset</key>
-                <string>{9,1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{37,52},{72,150}}</string>
+                <string>{{0,0},{72,149}}</string>
                 <key>sourceSize</key>
-                <string>{128,256}</string>
+                <string>{72,149}</string>
             </dict>
             <key>ctm_space_Retro04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{240,178},{60,144}}</string>
+                <string>{{83,961},{60,105}}</string>
                 <key>offset</key>
-                <string>{11,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{45,56},{60,144}}</string>
+                <string>{{0,0},{60,105}}</string>
                 <key>sourceSize</key>
-                <string>{128,256}</string>
+                <string>{60,105}</string>
             </dict>
             <key>ctm_space_Retro05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{178,476},{54,136}}</string>
+                <string>{{2,832},{53,135}}</string>
                 <key>offset</key>
-                <string>{13,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{50,60},{54,136}}</string>
+                <string>{{0,0},{53,135}}</string>
                 <key>sourceSize</key>
-                <string>{128,256}</string>
-            </dict>
-            <key>ctm_space_RetroFlying01.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{178,330},{144,96}}</string>
-                <key>offset</key>
-                <string>{-8,1}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{48,79},{144,96}}</string>
-                <key>sourceSize</key>
-                <string>{256,256}</string>
-            </dict>
-            <key>ctm_space_RetroFlying02.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,838},{150,116}}</string>
-                <key>offset</key>
-                <string>{-6,4}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{47,66},{150,116}}</string>
-                <key>sourceSize</key>
-                <string>{256,256}</string>
-            </dict>
-            <key>ctm_space_RetroFlying03.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{120,838},{150,94}}</string>
-                <key>offset</key>
-                <string>{-6,0}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{47,81},{150,94}}</string>
-                <key>sourceSize</key>
-                <string>{256,256}</string>
-            </dict>
-            <key>ctm_space_RetroFlying04.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{2,686},{150,142}}</string>
-                <key>offset</key>
-                <string>{-5,-2}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{48,59},{150,142}}</string>
-                <key>sourceSize</key>
-                <string>{256,256}</string>
-            </dict>
-            <key>ctm_space_RetroFlying05.png</key>
-            <dict>
-                <key>frame</key>
-                <string>{{302,178},{122,100}}</string>
-                <key>offset</key>
-                <string>{-10,2}</string>
-                <key>rotated</key>
-                <true/>
-                <key>sourceColorRect</key>
-                <string>{{57,76},{122,100}}</string>
-                <key>sourceSize</key>
-                <string>{256,256}</string>
+                <string>{53,135}</string>
             </dict>
             <key>ctm_space_saucer01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{372,302},{102,52}}</string>
+                <string>{{120,618},{71,36}}</string>
                 <key>offset</key>
-                <string>{1,1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{14,37},{102,52}}</string>
+                <string>{{0,0},{71,36}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{71,36}</string>
             </dict>
             <key>ctm_space_saucer02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{312,302},{106,58}}</string>
+                <string>{{153,530},{73,40}}</string>
                 <key>offset</key>
-                <string>{0,1}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{11,34},{106,58}}</string>
+                <string>{{0,0},{73,40}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{73,40}</string>
             </dict>
             <key>ctm_space_saucer03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{426,278},{98,38}}</string>
+                <string>{{234,648},{68,27}}</string>
                 <key>offset</key>
-                <string>{3,8}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
                 <true/>
                 <key>sourceColorRect</key>
-                <string>{{18,37},{98,38}}</string>
+                <string>{{0,0},{68,27}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{68,27}</string>
             </dict>
             <key>ctm_space_saucer04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{404,178},{98,58}}</string>
+                <string>{{193,605},{69,41}}</string>
                 <key>offset</key>
-                <string>{-1,7}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{14,28},{98,58}}</string>
+                <string>{{0,0},{69,41}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{69,41}</string>
             </dict>
             <key>ctm_space_saucer05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{418,406},{98,44}}</string>
+                <string>{{195,530},{69,30}}</string>
                 <key>offset</key>
-                <string>{-1,4}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{14,38},{98,44}}</string>
+                <string>{{0,0},{69,30}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{69,30}</string>
             </dict>
             <key>ctm_space_saucer06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{296,566},{98,44}}</string>
+                <string>{{102,746},{62,30}}</string>
                 <key>offset</key>
-                <string>{2,0}</string>
+                <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
-                <string>{{17,42},{98,44}}</string>
+                <string>{{0,0},{62,30}}</string>
                 <key>sourceSize</key>
-                <string>{128,128}</string>
+                <string>{62,30}</string>
             </dict>
         </dict>
         <key>metadata</key>
@@ -493,9 +415,9 @@
             <key>realTextureFileName</key>
             <string>spaceBG.png</string>
             <key>size</key>
-            <string>{1024,1024}</string>
+            <string>{512,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:b1f7585bde18176947141206720ac7f0$</string>
+            <string>$TexturePacker:SmartUpdate:874ba520dde7c07dae64558f6704e3b6$</string>
             <key>textureFileName</key>
             <string>spaceBG.png</string>
         </dict>

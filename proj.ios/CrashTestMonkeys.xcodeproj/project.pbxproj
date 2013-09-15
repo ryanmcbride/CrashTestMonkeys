@@ -208,6 +208,13 @@
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		C33E6EED17BDCC06003D0CC5 /* City_GraffitiPanels_01.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E6EE717BDCC06003D0CC5 /* City_GraffitiPanels_01.png */; };
+		C33E6EEE17BDCC06003D0CC5 /* City_GraffitiPanels_02.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E6EE817BDCC06003D0CC5 /* City_GraffitiPanels_02.png */; };
+		C33E6EEF17BDCC06003D0CC5 /* City_GraffitiPanels_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E6EE917BDCC06003D0CC5 /* City_GraffitiPanels_03.png */; };
+		C33E6EF017BDCC06003D0CC5 /* Space_Panels_01.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E6EEA17BDCC06003D0CC5 /* Space_Panels_01.png */; };
+		C33E6EF117BDCC06003D0CC5 /* Space_Panels_02.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E6EEB17BDCC06003D0CC5 /* Space_Panels_02.png */; };
+		C33E6EF217BDCC06003D0CC5 /* Space_Panels_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C33E6EEC17BDCC06003D0CC5 /* Space_Panels_03.png */; };
+		C34E75FC17BC7098008E1538 /* ctm_Tut_Title.png in Resources */ = {isa = PBXBuildFile; fileRef = C34E75FB17BC7098008E1538 /* ctm_Tut_Title.png */; };
 		C3630F6517756BA70072F4E0 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3630F6417756AC40072F4E0 /* libcocos2dx.a */; };
 		C363101917756BF80072F4E0 /* AudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630F6617756BF70072F4E0 /* AudioManager.cpp */; };
 		C363101A17756BF80072F4E0 /* BoredRoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3630F6917756BF70072F4E0 /* BoredRoom.cpp */; };
@@ -291,6 +298,7 @@
 		C363106D17756BF80072F4E0 /* ScoreManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C363101517756BF80072F4E0 /* ScoreManager.cpp */; };
 		C363106E17756BF80072F4E0 /* Track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C363101717756BF80072F4E0 /* Track.cpp */; };
 		C363117417756C470072F4E0 /* ScreenHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C363111E17756C470072F4E0 /* ScreenHelper.cpp */; };
+		C37C724417B09099008E9377 /* Kittens.3gp in Resources */ = {isa = PBXBuildFile; fileRef = C37C724317B09099008E9377 /* Kittens.3gp */; };
 		C3CFAECB17760825004D5437 /* LocalStorageAndroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CFAECA17760825004D5437 /* LocalStorageAndroid.cpp */; };
 		C3CFAED9177779A2004D5437 /* cityBallon.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED4177779A2004D5437 /* cityBallon.png */; };
 		C3CFAEDA177779A2004D5437 /* CityBG02.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED5177779A2004D5437 /* CityBG02.png */; };
@@ -1255,6 +1263,13 @@
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C33E6EE717BDCC06003D0CC5 /* City_GraffitiPanels_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = City_GraffitiPanels_01.png; sourceTree = "<group>"; };
+		C33E6EE817BDCC06003D0CC5 /* City_GraffitiPanels_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = City_GraffitiPanels_02.png; sourceTree = "<group>"; };
+		C33E6EE917BDCC06003D0CC5 /* City_GraffitiPanels_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = City_GraffitiPanels_03.png; sourceTree = "<group>"; };
+		C33E6EEA17BDCC06003D0CC5 /* Space_Panels_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Space_Panels_01.png; sourceTree = "<group>"; };
+		C33E6EEB17BDCC06003D0CC5 /* Space_Panels_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Space_Panels_02.png; sourceTree = "<group>"; };
+		C33E6EEC17BDCC06003D0CC5 /* Space_Panels_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Space_Panels_03.png; sourceTree = "<group>"; };
+		C34E75FB17BC7098008E1538 /* ctm_Tut_Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Tut_Title.png; sourceTree = "<group>"; };
 		C3630F6617756BF70072F4E0 /* AudioManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AudioManager.cpp; path = ../Classes/AudioManager.cpp; sourceTree = "<group>"; };
 		C3630F6717756BF70072F4E0 /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioManager.h; path = ../Classes/AudioManager.h; sourceTree = "<group>"; };
 		C3630F6917756BF70072F4E0 /* BoredRoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoredRoom.cpp; sourceTree = "<group>"; };
@@ -1420,6 +1435,7 @@
 		C363101817756BF80072F4E0 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
 		C363111E17756C470072F4E0 /* ScreenHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScreenHelper.cpp; path = ../Classes/ScreenHelper.cpp; sourceTree = "<group>"; };
 		C363111F17756C470072F4E0 /* ScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenHelper.h; path = ../Classes/ScreenHelper.h; sourceTree = "<group>"; };
+		C37C724317B09099008E9377 /* Kittens.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kittens.3gp; sourceTree = "<group>"; };
 		C3CFAECA17760825004D5437 /* LocalStorageAndroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStorageAndroid.cpp; sourceTree = "<group>"; };
 		C3CFAED4177779A2004D5437 /* cityBallon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cityBallon.png; sourceTree = "<group>"; };
 		C3CFAED5177779A2004D5437 /* CityBG02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityBG02.png; sourceTree = "<group>"; };
@@ -2790,6 +2806,13 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C33E6EE717BDCC06003D0CC5 /* City_GraffitiPanels_01.png */,
+				C33E6EE817BDCC06003D0CC5 /* City_GraffitiPanels_02.png */,
+				C33E6EE917BDCC06003D0CC5 /* City_GraffitiPanels_03.png */,
+				C33E6EEA17BDCC06003D0CC5 /* Space_Panels_01.png */,
+				C33E6EEB17BDCC06003D0CC5 /* Space_Panels_02.png */,
+				C33E6EEC17BDCC06003D0CC5 /* Space_Panels_03.png */,
+				C34E75FB17BC7098008E1538 /* ctm_Tut_Title.png */,
 				C3CFAEFD177BCF69004D5437 /* Tiki.plist */,
 				C3CFAEFE177BCF69004D5437 /* Tiki.png */,
 				C3CFAEEF177A9422004D5437 /* Hints_0000.png */,
@@ -3384,6 +3407,7 @@
 		C3F5C84A177570820061B578 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				C37C724317B09099008E9377 /* Kittens.3gp */,
 				C3F5C84B177570820061B578 /* Armadillo1.3gp */,
 				C3F5C84C177570820061B578 /* Armadillo2.3gp */,
 				C3F5C84D177570820061B578 /* Armadillo3.3gp */,
@@ -4200,6 +4224,14 @@
 				C3CFAEFC177A9422004D5437 /* Hints_0006.png in Resources */,
 				C3CFAEFF177BCF6A004D5437 /* Tiki.plist in Resources */,
 				C3CFAF00177BCF6A004D5437 /* Tiki.png in Resources */,
+				C37C724417B09099008E9377 /* Kittens.3gp in Resources */,
+				C34E75FC17BC7098008E1538 /* ctm_Tut_Title.png in Resources */,
+				C33E6EED17BDCC06003D0CC5 /* City_GraffitiPanels_01.png in Resources */,
+				C33E6EEE17BDCC06003D0CC5 /* City_GraffitiPanels_02.png in Resources */,
+				C33E6EEF17BDCC06003D0CC5 /* City_GraffitiPanels_03.png in Resources */,
+				C33E6EF017BDCC06003D0CC5 /* Space_Panels_01.png in Resources */,
+				C33E6EF117BDCC06003D0CC5 /* Space_Panels_02.png in Resources */,
+				C33E6EF217BDCC06003D0CC5 /* Space_Panels_03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4489,8 +4521,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan McBride (ZM893VW57R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ryan McBride (ZM893VW57R)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -4527,8 +4559,8 @@
 				OTHER_CFLAGS = "-O2";
 				OTHER_LDFLAGS = "-lsqlite3";
 				PRODUCT_NAME = CrashTestMonkeys;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "65265C4C-B46F-46F8-B173-9137C98F3BD2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "65265C4C-B46F-46F8-B173-9137C98F3BD2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -4540,8 +4572,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ryan McBride (ZM893VW57R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ryan McBride (ZM893VW57R)";
 				COPY_PHASE_STRIP = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -4575,8 +4607,8 @@
 				);
 				OTHER_LDFLAGS = "-lsqlite3";
 				PRODUCT_NAME = CrashTestMonkeys;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "65265C4C-B46F-46F8-B173-9137C98F3BD2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "65265C4C-B46F-46F8-B173-9137C98F3BD2";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";

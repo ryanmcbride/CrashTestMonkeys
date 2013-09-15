@@ -48,10 +48,14 @@ void CityBackGround::InitBG(cocos2d::CCNode *layer)
     if(cityObjsLoaded)
     {
         sprite = CCSprite::createWithSpriteFrameName("ctm_Back_CityScape_01.png");
-        pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,-128.0f-64.0f,-70.0f));
+        pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,(-256.0f),-80.0f));
+        sprite->setScaleX(scaleX);
+        sprite->setScaleY(scaleY);
         
         sprite = CCSprite::createWithSpriteFrameName("ctm_Back_CityScape_02.png");
-        pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,128.0f+64.0f,-70.0f));
+        pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,(256.0f),-80.0f));
+        sprite->setScaleX(scaleX);
+        sprite->setScaleY(scaleY);
     }
     
     if(balloonObjsLoaded)
@@ -95,7 +99,20 @@ void CityBackGround::InitBG(cocos2d::CCNode *layer)
     m_Track->retain();
     for(int i = 0; i < 4; i++)
     {
-        sprite = CCSprite::create("ctm_island_FG_01.png");
+        int r = (2.999f * CCRANDOM_0_1());
+        switch(r){
+            default:
+            case 0:
+                sprite = CCSprite::create("City_GraffitiPanels_01.png");
+                break;
+            case 1:
+                sprite = CCSprite::create("City_GraffitiPanels_02.png");
+                break;
+            case 2:
+                sprite = CCSprite::create("City_GraffitiPanels_03.png");
+                break;
+        }
+
         sprite->setScaleX(scaleX);
         sprite->setScaleY(scale);
         m_TrackPoints[i] = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_BOTTOM_LEFT);

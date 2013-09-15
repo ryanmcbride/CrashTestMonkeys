@@ -21,6 +21,7 @@ using namespace CocosDenshion;
 
 extern bool g_isTrickLevel;
 extern bool g_SlowClock;
+#define SLOW_CLOCK_VFX_NODE 0x34532
 
 class TrickButtonMenuItem : public CCMenuItemSprite
 {
@@ -49,8 +50,8 @@ HUD::HUD()
     
     int currentLevel = LevelSelect::getCurrentLevel();
     float scale = ScreenHelper::getTextureScale();
-    //float scaleX = ScreenHelper::getTextureScaleX();
-    //float scaleY = ScreenHelper::getTextureScaleY();
+    float scaleX = ScreenHelper::getTextureScaleX();
+    float scaleY = ScreenHelper::getTextureScaleY();
     
     CCTextureCache::sharedTextureCache()->addPVRImage("ctm_Buttons.pvr.ccz");
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("ctm_Buttons.plist");
@@ -71,10 +72,15 @@ HUD::HUD()
         
         
         label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
+        label->setColor(ccc3(0,0,0));
+        label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,1.0f,9.0f));
         m_startPrompt->addChild(label, 2);
+        
+        label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
         label->setColor(ccc3(237,188,0));
-        label->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,10.0f));
+        m_startPrompt->addChild(label, 2);
+        
     }
     else if(currentLevel==5)
     {
@@ -84,19 +90,26 @@ HUD::HUD()
         
         
         label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
+        label->setColor(ccc3(0,0,0));
+        label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,1.0f,-11.0f));
         m_startPrompt->addChild(label, 2);
+        
+        label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
         label->setColor(ccc3(237,188,0));
-        label->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
         label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,-10.0f));
+        m_startPrompt->addChild(label, 2);
     }
     else if(currentLevel > 5)
     {
         label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
+        label->setColor(ccc3(0,0,0));
+        label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,2.0f,38.0f));
         m_startPrompt->addChild(label, 2);
-        label->setColor(ccc3(237,188,0));
-        label->enableStroke(ccc3(0,0,0), 0.5f*ScreenHelper::getTextureScale());
-        label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,40.0f));
         
+        label = CCLabelTTF::create("Move Forward to Start", "impact.ttf", 35*scale);
+        label->setColor(ccc3(237,188,0));
+        label->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,40.0f));
+        m_startPrompt->addChild(label, 2);
     }
     
     
@@ -151,8 +164,40 @@ HUD::HUD()
     
     CCLabelBMFont *time = CCLabelBMFont::create("Time:","JacobyICGBlack18pnt.fnt");
     time->setScale(scale);
-    if(g_SlowClock)
+    if(g_SlowClock){
+        float line_width = 4.0f;
         time->setColor(ccc3(170,220,170));
+        CCNode *blink = CCNode::create();
+        CCLayerColor *top = CCLayerColor::create(ccc4(0,255,0,255), (480.0f-2.0f*line_width)*scaleX, line_width*scaleY);
+        top->ignoreAnchorPointForPosition(false);
+        top->setAnchorPoint(ccp(0.5f,1.0f));
+        top->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_TOP_CENTER));
+        top->runAction(CCRepeatForever::create(CCSequence::create(CCFadeOut::create(1.0f),CCFadeIn::create(1.0f),NULL)));
+        blink->addChild(top);
+        
+        CCLayerColor *bottom = CCLayerColor::create(ccc4(0,255,0,255), (480.0f-2.0f*line_width)*scaleX, line_width*scaleY);
+        bottom->ignoreAnchorPointForPosition(false);
+        bottom->setAnchorPoint(ccp(0.5f,0.0f));
+        bottom->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_BOTTOM_CENTER));
+        bottom->runAction(CCRepeatForever::create(CCSequence::create(CCFadeOut::create(1.0f),CCFadeIn::create(1.0f),NULL)));
+        blink->addChild(bottom);
+
+        CCLayerColor *left = CCLayerColor::create(ccc4(0,255,0,255), line_width*scaleX, 320.0f*scaleY);
+        left->ignoreAnchorPointForPosition(false);
+        left->setAnchorPoint(ccp(0.0f,0.5f));
+        left->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_LEFT));
+        left->runAction(CCRepeatForever::create(CCSequence::create(CCFadeOut::create(1.0f),CCFadeIn::create(1.0f),NULL)));
+        blink->addChild(left);
+
+        CCLayerColor *right = CCLayerColor::create(ccc4(0,255,0,255), line_width*scaleX, 320.0f*scaleY);
+        right->ignoreAnchorPointForPosition(false);
+        right->setAnchorPoint(ccp(1.0f,0.5f));
+        right->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_RIGHT));
+        right->runAction(CCRepeatForever::create(CCSequence::create(CCFadeOut::create(1.0f),CCFadeIn::create(1.0f),NULL)));
+        blink->addChild(right);
+        
+        addChild(blink,0,SLOW_CLOCK_VFX_NODE);
+    }
     else
         time->setColor(ccc3(237,188,0));
     time->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_TOP_LEFT, 80, -20.0f));
@@ -369,6 +414,7 @@ void HUD::startCrashSequence()
     this->setVisible(false);
     CrashOverlay *overlay = new CrashOverlay(m_Time,Rider::g_Pickups,Rider::g_Score);
     this->getParent()->addChild(overlay);
+    if(g_SlowClock) getChildByTag(SLOW_CLOCK_VFX_NODE)->setVisible(false);
 }
 void HUD::startFinishSequence()
 {
@@ -376,6 +422,7 @@ void HUD::startFinishSequence()
     m_bIsInFinishSequence = true;
     this->setVisible(false);
     this->getParent()->addChild(FinishOverlay::createFinish(m_Time,Rider::g_Pickups,Rider::g_Score));
+    if(g_SlowClock) getChildByTag(SLOW_CLOCK_VFX_NODE)->setVisible(false);
 }
 
 

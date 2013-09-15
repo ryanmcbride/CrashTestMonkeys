@@ -27,6 +27,8 @@ protected:
     cocos2d::CCArray *m_Parallax2;
     cocos2d::CCPoint m_Parallax3Points[4];
     cocos2d::CCArray *m_Parallax3;
+    
+    std::vector<int> object_vals;
 };
 
 #endif // __BACKGROUND_H__

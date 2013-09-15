@@ -183,6 +183,7 @@ bool Kittens::HandleBeginContact(b2Fixture *fixtureA,b2Fixture *fixtureB)
                     m_censorBar->setPosition(texObject->GetSprite()->getPosition());
                     m_frontLayer->addChild(m_censorBar,4);
                 }
+                AudioManager::PlayEffect(AUDIO_KITTENS);
                 break;
             case COWS:
                 if(m_censorBar == NULL)

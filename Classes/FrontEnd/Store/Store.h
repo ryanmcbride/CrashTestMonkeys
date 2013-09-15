@@ -31,9 +31,9 @@ public:
     void bikeButtonTapped(CCObject*object);
     void update(float dt);
     void StopGetPeanuts();
+    void StartGetPeanuts();
 protected:
     
-    void StartGetPeanuts();
     void BuildUpgrades(cocos2d::CCMenu* menu);
     void BuildPowerUps(cocos2d::CCMenu* menu);
     void BuildCharacters(cocos2d::CCMenu* menu);

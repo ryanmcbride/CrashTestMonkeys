@@ -175,7 +175,7 @@ void Monkey::SetVelocity(b2Vec2 velocity)
             b2Vec2 newVel;
             //newVel.x = RandomFloat(-s_RandomXVel, s_RandomXVel) + velocity.x;
             //newVel.y = RandomFloat(-s_RandomYVel, s_RandomYVel) + velocity.y;
-            allPieces[i]->SetLinearVelocity(newVel);
+            allPieces[i]->SetLinearVelocity(velocity);
         }
         else
         {

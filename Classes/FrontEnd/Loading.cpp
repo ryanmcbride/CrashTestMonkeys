@@ -624,14 +624,21 @@ class TutorialLoading : public CCLayer
 public:
     TutorialLoading(int number)
     {
-        float scale = ScreenHelper::getTextureScale();
-        float scaleX = ScreenHelper::getTextureScaleX();
-        float scaleY = ScreenHelper::getTextureScaleY();
+        //float scale = ScreenHelper::getTextureScale();
+        //float scaleX = ScreenHelper::getTextureScaleX();
+        //float scaleY = ScreenHelper::getTextureScaleY();
         
         m_TimeOut = 2.99f;
         scheduleUpdate();
         
-        CCTextureCache::sharedTextureCache()->addPVRImage("LoadingScreen.pvr.ccz");
+        CCSprite *hintsprite = CCSprite::create("ctm_Tut_Title.png");
+        
+        hintsprite->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_CENTER));
+        hintsprite->setScale(ScreenHelper::getTextureScale());
+        
+        addChild(hintsprite);
+        
+        /*CCTextureCache::sharedTextureCache()->addPVRImage("LoadingScreen.pvr.ccz");
         CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("LoadingScreen.plist");
         
         CCNode *grid = CCNode::create();
@@ -815,7 +822,7 @@ public:
             }
                 break;
         }
-        
+        */
         g_TutorialState = number;
         
     }

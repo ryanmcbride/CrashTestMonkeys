@@ -180,7 +180,7 @@ void GetPeanuts::buyButtonTapped(CCObject*object)
 {
     if(object == m_MenuItems[0])
     {
-#if 0 && (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#if 1 && (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
         cocos2dx_StoreController::buyMarketItem("peanuts_3000");
 //        cocos2dx_StoreController::buyMarketItem("android.test.refunded");
 #else
@@ -189,7 +189,7 @@ void GetPeanuts::buyButtonTapped(CCObject*object)
     }
     if(object == m_MenuItems[1])
     {
-#if 0 && (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#if 1 && (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
         cocos2dx_StoreController::buyMarketItem("peanuts_35000");
 //        cocos2dx_StoreController::buyMarketItem("android.test.canceled");
 #else
@@ -198,7 +198,7 @@ void GetPeanuts::buyButtonTapped(CCObject*object)
     }
     if(object == m_MenuItems[2])
     {
-#if 0 && (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#if 1 && (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
         cocos2dx_StoreController::buyMarketItem("peanuts_100000");
 //        cocos2dx_StoreController::buyMarketItem("android.test.purchased");
 #else
@@ -207,7 +207,7 @@ void GetPeanuts::buyButtonTapped(CCObject*object)
     }
     if(object == m_MenuItems[3])
     {
-#if 0 && (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#if 1 && (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
         cocos2dx_StoreController::buyMarketItem("peanuts_300000");
 //        cocos2dx_StoreController::buyMarketItem("android.test.item_unavailable");
 #else

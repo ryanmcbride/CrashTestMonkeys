@@ -29,6 +29,74 @@ using namespace cocos2d;
 using namespace CocosDenshion;
 using namespace cocos2d::extension;
 
+class PeanutsPopup : public CCNode{
+public:
+    static bool is_active;
+    static PeanutsPopup * create(void)
+    {
+        PeanutsPopup * pRet = new PeanutsPopup();
+        if (pRet && pRet->init())
+        {
+            pRet->autorelease();
+        }
+        else
+        {
+            CC_SAFE_DELETE(pRet);
+        }
+        return pRet;
+    }
+    
+
+    virtual ~PeanutsPopup(){
+        is_active = false;
+    }
+    virtual bool init(){
+        CCNode::init();
+        is_active = true;
+        float scale = ScreenHelper::getTextureScale();
+        CCLayerColor *bg = CCLayerColor::create(ccc4(30,30,30,255),300*scale,150*scale);
+        bg->setAnchorPoint(ccp(0.5f,0.5f));
+        bg->ignoreAnchorPointForPosition(false);
+        bg->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0,-30));
+        
+        CCLabelTTF *message = CCLabelTTF::create("Not Enough Peanuts", "impact.ttf", 25*scale);
+        message->setColor(ccc3(237,188,0));
+        message->setAnchorPoint(ccp(0.5f,1.0f));
+        message->setPosition(ccp(150*scale,149*scale));
+        bg->addChild(message);
+        
+        CCLabelTTF *message2 = CCLabelTTF::create("Would you like to buy", "impact.ttf", 21*scale);
+        message2->setAnchorPoint(ccp(0.5f,1.0f));
+        message2->setPosition(ccp(150*scale,100*scale));
+        bg->addChild(message2);
+        CCLabelTTF *message3 = CCLabelTTF::create("more?", "impact.ttf", 21*scale);
+        message3->setAnchorPoint(ccp(0.5f,1.0f));
+        message3->setPosition(ccp(150*scale,75*scale));
+        bg->addChild(message3);
+
+        
+        CCMenuItemLabel *yes = CCMenuItemLabel::create(CCLabelTTF::create("YES", "impact.ttf", 25*scale), this, menu_selector(PeanutsPopup::yesButtonTapped));
+        ((CCLabelTTF*)yes->getChildren()->objectAtIndex(0))->setColor(ccc3(237,188,0));
+        CCMenuItemLabel *no = CCMenuItemLabel::create(CCLabelTTF::create("NO", "impact.ttf", 25*scale), this, menu_selector(PeanutsPopup::noButtonTapped));
+        ((CCLabelTTF*)no->getChildren()->objectAtIndex(0))->setColor(ccc3(237,188,0));
+        CCMenu *menu = CCMenu::create(yes,no,NULL);
+        menu->alignItemsHorizontallyWithPadding(20*scale);
+        menu->setPosition(ccp(150*scale,13*scale));
+        bg->addChild(menu);
+        
+        addChild(bg);
+        return true;
+    }
+    void noButtonTapped(CCObject *object){
+        removeFromParentAndCleanup(true);
+    }
+    void yesButtonTapped(CCObject *object){
+        ((Store*)getParent())->StartGetPeanuts();
+        removeFromParentAndCleanup(true);
+    }
+};
+bool PeanutsPopup::is_active = false;
+
 #define NUM_BIKE_ITEMS 8
 static const char *s_BikeItemImg[NUM_BIKE_ITEMS] =
 {
@@ -501,6 +569,7 @@ void Store::backButtonTapped(CCObject*object)
 void Store::peanutButtonTapped(CCObject*object)
 {
     //if([PeanutsPopup isActive])return;
+    if(PeanutsPopup::is_active)return;
     
     AudioManager::PlayEffect(AUDIO_SELECT);
     
@@ -901,6 +970,7 @@ void Store::addUpgradeBar(CCNode* sender,int level, int num)
 void Store::buyUpgradeButtonTapped(CCObject*object)
 {
 //    if([PeanutsPopup isActive])return;
+    if(PeanutsPopup::is_active)return;
     
     AudioManager::PlayEffect(AUDIO_SELECT);
     
@@ -928,6 +998,7 @@ void Store::buyUpgradeButtonTapped(CCObject*object)
                         else
                         {
                           //  [self addChild:[PeanutsPopup node]];
+                            addChild(PeanutsPopup::create());
                         }
                     }
                     break;
@@ -943,6 +1014,7 @@ void Store::buyUpgradeButtonTapped(CCObject*object)
                         else
                         {
                          //   [self addChild:[PeanutsPopup node]];
+                            addChild(PeanutsPopup::create());
                         }
                     }
                     break;
@@ -958,6 +1030,7 @@ void Store::buyUpgradeButtonTapped(CCObject*object)
                         else
                         {
                          //   [self addChild:[PeanutsPopup node]];
+                            addChild(PeanutsPopup::create());
                         }
                     }
                     break;
@@ -973,6 +1046,7 @@ void Store::buyUpgradeButtonTapped(CCObject*object)
                         else
                         {
                          //   [self addChild:[PeanutsPopup node]];
+                            addChild(PeanutsPopup::create());
                         }
                     }
                     break;
@@ -988,6 +1062,7 @@ void Store::buyUpgradeButtonTapped(CCObject*object)
                         else
                         {
                         //    [self addChild:[PeanutsPopup node]];
+                            addChild(PeanutsPopup::create());
                         }
                     }
                     break;
@@ -1006,6 +1081,7 @@ void Store::buyUpgradeButtonTapped(CCObject*object)
                         else
                         {
                         //    [self addChild:[PeanutsPopup node]];
+                            addChild(PeanutsPopup::create());
                         }
                     }
                     break;
@@ -1021,6 +1097,7 @@ void Store::buyUpgradeButtonTapped(CCObject*object)
                         else
                         {
                          //   [self addChild:[PeanutsPopup node]];
+                            addChild(PeanutsPopup::create());
                         }
                     }
                     break;
@@ -1033,6 +1110,7 @@ void Store::buyUpgradeButtonTapped(CCObject*object)
 void Store::powerupButtonTapped(CCObject*object)
 {
  //   if([PeanutsPopup isActive])return;
+    if(PeanutsPopup::is_active)return;
     
     AudioManager::PlayEffect(AUDIO_SELECT);
     
@@ -1073,6 +1151,7 @@ void Store::powerupButtonTapped(CCObject*object)
                 else
                 {
                     //[self addChild:[PeanutsPopup node]];
+                    addChild(PeanutsPopup::create());
                 }
             }
             else if (i==1)
@@ -1100,6 +1179,7 @@ void Store::powerupButtonTapped(CCObject*object)
                 else
                 {
                     //[self addChild:[PeanutsPopup node]];
+                    addChild(PeanutsPopup::create());
                 }
             }
             else
@@ -1126,6 +1206,7 @@ void Store::powerupButtonTapped(CCObject*object)
                 else
                 {
                     //[self addChild:[PeanutsPopup node]];
+                    addChild(PeanutsPopup::create());
                 }
             }
             SaveLoad::Save();
@@ -1136,6 +1217,7 @@ void Store::powerupButtonTapped(CCObject*object)
 void Store::charButtonTapped(CCObject*object)
 {
  //   if([PeanutsPopup isActive])return;
+    if(PeanutsPopup::is_active)return;
     
     AudioManager::PlayEffect(AUDIO_SELECT);
     
@@ -1234,6 +1316,7 @@ void Store::charButtonTapped(CCObject*object)
                 else
                 {
                     //[self addChild:[PeanutsPopup node]];
+                    addChild(PeanutsPopup::create());
                 }
             }
             SaveLoad::Save();
@@ -1244,6 +1327,7 @@ void Store::charButtonTapped(CCObject*object)
 void Store::bikeButtonTapped(CCObject*object)
 {
     //if([PeanutsPopup isActive])return;
+    if(PeanutsPopup::is_active)return;
     
     AudioManager::PlayEffect(AUDIO_SELECT);
     
@@ -1333,6 +1417,7 @@ void Store::bikeButtonTapped(CCObject*object)
                 else
                 {
 //                    [self addChild:[PeanutsPopup node]];
+                    addChild(PeanutsPopup::create());
                 }
             }
             SaveLoad::Save();

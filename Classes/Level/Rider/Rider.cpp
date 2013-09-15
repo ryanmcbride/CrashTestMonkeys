@@ -110,10 +110,12 @@ Rider::~Rider()
 }
 void Rider::BeginContact(b2Contact* contact)
 {
+    if(g_isCrashed)return;
 	m_Vehicle->BeginContact(contact);
 }
 void Rider::EndContact(b2Contact* contact)
 {
+    if(g_isCrashed)return;
 	m_Vehicle->EndContact(contact);
 }
 

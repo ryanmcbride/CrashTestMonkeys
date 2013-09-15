@@ -66,52 +66,53 @@ Credits::Credits()
     ////////////////////////////////////////////////////
     CCSize dim;
     dim.width = 300;
-    dim.height = 50;
+    dim.height = 50*scale;
     
     dim.width = 150*scale;
-    CCLabelTTF *art = CCLabelTTF::create("Art","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
+    CCLabelTTF *art = CCLabelTTF::create("Art","impact.ttf",20*scale,dim,kCCTextAlignmentLeft);
     art->setColor(ccc3(237,188,0));
-    art->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,50.0f));
+    art->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,40.0f));
     addChild(art);
     
-    CCLabelTTF *ken = CCLabelTTF::create("Ken Keys","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
+    CCLabelTTF *ken = CCLabelTTF::create("Ken Keys","impact.ttf",20*scale,dim,kCCTextAlignmentLeft);
     ken->setColor(ccc3(230,230,230));
-    ken->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,30.0f));
+    ken->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,20.0f));
     addChild(ken);
     
-    CCLabelTTF *garrett = CCLabelTTF::create("Garrett Wren","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
+    CCLabelTTF *garrett = CCLabelTTF::create("Garrett Wren","impact.ttf",20*scale,dim,kCCTextAlignmentLeft);
     garrett->setColor(ccc3(230,230,230));
-    garrett->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,10.0f));
+    garrett->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,0.0f));
     addChild(garrett);
     
     
     
     
-    CCLabelTTF *programming = CCLabelTTF::create("Programming","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
+    CCLabelTTF *programming = CCLabelTTF::create("Programming","impact.ttf",20*scale,dim,kCCTextAlignmentLeft);
     programming->setColor(ccc3(237,188,0));
-    programming->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-25.0f));
+    programming->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-35.0f));
     addChild(programming);
     
-    CCLabelTTF *ryan = CCLabelTTF::create("Ryan McBride","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
+    CCLabelTTF *ryan = CCLabelTTF::create("Ryan McBride","impact.ttf",20*scale,dim,kCCTextAlignmentLeft);
     ryan->setColor(ccc3(230,230,230));
-    ryan->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-45.0f));
+    ryan->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-55.0f));
     addChild(ryan);
     
-    CCLabelTTF *audio = CCLabelTTF::create("Audio","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
+    CCLabelTTF *audio = CCLabelTTF::create("Audio","impact.ttf",20*scale,dim,kCCTextAlignmentLeft);
     audio->setColor(ccc3(237,188,0));
-    audio->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-75.0f));
+    audio->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-85.0f));
     addChild(audio);
     
-    CCLabelTTF *pete = CCLabelTTF::create("Peter Lehman","Jacoby ICG Black.ttf",20*scale,dim,kCCTextAlignmentLeft);
+    CCLabelTTF *pete = CCLabelTTF::create("Peter Lehman","impact.ttf",20*scale,dim,kCCTextAlignmentLeft);
     pete->setColor(ccc3(230,230,230));
-    pete->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-95.0f));
+    pete->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_LEFT,90.0f,-105.0f));
     addChild(pete);
     
     
     dim.width = 300*scale;
-    CCLabelTTF *ludicrous = CCLabelTTF::create("© 2013 Ludicrous Games LLC","Jacoby ICG Black.ttf",24*scale,dim,kCCTextAlignmentCenter);
+    CCLabelTTF *ludicrous = CCLabelTTF::create("© 2013 Ludicrous Games LLC","impact.ttf",24*scale,dim,kCCTextAlignmentRight);
+    ludicrous->setAnchorPoint(ccp(1.0f,0.5f));
     ludicrous->setColor(ccc3(237,188,0));
-    ludicrous->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,-115.0f));
+    ludicrous->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_RIGHT,-15.0f,-95.0f));
     addChild(ludicrous);
     
 

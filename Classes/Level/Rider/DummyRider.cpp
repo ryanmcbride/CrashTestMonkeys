@@ -194,7 +194,7 @@ void DummyRider::Crash()
 
 		b2Vec2 startPos = Rider::g_MainBody->GetWorldCenter();
 		b2Transform xform = Rider::g_MainBody->GetTransform();
-		startPos.y += 1.0f;
+		startPos.y += 1.2f;
         if(!Rider::g_WaterCrash)
 		{
             m_Monkey = new Monkey(m_World,m_Layer, startPos, xform);

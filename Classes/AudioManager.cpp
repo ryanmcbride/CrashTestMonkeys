@@ -97,6 +97,7 @@ AudioDef g_AudioFiles[NUM_AUDIO] = {
     /*0*/    {AUDIO_DIRECTORY"CTMNewsMonkey2.3gp",1.0f,1.0f,0.0f},
     /*0*/    {AUDIO_DIRECTORY"CTMTrigger.3gp",1.0f,1.0f,0.0f},
     /*0*/    {AUDIO_DIRECTORY"CTMNightFailStinger.3gp",1.0f,1.0f,0.0f},
+    /*0*/    {AUDIO_DIRECTORY"Kittens.3gp",1.0f,1.0f,0.0f},
 };
 
 float AudioManager::g_MasterSFXAudio = 1.0f;

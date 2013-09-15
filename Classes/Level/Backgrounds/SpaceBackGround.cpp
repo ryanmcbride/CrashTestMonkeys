@@ -63,22 +63,64 @@ void SpaceBackGround::InitBG(cocos2d::CCNode *layer)
         m_Parallax3 = CCArray::createWithCapacity(4);
         m_Parallax3->retain();
         
+        int last = -1;
+        std::vector<int> poster_rand;
+        std::vector<int> retro_rand;
+        object_vals.clear();
         for(int i = 0; i < 4; i++)
         {
 
             //head
             char name[64];
-            if(RandomInt(0, 100)>90)
+            if(last != 0 && RandomInt(0, 100)>90)
             {
-                sprintf(name,"ctm_SpacePoster_%02d.png",(RandomInt(1, 7)));
+                if(poster_rand.size()>0){
+                    int new_rand;
+                    bool found = false;
+                    do{
+                        found = false;
+                        new_rand = RandomInt(1, 7);
+                        for(int j=0; j < poster_rand.size(); j++){
+                            int val = poster_rand[j];
+                            if(val == new_rand){
+                                found = true;
+                                break;
+                            }
+                        }
+                    }while(found);
+                    poster_rand.push_back(new_rand);
+                }else{
+                    poster_rand.push_back(RandomInt(1, 7));
+                }
+                last = 0;
+                sprintf(name,"ctm_SpacePoster_%02d.png",poster_rand.back());
                 sprite = CCSprite::createWithSpriteFrameName(name);
                 sprite->setScale(scale);
-                m_Parallax2Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 256.0f*i-128.0f, 103.0f);
+                m_Parallax2Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 256.0f*i-192.0f, 103.0f);
                 pNode->addChild(sprite,2,CCPointMake(0.90f,0.0f),m_Parallax2Points[i]);
                 m_Parallax2->addObject(sprite);
             }
             else
             {
+                last = 1;
+                if(retro_rand.size()>0){
+                    int new_rand;
+                    bool found = false;
+                    do{
+                        found = false;
+                        new_rand = RandomInt(1, 6);
+                        for(int j=0; j < retro_rand.size(); j++){
+                            int val = retro_rand[j];
+                            if(val == new_rand){
+                                found = true;
+                                break;
+                            }
+                        }
+                    }while(found);
+                    retro_rand.push_back(new_rand);
+                }else{
+                    retro_rand.push_back(RandomInt(1, 6));
+                }
                 sprintf(name,"ctm_space_Retro%02d.png",(RandomInt(1, 6)));
                 CCNode *object = getBGObject();
                 m_Parallax2Points[i] = ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT, 256.0f*i-128.0f+object->getPositionX(), 103.0f+object->getPositionY());
@@ -105,7 +147,19 @@ void SpaceBackGround::InitBG(cocos2d::CCNode *layer)
     m_Track->retain();
     for(int i = 0; i < 4; i++)
     {
-        sprite = CCSprite::create("ctm_island_FG_01.png");
+        int r = 2.999f * CCRANDOM_0_1();
+        switch(r){
+            default:
+            case 0:
+                sprite = CCSprite::create("Space_Panels_01.png");
+                break;
+            case 1:
+                sprite = CCSprite::create("Space_Panels_02.png");
+                break;
+            case 2:
+                sprite = CCSprite::create("Space_Panels_03.png");
+                break;
+        }
         sprite->setScaleX(scaleX);
         sprite->setScaleY(scaleY);
         m_TrackPoints[i] = ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_BOTTOM_LEFT);
@@ -132,21 +186,31 @@ CCNode *SpaceBackGround::getBGObject()
     CCNode *node = NULL;
     
     char name[64];
-    int number = RandomInt(1,10);
-    static int last_number = 0;
-    while(number == last_number){number = RandomInt(1,10);}
-    last_number = number;
-    switch(number)
+    
+    if(object_vals.size()>=7)object_vals.clear();
+    if(object_vals.size()>0){
+        int new_rand;
+        bool found = false;
+        do{
+            found = false;
+            new_rand = RandomInt(1, 8);
+            for(int j=0; j < object_vals.size(); j++){
+                int val = object_vals[j];
+                if(val == new_rand){
+                    found = true;
+                    break;
+                }
+            }
+        }while(found);
+        object_vals.push_back(new_rand);
+    }else{
+        object_vals.push_back(RandomInt(1, 8));
+    }
+    
+    switch(object_vals.back())
     {
         default:
         case 1:
-            sprintf(name,"ctm_space_Retro%02d.png",(RandomInt(1, 6)));
-            sprite = CCSprite::createWithSpriteFrameName(name);
-            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(-5.0f, 15.0f)));
-            node = sprite;
-            node->setZOrder(2);
-            break;
-        case 2:
             sprintf(name,"ctm_space_saucer%02d.png",(RandomInt(1, 7)));
             sprite = CCSprite::createWithSpriteFrameName(name);
             node = CCNode::create();
@@ -160,30 +224,21 @@ CCNode *SpaceBackGround::getBGObject()
             node->addChild(sprite);
             node->setZOrder(0);
             break;
-        case 3:
+        case 2:
             sprintf(name,"ctm_Space_Buggy%02d.png",(RandomInt(1, 3)));
             sprite = CCSprite::createWithSpriteFrameName(name);
-            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(-80.0f, -25.0f)));
+            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(-60.0f, -20.0f)));
             node = sprite;
             node->setZOrder(2);
             break;
-        case 4:
-            sprintf(name,"ctm_space_RetroFlying%02d.png",(RandomInt(1, 6)));
-            sprite = CCSprite::createWithSpriteFrameName(name);
-            node = CCNode::create();
-            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(100, 300)));
-            node->addChild(sprite);
-            node->setZOrder(0);
-            sprite->setVisible(false);
-            break;
-        case 5:
+        case 3:
             sprintf(name,"ctm_Space_nasa%02d.png",(RandomInt(1, 5)));
             sprite = CCSprite::createWithSpriteFrameName(name);
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(5.0f, 0.0f)));
             node = sprite;
             node->setZOrder(2);
             break;
-        case 6:
+        case 4:
             sprintf(name,"ctm_Space_Satelite%02d.png",(RandomInt(1, 5)));
             sprite = CCSprite::createWithSpriteFrameName(name);
             node = CCNode::create();
@@ -192,7 +247,7 @@ CCNode *SpaceBackGround::getBGObject()
             node->setZOrder(0);
             node->runAction(CCRepeatForever::create(CCRotateBy::create(RandomFloat(10.0f, 30.0f), 360.0f)));
             break;
-        case 7:
+        case 5:
             if(RandomInt(0, 10)>5)
                 sprintf(name,"ctm_Space_Mercury1.png");
             else
@@ -204,18 +259,18 @@ CCNode *SpaceBackGround::getBGObject()
             node->setZOrder(0);
             node->runAction(CCRepeatForever::create(CCRotateBy::create(RandomFloat(10.0f, 30.0f), 360.0f)));
             break;
-        case 8:
+        case 6:
             sprintf(name,"ctm_Space_Shuttle01.png");
             sprite = CCSprite::createWithSpriteFrameName(name);
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),0.0f));
             node = sprite;
             node->setZOrder(2);
             break;
-        case 9:
+        case 7:
             sprintf(name,"ctm_Space_module01.png");
             sprite = CCSprite::createWithSpriteFrameName(name);
             node = CCNode::create();
-            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),0.0f));
+            sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),-20.0f));
             node = sprite;
             node->setZOrder(2);
             break;

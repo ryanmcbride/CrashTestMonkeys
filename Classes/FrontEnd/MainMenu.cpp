@@ -185,20 +185,20 @@ MainMenu::MainMenu()
     
     CCMenuItem *StoreButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ctm_Button_17.png"), CCSprite::createWithSpriteFrameName("ctm_Button_17_Down.png"), this, menu_selector(MainMenu::storeButtonTapped));
     StoreButton->setScale(scale);
-    StoreButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_RIGHT,-40.0f,35.0f));
+    StoreButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_RIGHT,-40.0f,55.0f));
     StoreButton->addChild(Store::buildCanBuyButton());
 
     CCMenuItem *OptionsButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("ctm_Button_22.png"), CCSprite::createWithSpriteFrameName("ctm_Button_22_Down.png"), this, menu_selector(MainMenu::optionsButtonTapped));
     OptionsButton->setScale(scale);
-    OptionsButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT,40.0f,35.0f));
+    OptionsButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_LEFT,40.0f,55.0f));
 
     CCMenuItem *AchievementsButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("NewAchievementButton.png"), CCSprite::createWithSpriteFrameName("NewAchievementButton_down.png"), this, menu_selector(MainMenu::achievementsButtonTapped));
     AchievementsButton->setScale(scale);
-    AchievementsButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER,50.0f,35.0f));
+    AchievementsButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER,50.0f,55.0f));
 
     CCMenuItem *FeedbackButton = CCMenuItemSprite::create(CCSprite::createWithSpriteFrameName("Review_IconButton.png"), CCSprite::createWithSpriteFrameName("Review_IconButton_down.png"), this, menu_selector(MainMenu::feedbackButtonTapped));
     FeedbackButton->setScale(scale);
-    FeedbackButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER,-50.0f,35.0f));
+    FeedbackButton->setPosition(ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_BOTTOM_CENTER,-50.0f,55.0f));
 
     CCMenu* menu = CCMenu::create(PlayButton, StoreButton, OptionsButton, AchievementsButton, FeedbackButton, NULL);
     menu->setPosition(ScreenHelper::getAnchorPoint(ScreenHelper::ANCHOR_BOTTOM_LEFT));

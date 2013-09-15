@@ -13,7 +13,7 @@
 #include "ScreenHelper.h"
 #include "FrontEnd/SaveLoad.h"
 #include "FrontEnd/FirstLoad.h"
-#include "Commercials/BoredRoom.h"
+#include "Commercials/CNN.h"
 
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
 #include "StoreBridge/cocos2dx_StoreController.h"
@@ -41,9 +41,6 @@ AppDelegate::~AppDelegate()
 
 bool AppDelegate::applicationDidFinishLaunching()
 {
-    
-
-
     // initialize director
     CCDirector *pDirector = CCDirector::sharedDirector();
     pDirector->setOpenGLView(CCEGLView::sharedOpenGLView());
@@ -71,7 +68,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     // run
     pDirector->runWithScene(FirstLoad::scene());
     
-    //pDirector->runWithScene(BoredRoom::scene());
+    //pDirector->runWithScene(CNN::scene());
     
     
     return true;

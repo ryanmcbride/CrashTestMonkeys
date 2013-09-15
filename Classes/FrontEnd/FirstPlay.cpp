@@ -76,7 +76,6 @@ FirstPlay::FirstPlay()
     m_RatingNode->addChild(label, 2);
     label->setColor(ccc3(255,255,255));
     label->setPosition(p);
-    m_RatingNode->setVisible(false);
     
     
     m_ConclusionNode = CCNode::create();
@@ -101,7 +100,7 @@ FirstPlay::FirstPlay()
     
     scheduleUpdate();
     
-    m_TimeOut = 6.0f;
+    m_TimeOut = 9.0f;
     m_bMoviePlayed = false;
 }
 
@@ -109,8 +108,7 @@ FirstPlay::FirstPlay()
 void FirstPlay::update(float dt)
 {
     m_TimeOut -= dt;
-    if(m_TimeOut < 5.5f && m_RatingNode->isVisible()==false)
-      m_RatingNode->setVisible(true);
+    
     if(!m_bMoviePlayed && m_TimeOut < 3.0f)
     {
         m_bMoviePlayed = true;

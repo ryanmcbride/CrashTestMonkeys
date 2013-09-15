@@ -253,7 +253,6 @@ bool RegionSelect::addLock(cocos2d::CCNode * node,int regionID)
         
         float scale = ScreenHelper::getTextureScale();
         CCLabelTTF *label = CCLabelTTF::create(temp, "impact.ttf", 12*scale);
-        //label->enableStroke(ccc3(0,0,0), 0.5f*scale);
         label->setAnchorPoint(ccp(0.5f,0.5f));
         label->setPosition(ccp(110.0f,75.0f));
         node->addChild(label);

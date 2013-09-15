@@ -80,6 +80,10 @@ void WaterTank::CreateSelf()
         m_MainCollision->SetUserData(tex);
         tex->SetTextureOffset(1.3f,0.5f);
         
+        //CCParticleSystem *bubbles = CCParticleSystemQuad::create("TankBubbles.plist");
+        //bubbles->setPosition(16*16,4*16);
+        //tex->GetSprite()->addChild(bubbles);
+
         //emitter = [ARCH_OPTIMAL_PARTICLE_SYSTEM particleWithFile:@"TankBubbles.plist"];
         //[tex->GetSprite() addChild: emitter];
         //emitter.position = ccp(240,30);  // setting emitter position
@@ -89,9 +93,9 @@ void WaterTank::CreateSelf()
         m_Shark = CCSprite::createWithSpriteFrameName("ctm_Tiki_sharkTank_Shark.png");
         m_Front = CCSprite::createWithSpriteFrameName("ctm_Tiki_TankTop_Big.png");
         tex->GetSprite()->addChild(m_Shark);
-        tex->GetSprite()->addChild(m_Front);
+        tex->GetSprite()->addChild(m_Front,10);
         
-        m_Front->setPosition(ccp((m_MainCollision->GetPosition().x+1.3f)*16,(m_MainCollision->GetPosition().y+0.5f)*16));
+        m_Front->setPosition(ccp(16*16,4*16));
         m_Shark->setPosition(ccp(23*16,3.5*16));
         
         //m_frontLayer->addChild(m_Front);
@@ -111,6 +115,10 @@ void WaterTank::CreateSelf()
         TextureObject *tex = new TextureObject((char*)"ctm_Space_Tank_base.png",m_ccLayer,2,true,kTexture2DPixelFormat_Default);
         m_MainCollision->SetUserData(tex);
         tex->SetTextureOffset(1.3f,0.5f);
+        //CCParticleSystem *bubbles = CCParticleSystemQuad::create("TankBubbles.plist");
+        //bubbles->setPosition(14*16,3.0*16);
+        //tex->GetSprite()->addChild(bubbles);
+
         //emitter = [ARCH_OPTIMAL_PARTICLE_SYSTEM particleWithFile:@"TankBubbles.plist"];
         //[tex->GetSprite() addChild: emitter];
         //emitter.position = ccp(210,20);  // setting emitter position
@@ -151,6 +159,7 @@ void WaterTank::CreateSelf()
         }
         
         m_Front = CCSprite::createWithSpriteFrameName("ctm_Space_TankTop.png");
+        //m_Front->setScale(2.0f);
         m_Front->setPosition(ccp(14*16,3.0*16));
         tex->GetSprite()->addChild(m_Front);
     }
@@ -163,6 +172,9 @@ void WaterTank::CreateSelf()
         TextureObject *tex = new TextureObject((char*)"ctm_City_TankBase.png",m_ccLayer,2,true,kTexture2DPixelFormat_Default);
         m_MainCollision->SetUserData(tex);
         tex->SetTextureOffset(1.3f,0.25f);
+        //CCParticleSystem *bubbles = CCParticleSystemQuad::create("TankBubbles.plist");
+        //bubbles->setPosition(14*16,3.0*16);
+        //tex->GetSprite()->addChild(bubbles);
         //emitter = [ARCH_OPTIMAL_PARTICLE_SYSTEM particleWithFile:@"TankBubbles.plist"];
         //[tex->GetSprite() addChild: emitter];
         //emitter.position = ccp(210,20);  // setting emitter position
@@ -173,6 +185,7 @@ void WaterTank::CreateSelf()
         m_Shark = CCSprite::createWithSpriteFrameName("ctm_fishSkeleton.png");
         
         m_Front = CCSprite::createWithSpriteFrameName("ctm_City_TankTop.png");
+        //m_Front->setScale(2.0f);
         tex->GetSprite()->addChild(m_Shark);
         
         m_Front->setPosition(ccp(14*16,3.0*16));

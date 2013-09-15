@@ -399,6 +399,14 @@ void CNN::update(float dt)
     
         mouthIndexTime -= dt;
         talkTime -= dt;
+    if(!bMouthAudio && !mouthSprite)
+    {
+        if(m_TimeOut < 3.5)
+        {
+            m_mouthAudio = AudioManager::PlayEffect(AUDIO_NEWS_ANCHOR);
+            bMouthAudio = true;            
+        }
+    }
         if(talkTime > 0.0f && mouthIndexTime <= 0.0f)
         {
             if(!bMouthAudio)
