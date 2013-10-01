@@ -306,7 +306,6 @@
 		C3CFAEDD177779A2004D5437 /* TikiObjs.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAED8177779A2004D5437 /* TikiObjs.png */; };
 		C3CFAEDF17777B98004D5437 /* TikiObjs.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEDE17777B98004D5437 /* TikiObjs.plist */; };
 		C3CFAEE217778119004D5437 /* CityBG02_Blue.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */; };
-		C3CFAEE317778119004D5437 /* CityBG02_Blue.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEE117778119004D5437 /* CityBG02_Blue.pvr.ccz */; };
 		C3CFAEE5177784DB004D5437 /* FinishOverlay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CFAEE4177784DB004D5437 /* FinishOverlay.cpp */; };
 		C3CFAEE81777A6F3004D5437 /* redbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEE71777A6F3004D5437 /* redbutton.png */; };
 		C3CFAEEC1777AC9C004D5437 /* KenHint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CFAEEA1777AC9C004D5437 /* KenHint.cpp */; };
@@ -319,6 +318,15 @@
 		C3CFAEFC177A9422004D5437 /* Hints_0006.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEF5177A9422004D5437 /* Hints_0006.png */; };
 		C3CFAEFF177BCF6A004D5437 /* Tiki.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEFD177BCF69004D5437 /* Tiki.plist */; };
 		C3CFAF00177BCF6A004D5437 /* Tiki.png in Resources */ = {isa = PBXBuildFile; fileRef = C3CFAEFE177BCF69004D5437 /* Tiki.png */; };
+		C3D9F72617EBE5A8008856EE /* CityBG02_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72517EBE5A8008856EE /* CityBG02_Blue.png */; };
+		C3D9F72F17EBE9C8008856EE /* ctm_Nasa_Jupitor.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72717EBE9C8008856EE /* ctm_Nasa_Jupitor.png */; };
+		C3D9F73017EBE9C8008856EE /* ctm_Nasa_Mars.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72817EBE9C8008856EE /* ctm_Nasa_Mars.png */; };
+		C3D9F73117EBE9C8008856EE /* ctm_Nasa_Mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72917EBE9C8008856EE /* ctm_Nasa_Mercury.png */; };
+		C3D9F73217EBE9C8008856EE /* ctm_Nasa_Neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72A17EBE9C8008856EE /* ctm_Nasa_Neptune.png */; };
+		C3D9F73317EBE9C8008856EE /* ctm_Nasa_Saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72B17EBE9C8008856EE /* ctm_Nasa_Saturn.png */; };
+		C3D9F73417EBE9C8008856EE /* ctm_Nasa_Star.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72C17EBE9C8008856EE /* ctm_Nasa_Star.png */; };
+		C3D9F73517EBE9C8008856EE /* ctm_Nasa_Uranus.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72D17EBE9C8008856EE /* ctm_Nasa_Uranus.png */; };
+		C3D9F73617EBE9C8008856EE /* ctm_Nasa_Venus.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D9F72E17EBE9C8008856EE /* ctm_Nasa_Venus.png */; };
 		C3F5C84517756CCF0061B578 /* LocalStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3F5C84217756CCF0061B578 /* LocalStorage.cpp */; };
 		C3F5CA4F177570840061B578 /* Armadillo_Blue.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C847177570820061B578 /* Armadillo_Blue.plist */; };
 		C3F5CA50177570840061B578 /* Armadillo_Purple.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3F5C848177570820061B578 /* Armadillo_Purple.plist */; };
@@ -1443,7 +1451,6 @@
 		C3CFAED8177779A2004D5437 /* TikiObjs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TikiObjs.png; sourceTree = "<group>"; };
 		C3CFAEDE17777B98004D5437 /* TikiObjs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TikiObjs.plist; sourceTree = "<group>"; };
 		C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityBG02_Blue.plist; sourceTree = "<group>"; };
-		C3CFAEE117778119004D5437 /* CityBG02_Blue.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; path = CityBG02_Blue.pvr.ccz; sourceTree = "<group>"; };
 		C3CFAEE4177784DB004D5437 /* FinishOverlay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FinishOverlay.cpp; sourceTree = "<group>"; };
 		C3CFAEE71777A6F3004D5437 /* redbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbutton.png; sourceTree = "<group>"; };
 		C3CFAEEA1777AC9C004D5437 /* KenHint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KenHint.cpp; sourceTree = "<group>"; };
@@ -1457,6 +1464,15 @@
 		C3CFAEF5177A9422004D5437 /* Hints_0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hints_0006.png; sourceTree = "<group>"; };
 		C3CFAEFD177BCF69004D5437 /* Tiki.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tiki.plist; sourceTree = "<group>"; };
 		C3CFAEFE177BCF69004D5437 /* Tiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tiki.png; sourceTree = "<group>"; };
+		C3D9F72517EBE5A8008856EE /* CityBG02_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CityBG02_Blue.png; sourceTree = "<group>"; };
+		C3D9F72717EBE9C8008856EE /* ctm_Nasa_Jupitor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Nasa_Jupitor.png; sourceTree = "<group>"; };
+		C3D9F72817EBE9C8008856EE /* ctm_Nasa_Mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Nasa_Mars.png; sourceTree = "<group>"; };
+		C3D9F72917EBE9C8008856EE /* ctm_Nasa_Mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Nasa_Mercury.png; sourceTree = "<group>"; };
+		C3D9F72A17EBE9C8008856EE /* ctm_Nasa_Neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Nasa_Neptune.png; sourceTree = "<group>"; };
+		C3D9F72B17EBE9C8008856EE /* ctm_Nasa_Saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Nasa_Saturn.png; sourceTree = "<group>"; };
+		C3D9F72C17EBE9C8008856EE /* ctm_Nasa_Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Nasa_Star.png; sourceTree = "<group>"; };
+		C3D9F72D17EBE9C8008856EE /* ctm_Nasa_Uranus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Nasa_Uranus.png; sourceTree = "<group>"; };
+		C3D9F72E17EBE9C8008856EE /* ctm_Nasa_Venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctm_Nasa_Venus.png; sourceTree = "<group>"; };
 		C3E34BE0178E097700633D34 /* EventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventHandler.h; path = ../Classes/EventHandler.h; sourceTree = "<group>"; };
 		C3F5C84217756CCF0061B578 /* LocalStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalStorage.cpp; sourceTree = "<group>"; };
 		C3F5C84317756CCF0061B578 /* LocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStorage.h; sourceTree = "<group>"; };
@@ -2806,6 +2822,15 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C3D9F72717EBE9C8008856EE /* ctm_Nasa_Jupitor.png */,
+				C3D9F72817EBE9C8008856EE /* ctm_Nasa_Mars.png */,
+				C3D9F72917EBE9C8008856EE /* ctm_Nasa_Mercury.png */,
+				C3D9F72A17EBE9C8008856EE /* ctm_Nasa_Neptune.png */,
+				C3D9F72B17EBE9C8008856EE /* ctm_Nasa_Saturn.png */,
+				C3D9F72C17EBE9C8008856EE /* ctm_Nasa_Star.png */,
+				C3D9F72D17EBE9C8008856EE /* ctm_Nasa_Uranus.png */,
+				C3D9F72E17EBE9C8008856EE /* ctm_Nasa_Venus.png */,
+				C3D9F72517EBE5A8008856EE /* CityBG02_Blue.png */,
 				C33E6EE717BDCC06003D0CC5 /* City_GraffitiPanels_01.png */,
 				C33E6EE817BDCC06003D0CC5 /* City_GraffitiPanels_02.png */,
 				C33E6EE917BDCC06003D0CC5 /* City_GraffitiPanels_03.png */,
@@ -2824,7 +2849,6 @@
 				C3CFAEF5177A9422004D5437 /* Hints_0006.png */,
 				C3CFAEE71777A6F3004D5437 /* redbutton.png */,
 				C3CFAEE017778119004D5437 /* CityBG02_Blue.plist */,
-				C3CFAEE117778119004D5437 /* CityBG02_Blue.pvr.ccz */,
 				C3CFAEDE17777B98004D5437 /* TikiObjs.plist */,
 				C3CFAED4177779A2004D5437 /* cityBallon.png */,
 				C3CFAED5177779A2004D5437 /* CityBG02.png */,
@@ -4213,7 +4237,6 @@
 				C3CFAEDD177779A2004D5437 /* TikiObjs.png in Resources */,
 				C3CFAEDF17777B98004D5437 /* TikiObjs.plist in Resources */,
 				C3CFAEE217778119004D5437 /* CityBG02_Blue.plist in Resources */,
-				C3CFAEE317778119004D5437 /* CityBG02_Blue.pvr.ccz in Resources */,
 				C3CFAEE81777A6F3004D5437 /* redbutton.png in Resources */,
 				C3CFAEF6177A9422004D5437 /* Hints_0000.png in Resources */,
 				C3CFAEF7177A9422004D5437 /* Hints_0001.png in Resources */,
@@ -4232,6 +4255,15 @@
 				C33E6EF017BDCC06003D0CC5 /* Space_Panels_01.png in Resources */,
 				C33E6EF117BDCC06003D0CC5 /* Space_Panels_02.png in Resources */,
 				C33E6EF217BDCC06003D0CC5 /* Space_Panels_03.png in Resources */,
+				C3D9F72617EBE5A8008856EE /* CityBG02_Blue.png in Resources */,
+				C3D9F72F17EBE9C8008856EE /* ctm_Nasa_Jupitor.png in Resources */,
+				C3D9F73017EBE9C8008856EE /* ctm_Nasa_Mars.png in Resources */,
+				C3D9F73117EBE9C8008856EE /* ctm_Nasa_Mercury.png in Resources */,
+				C3D9F73217EBE9C8008856EE /* ctm_Nasa_Neptune.png in Resources */,
+				C3D9F73317EBE9C8008856EE /* ctm_Nasa_Saturn.png in Resources */,
+				C3D9F73417EBE9C8008856EE /* ctm_Nasa_Star.png in Resources */,
+				C3D9F73517EBE9C8008856EE /* ctm_Nasa_Uranus.png in Resources */,
+				C3D9F73617EBE9C8008856EE /* ctm_Nasa_Venus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

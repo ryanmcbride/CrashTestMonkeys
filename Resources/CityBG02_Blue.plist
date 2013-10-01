@@ -7,24 +7,24 @@
             <key>ctm_Back_CityScape_Blue_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{512,166}}</string>
+                <string>{{0,0},{512,184}}</string>
                 <key>offset</key>
-                <string>{0,5}</string>
+                <string>{0,-4}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,40},{512,166}}</string>
+                <string>{{0,40},{512,184}}</string>
                 <key>sourceSize</key>
                 <string>{512,256}</string>
             </dict>
             <key>ctm_Back_CityScape_Blue_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{170,2},{512,152}}</string>
+                <string>{{0,186},{512,152}}</string>
                 <key>offset</key>
                 <string>{0,-2}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,54},{512,152}}</string>
                 <key>sourceSize</key>
@@ -33,7 +33,7 @@
             <key>ctm_CityCloud_Blue_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{478,36},{46,22}}</string>
+                <string>{{40,340},{46,22}}</string>
                 <key>offset</key>
                 <string>{1,-6}</string>
                 <key>rotated</key>
@@ -46,11 +46,11 @@
             <key>ctm_CityCloud_Blue_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{414,2},{74,32}}</string>
+                <string>{{0,430},{74,32}}</string>
                 <key>offset</key>
                 <string>{-2,1}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{25,15},{74,32}}</string>
                 <key>sourceSize</key>
@@ -59,11 +59,11 @@
             <key>ctm_CityCloud_Blue_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{414,36},{62,46}}</string>
+                <string>{{34,430},{62,46}}</string>
                 <key>offset</key>
                 <string>{1,5}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{34,4},{62,46}}</string>
                 <key>sourceSize</key>
@@ -72,11 +72,11 @@
             <key>ctm_CityCloud_Blue_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{324,2},{88,38}}</string>
+                <string>{{0,340},{88,38}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{20,13},{88,38}}</string>
                 <key>sourceSize</key>
@@ -88,13 +88,13 @@
             <key>format</key>
             <integer>2</integer>
             <key>realTextureFileName</key>
-            <string>CityBG02_Blue.pvr.ccz</string>
+            <string>CityBG02_Blue.png</string>
             <key>size</key>
-            <string>{512,1024}</string>
+            <string>{512,512}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:43862006fef01b30ad60ef4d4053ec43$</string>
+            <string>$TexturePacker:SmartUpdate:7f9e4669af845291148429e953f7170f$</string>
             <key>textureFileName</key>
-            <string>CityBG02_Blue.pvr.ccz</string>
+            <string>CityBG02_Blue.png</string>
         </dict>
     </dict>
 </plist>

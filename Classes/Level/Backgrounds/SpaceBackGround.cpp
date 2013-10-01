@@ -42,6 +42,35 @@ void SpaceBackGround::InitBG(cocos2d::CCNode *layer)
     sprite->setScaleY(s.width/940.0f);
     pNode->addChild(sprite,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,0.0f,40.0f));
     
+    CCSprite *moon;
+    switch (RandomInt(0, 7)) {
+        default:
+        case 0:
+            moon = CCSprite::create("ctm_Nasa_Jupitor.png");
+            break;
+        case 1:
+            moon = CCSprite::create("ctm_Nasa_Mars.png");
+            break;
+        case 2:
+            moon = CCSprite::create("ctm_Nasa_Mercury.png");
+            break;
+        case 3:
+            moon = CCSprite::create("ctm_Nasa_Neptune.png");
+            break;
+        case 4:
+            moon = CCSprite::create("ctm_Nasa_Saturn.png");
+            break;
+        case 5:
+            moon = CCSprite::create("ctm_Nasa_Uranus.png");
+            break;
+        case 6:
+            moon = CCSprite::create("ctm_Nasa_Venus.png");
+            break;
+    }
+    moon->setAnchorPoint(ccp(0.5f,0.5f));
+    moon->setScale(scale);
+    pNode->addChild(moon,0,CCPointMake(1.0f,0.0f),ScreenHelper::getAnchorPointPlusOffset(ScreenHelper::ANCHOR_CENTER,RandomFloat(-200.0f, 100.0f),RandomFloat(-25.0f, 25.0f)));
+    
     m_Parallax1 = CCArray::createWithCapacity(4);
     m_Parallax1->retain();
     for(int i = 0; i < 4; i++)
@@ -211,7 +240,7 @@ CCNode *SpaceBackGround::getBGObject()
     {
         default:
         case 1:
-            sprintf(name,"ctm_space_saucer%02d.png",(RandomInt(1, 7)));
+        /*    sprintf(name,"ctm_space_saucer%02d.png",(RandomInt(1, 7)));
             sprite = CCSprite::createWithSpriteFrameName(name);
             node = CCNode::create();
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(100, 300)));
@@ -222,7 +251,8 @@ CCNode *SpaceBackGround::getBGObject()
                         CCMoveBy::create(RandomFloat(10, 20), ccp(RandomFloat(-100, -500),0.0f)),
                         NULL)));
             node->addChild(sprite);
-            node->setZOrder(0);
+            node->setZOrder(0);*/
+            node = CCNode::create();
             break;
         case 2:
             sprintf(name,"ctm_Space_Buggy%02d.png",(RandomInt(1, 3)));
@@ -230,6 +260,7 @@ CCNode *SpaceBackGround::getBGObject()
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(-60.0f, -20.0f)));
             node = sprite;
             node->setZOrder(2);
+            sprite->setScale(scale);
             break;
         case 3:
             sprintf(name,"ctm_Space_nasa%02d.png",(RandomInt(1, 5)));
@@ -237,18 +268,19 @@ CCNode *SpaceBackGround::getBGObject()
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(5.0f, 0.0f)));
             node = sprite;
             node->setZOrder(2);
+            sprite->setScale(scale);
             break;
         case 4:
-            sprintf(name,"ctm_Space_Satelite%02d.png",(RandomInt(1, 5)));
+        /*    sprintf(name,"ctm_Space_Satelite%02d.png",(RandomInt(1, 5)));
             sprite = CCSprite::createWithSpriteFrameName(name);
             node = CCNode::create();
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),RandomFloat(100, 300)));
             node->addChild(sprite);
             node->setZOrder(0);
             node->runAction(CCRepeatForever::create(CCRotateBy::create(RandomFloat(10.0f, 30.0f), 360.0f)));
-            break;
+            break;*/
         case 5:
-            if(RandomInt(0, 10)>5)
+           /* if(RandomInt(0, 10)>5)
                 sprintf(name,"ctm_Space_Mercury1.png");
             else
                 sprintf(name,"ctm_Space_Mercury1small.png");
@@ -257,7 +289,8 @@ CCNode *SpaceBackGround::getBGObject()
             node = CCNode::create();
             node->addChild(sprite);
             node->setZOrder(0);
-            node->runAction(CCRepeatForever::create(CCRotateBy::create(RandomFloat(10.0f, 30.0f), 360.0f)));
+            node->runAction(CCRepeatForever::create(CCRotateBy::create(RandomFloat(10.0f, 30.0f), 360.0f)));*/
+            node = CCNode::create();
             break;
         case 6:
             sprintf(name,"ctm_Space_Shuttle01.png");
@@ -265,6 +298,7 @@ CCNode *SpaceBackGround::getBGObject()
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),0.0f));
             node = sprite;
             node->setZOrder(2);
+            sprite->setScale(scale);
             break;
         case 7:
             sprintf(name,"ctm_Space_module01.png");
@@ -273,10 +307,10 @@ CCNode *SpaceBackGround::getBGObject()
             sprite->setPosition(ccp(RandomFloat(-10.0f, 10.0f),-20.0f));
             node = sprite;
             node->setZOrder(2);
+            sprite->setScale(scale);
             break;
     };
     
-    sprite->setScale(scale);
     
     return node;
 }

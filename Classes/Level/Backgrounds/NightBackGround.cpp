@@ -30,7 +30,7 @@ void NightBackGround::InitBG(cocos2d::CCNode *layer)
     bool balloonObjsLoaded = true;
     CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("cityBallon.plist","cityBallon.png");
     
-    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("CityBG02_Blue.plist","CityBG02_Blue.pvr.ccz");
+    CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("CityBG02_Blue.plist","CityBG02_Blue.png");
     CCSize s = CCDirector::sharedDirector()->getWinSize();
     
     float scale = ScreenHelper::getTextureScale();

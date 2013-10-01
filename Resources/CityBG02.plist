@@ -7,24 +7,24 @@
             <key>ctm_Back_CityScape_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{512,166}}</string>
+                <string>{{0,0},{512,184}}</string>
                 <key>offset</key>
-                <string>{0,5}</string>
+                <string>{0,-4}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
-                <string>{{0,40},{512,166}}</string>
+                <string>{{0,40},{512,184}}</string>
                 <key>sourceSize</key>
                 <string>{512,256}</string>
             </dict>
             <key>ctm_Back_CityScape_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{170,2},{512,152}}</string>
+                <string>{{0,186},{512,152}}</string>
                 <key>offset</key>
                 <string>{0,-2}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,54},{512,152}}</string>
                 <key>sourceSize</key>
@@ -33,11 +33,11 @@
             <key>ctm_CityCloud_01.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{422,28},{66,42}}</string>
+                <string>{{26,438},{66,42}}</string>
                 <key>offset</key>
                 <string>{1,4}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{32,7},{66,42}}</string>
                 <key>sourceSize</key>
@@ -46,11 +46,11 @@
             <key>ctm_CityCloud_02.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{324,40},{94,34}}</string>
+                <string>{{38,340},{94,34}}</string>
                 <key>offset</key>
                 <string>{-1,2}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{16,13},{94,34}}</string>
                 <key>sourceSize</key>
@@ -59,11 +59,11 @@
             <key>ctm_CityCloud_03.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{422,2},{74,24}}</string>
+                <string>{{0,438},{74,24}}</string>
                 <key>offset</key>
                 <string>{-3,-5}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{24,25},{74,24}}</string>
                 <key>sourceSize</key>
@@ -72,11 +72,11 @@
             <key>ctm_CityCloud_04.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{324,2},{96,36}}</string>
+                <string>{{0,340},{96,36}}</string>
                 <key>offset</key>
                 <string>{1,-1}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{17,15},{96,36}}</string>
                 <key>sourceSize</key>
@@ -85,7 +85,7 @@
             <key>ctm_CityCloud_05.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{490,70},{30,16}}</string>
+                <string>{{70,478},{30,16}}</string>
                 <key>offset</key>
                 <string>{-3,-9}</string>
                 <key>rotated</key>
@@ -98,7 +98,7 @@
             <key>ctm_CityCloud_06.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{490,28},{40,16}}</string>
+                <string>{{70,436},{40,16}}</string>
                 <key>offset</key>
                 <string>{1,-9}</string>
                 <key>rotated</key>
@@ -116,9 +116,9 @@
             <key>realTextureFileName</key>
             <string>CityBG02.png</string>
             <key>size</key>
-            <string>{512,1024}</string>
+            <string>{512,512}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:662e14e6272a1bf12543425ffc287b42$</string>
+            <string>$TexturePacker:SmartUpdate:d40d6935faad76ca2e2798abf37eb72e$</string>
             <key>textureFileName</key>
             <string>CityBG02.png</string>
         </dict>
